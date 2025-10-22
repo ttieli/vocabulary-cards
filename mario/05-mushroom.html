@@ -22,8 +22,10 @@
         }
 
         .page {
-            width: 210mm;
-            height: 297mm;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            
             position: relative;
             padding: 18mm;
             background: linear-gradient(140deg, #f94144 0%, #f3722c 55%, #d00000 100%);
@@ -215,6 +217,131 @@
             letter-spacing: 0.08em;
             color: rgba(255, 255, 255, 0.88);
             z-index: 1;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 1024px) {
+            .page {
+                max-width: 700px;
+                padding: 15px;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .word-english {
+                font-size: 2.5em;
+            }
+
+            .card-image-container {
+                flex: 0 0 35%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .page {
+                max-width: 100%;
+                padding: 10px;
+                margin: 10px auto;
+            }
+
+            .card {
+                padding: 15px;
+                border-radius: 20px;
+            }
+
+            .card-body {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .card-image-container {
+                flex: 0 0 auto;
+                width: 100%;
+                min-height: 200px;
+                max-height: 300px;
+            }
+
+            .word-english {
+                font-size: 2em;
+            }
+
+            .pronunciation {
+                font-size: 1.1em;
+            }
+
+            .word-chinese {
+                font-size: 1.4em;
+            }
+
+            .badge {
+                font-size: 0.85em;
+                padding: 7px 15px;
+            }
+
+            .page-number {
+                bottom: 10px;
+                right: 15px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 5px;
+            }
+
+            .page {
+                padding: 8px;
+                margin: 5px auto;
+            }
+
+            .card {
+                padding: 12px;
+            }
+
+            .card-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            .card-image-container {
+                min-height: 180px;
+                max-height: 250px;
+            }
+
+            .word-english {
+                font-size: 1.6em;
+            }
+
+            .pronunciation {
+                font-size: 1em;
+            }
+
+            .word-chinese {
+                font-size: 1.2em;
+            }
+
+            .definition,
+            .example {
+                padding: 12px 14px;
+                font-size: 0.95em;
+            }
+
+            .badge {
+                font-size: 0.8em;
+                padding: 6px 12px;
+            }
+
+            .category {
+                font-size: 0.85em;
+                padding: 6px 14px;
+            }
         }
     </style>
 </head>
