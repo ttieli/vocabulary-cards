@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Cards - Game-themed Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .search-box {
+            margin: 20px 0 0 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search-box input {
+            flex: 1;
+            border: none;
+            background: transparent;
+            font-size: 1.1em;
+            outline: none;
+            padding: 5px 15px;
+        }
+
+        .search-icon {
+            font-size: 1.5em;
+            color: #667eea;
+        }
+
+        .scenes-grid {
+            display: grid;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .scene-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .scene-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .scene-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 30px;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.3s;
+        }
+
+        .scene-header:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .scene-icon {
+            font-size: 3em;
+        }
+
+        .scene-title {
+            flex: 1;
+        }
+
+        .scene-title h2 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .scene-subtitle {
+            color: #666;
+            font-size: 1em;
+        }
+
+        .toggle-icon {
+            font-size: 1.5em;
+            color: #999;
+            transition: transform 0.3s;
+        }
+
+        .scene-card.expanded .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .word-grid-container {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+            padding: 0 30px;
+        }
+
+        .scene-card.expanded .word-grid-container {
+            max-height: 3000px;
+            padding: 0 30px 30px 30px;
+        }
+
+        .word-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+
+        .word-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+            display: block;
+        }
+
+        .word-card:hover {
+            transform: scale(1.05);
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .word-english {
+            font-weight: 700;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        /* Zelda theme */
+        .scene-card.zelda .scene-header {
+            border-bottom: 3px solid #4a90a4;
+        }
+
+        .scene-card.zelda .word-card {
+            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+        }
+
+        .scene-card.zelda .word-card:hover {
+            border-color: #4a90a4;
+            box-shadow: 0 5px 15px rgba(74, 144, 164, 0.3);
+        }
+
+        .scene-card.zelda .word-english {
+            color: #4a90a4;
+        }
+
+        /* Mario theme */
+        .scene-card.mario .scene-header {
+            border-bottom: 3px solid #f94144;
+        }
+
+        .scene-card.mario .word-card {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+        }
+
+        .scene-card.mario .word-card:hover {
+            border-color: #f94144;
+            box-shadow: 0 5px 15px rgba(249, 65, 68, 0.3);
+        }
+
+        .scene-card.mario .word-english {
+            color: #f94144;
+        }
+
+        /* Zhanglinghe theme */
+        .scene-card.zhanglinghe .scene-header {
+            border-bottom: 3px solid #9c27b0;
+        }
+
+        .scene-card.zhanglinghe .word-card {
+            background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+        }
+
+        .scene-card.zhanglinghe .word-card:hover {
+            border-color: #9c27b0;
+            box-shadow: 0 5px 15px rgba(156, 39, 176, 0.3);
+        }
+
+        .scene-card.zhanglinghe .word-english {
+            color: #9c27b0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            color: #666;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .word-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+
+            .scene-header {
+                padding: 20px;
+            }
+
+            .scene-card.expanded .word-grid-container {
+                padding: 0 20px 20px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Vocabulary Cards</h1>
+            <p class="subtitle">Game-themed Learning Experience</p>
+
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search vocabulary...">
+            </div>
+        </header>
+
+        <div class="scenes-grid" id="scenes-container">
+            <!-- Scene cards will be generated by JavaScript -->
+        </div>
+
+        <footer>
+            <p>💡 Click to expand themes and view vocabulary cards</p>
+            <p style="margin-top: 10px;">
+                <a href="https://github.com" target="_blank">📦 GitHub</a> ·
+                Created 2025-10-22
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Cards data
+        const cardsData = {
+            "mario": [
+                {"filename": "01-accelerate.html", "word": "Accelerate"},
+                {"filename": "02-drift.html", "word": "Drift"},
+                {"filename": "03-shell.html", "word": "Shell"},
+                {"filename": "03-turbo-boost.html", "word": "Turbo"},
+                {"filename": "04-overtake.html", "word": "Overtake"},
+                {"filename": "04-star.html", "word": "Star"},
+                {"filename": "05-mushroom.html", "word": "Mushroom"},
+                {"filename": "06-banana.html", "word": "Banana"},
+                {"filename": "07-lightning.html", "word": "Lightning"},
+                {"filename": "08-bomb.html", "word": "Bomb"},
+                {"filename": "09-coin.html", "word": "Coin"},
+                {"filename": "10-race.html", "word": "Race"},
+                {"filename": "11-boost.html", "word": "Boost"},
+                {"filename": "12-trophy.html", "word": "Trophy"},
+                {"filename": "13-champion.html", "word": "Champion"},
+                {"filename": "14-speed.html", "word": "Speed"},
+                {"filename": "15-jump.html", "word": "Jump"},
+                {"filename": "16-rival.html", "word": "Rival"},
+                {"filename": "17-victory.html", "word": "Victory"},
+                {"filename": "18-character.html", "word": "Character"},
+                {"filename": "19-princess.html", "word": "Princess"},
+                {"filename": "20-leader.html", "word": "Leader"},
+                {"filename": "21-finish.html", "word": "Finish"},
+                {"filename": "22-circuit.html", "word": "Circuit"},
+                {"filename": "23-stadium.html", "word": "Stadium"},
+                {"filename": "24-beach.html", "word": "Beach"},
+                {"filename": "25-desert.html", "word": "Desert"},
+                {"filename": "26-castle.html", "word": "Castle"},
+                {"filename": "27-mountain.html", "word": "Mountain"},
+                {"filename": "28-rainbow.html", "word": "Rainbow"},
+                {"filename": "29-road.html", "word": "Road"},
+                {"filename": "30-airship.html", "word": "Airship"},
+                {"filename": "31-challenge.html", "word": "Challenge"},
+                {"filename": "32-flower.html", "word": "Flower"},
+                {"filename": "33-feather.html", "word": "Feather"},
+                {"filename": "34-hammer.html", "word": "Hammer"},
+                {"filename": "35-horn.html", "word": "Horn"},
+                {"filename": "36-blooper.html", "word": "Blooper"},
+                {"filename": "37-bullet.html", "word": "Bullet"},
+                {"filename": "38-battle.html", "word": "Battle"},
+                {"filename": "39-trial.html", "word": "Trial"},
+                {"filename": "40-penguin.html", "word": "Penguin"},
+                {"filename": "41-goomba.html", "word": "Goomba"}
+            ],
+            "zelda": [
+                {"filename": "01-adventure.html", "word": "Adventure"},
+                {"filename": "02-champion.html", "word": "Champion"},
+                {"filename": "03-guardian.html", "word": "Guardian"},
+                {"filename": "04-shrine.html", "word": "Shrine"},
+                {"filename": "05-paraglider.html", "word": "Paraglider"},
+                {"filename": "06-weapon.html", "word": "Weapon"},
+                {"filename": "07-shield.html", "word": "Shield"},
+                {"filename": "08-arrow.html", "word": "Arrow"},
+                {"filename": "09-horse.html", "word": "Horse"},
+                {"filename": "10-tower.html", "word": "Tower"},
+                {"filename": "11-cooking.html", "word": "Cooking"},
+                {"filename": "12-explore.html", "word": "Explore"},
+                {"filename": "13-quest.html", "word": "Quest"},
+                {"filename": "14-monster.html", "word": "Monster"},
+                {"filename": "15-treasure.html", "word": "Treasure"},
+                {"filename": "16-dungeon.html", "word": "Dungeon"},
+                {"filename": "17-legend.html", "word": "Legend"},
+                {"filename": "18-power.html", "word": "Power"},
+                {"filename": "19-wisdom.html", "word": "Wisdom"},
+                {"filename": "20-courage.html", "word": "Courage"},
+                {"filename": "21-forest.html", "word": "Forest"},
+                {"filename": "22-mountain.html", "word": "Mountain"},
+                {"filename": "23-sword.html", "word": "Sword"},
+                {"filename": "24-bow.html", "word": "Bow"},
+                {"filename": "25-armor.html", "word": "Armor"},
+                {"filename": "26-helmet.html", "word": "Helmet"},
+                {"filename": "27-boots.html", "word": "Boots"},
+                {"filename": "28-potion.html", "word": "Potion"},
+                {"filename": "29-meal.html", "word": "Meal"},
+                {"filename": "30-ingredient.html", "word": "Ingredient"},
+                {"filename": "31-river.html", "word": "River"},
+                {"filename": "32-bridge.html", "word": "Bridge"},
+                {"filename": "33-cave.html", "word": "Cave"},
+                {"filename": "34-lake.html", "word": "Lake"},
+                {"filename": "35-climb.html", "word": "Climb"},
+                {"filename": "36-swim.html", "word": "Swim"},
+                {"filename": "37-snow.html", "word": "Snow"},
+                {"filename": "38-cloud.html", "word": "Cloud"},
+                {"filename": "39-field.html", "word": "Field"},
+                {"filename": "40-cliff.html", "word": "Cliff"},
+                {"filename": "41-village.html", "word": "Village"},
+                {"filename": "42-house.html", "word": "House"},
+                {"filename": "43-stand.html", "word": "Stand"},
+                {"filename": "44-jump.html", "word": "Jump"},
+                {"filename": "45-shield.html", "word": "Shield"},
+                {"filename": "46-arrow.html", "word": "Arrow"},
+                {"filename": "47-glide.html", "word": "Glide"},
+                {"filename": "48-run.html", "word": "Run"},
+                {"filename": "49-fight.html", "word": "Fight"},
+                {"filename": "50-rest.html", "word": "Rest"}
+            ],
+            "zhanglinghe": [
+                {"filename": "1.shadow.html", "word": "Shadow"},
+                {"filename": "2.delirium.html", "word": "Delirium"}
+            ]
+        };
+
+        const sceneInfo = {
+            "mario": {
+                icon: "🏎️",
+                title: "Mario Kart World",
+                subtitle: "Racing Adventure Vocabulary"
+            },
+            "zelda": {
+                icon: "🗡️",
+                title: "The Legend of Zelda",
+                subtitle: "Adventure & Exploration Words"
+            },
+            "zhanglinghe": {
+                icon: "📝",
+                title: "Zhang Linghe",
+                subtitle: "Special Collection"
+            }
+        };
+
+        // Render scenes
+        function renderScenes(filterText = '') {
+            const container = document.getElementById('scenes-container');
+            container.innerHTML = '';
+
+            for (const [sceneName, cards] of Object.entries(cardsData)) {
+                const info = sceneInfo[sceneName];
+
+                // Filter cards
+                const filteredCards = filterText ?
+                    cards.filter(card =>
+                        card.word.toLowerCase().includes(filterText.toLowerCase())
+                    ) : cards;
+
+                if (filteredCards.length === 0 && filterText) continue;
+
+                const sceneCard = document.createElement('div');
+                sceneCard.className = `scene-card ${sceneName}`;
+                sceneCard.dataset.scene = sceneName;
+
+                sceneCard.innerHTML = `
+                    <div class="scene-header" onclick="toggleScene('${sceneName}')">
+                        <div class="scene-icon">${info.icon}</div>
+                        <div class="scene-title">
+                            <h2>${info.title}</h2>
+                            <div class="scene-subtitle">${info.subtitle}</div>
+                        </div>
+                        <div class="toggle-icon">▼</div>
+                    </div>
+                    <div class="word-grid-container">
+                        <div class="word-grid">
+                            ${filteredCards.map(card => `
+                                <a href="${sceneName}/${card.filename}" class="word-card" target="_blank">
+                                    <div class="word-english">${card.word}</div>
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+
+                container.appendChild(sceneCard);
+            }
+        }
+
+        // Toggle scene expansion
+        function toggleScene(sceneName) {
+            const sceneCard = document.querySelector(`.scene-card[data-scene="${sceneName}"]`);
+            sceneCard.classList.toggle('expanded');
+        }
+
+        // Search functionality
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            renderScenes(e.target.value);
+            // Auto-expand all scenes when searching
+            if (e.target.value) {
+                document.querySelectorAll('.scene-card').forEach(card => {
+                    card.classList.add('expanded');
+                });
+            }
+        });
+
+        // Initial render
+        renderScenes();
+    </script>
+</body>
+</html>

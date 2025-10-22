@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delirium - 宁安如梦英语单词卡</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "STKaiti", "KaiTi", "Segoe UI", serif;
+            background: linear-gradient(150deg, #9BA4A6 0%, #8A9599 45%, #7A8488 100%);
+            color: #2D3E55;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page {
+            width: 210mm;
+            height: 297mm;
+            position: relative;
+            padding: 18mm;
+            background: linear-gradient(140deg, #5A4A3F 0%, #9BA4A6 55%, #6B5A4D 100%);
+            border-radius: 28px;
+            box-shadow: 0 25px 60px rgba(90, 74, 63, 0.5);
+            overflow: hidden;
+        }
+
+        .page::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(circle at 15% 20%, rgba(212, 162, 75, 0.12) 0 12%, transparent 13% 100%),
+                radial-gradient(circle at 75% 30%, rgba(255, 255, 255, 0.08) 0 10%, transparent 11% 100%),
+                radial-gradient(circle at 35% 75%, rgba(155, 164, 166, 0.15) 0 8%, transparent 9% 100%);
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .card {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            padding: 18mm;
+            background: linear-gradient(135deg, #EBE9E6 0%, #DDD9D3 55%, #CCC6BD 100%);
+            border-radius: 24px;
+            border: 2px solid #D4A24B;
+            box-shadow:
+                0 18px 40px rgba(212, 162, 75, 0.2),
+                0 12px 35px rgba(90, 74, 63, 0.35);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            inset: -30%;
+            background: radial-gradient(ellipse at 30% 50%, rgba(90, 74, 63, 0.08), transparent 70%);
+            transform: rotate(12deg);
+        }
+
+        .card::after {
+            content: "";
+            position: absolute;
+            bottom: -34px;
+            left: -40px;
+            width: 130%;
+            height: 140px;
+            background:
+                repeating-linear-gradient(90deg, rgba(90, 74, 63, 0.12) 0 20px, transparent 20px 40px),
+                repeating-linear-gradient(0deg, rgba(212, 162, 75, 0.15) 0 15px, transparent 15px 30px);
+            opacity: 0.3;
+            transform: skew(-18deg);
+        }
+
+        .card-header {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: linear-gradient(135deg, #5A4A3F, #D4A24B);
+            border-radius: 999px;
+            font-size: 0.9em;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            color: #ffffff;
+            box-shadow: 0 8px 18px rgba(90, 74, 63, 0.4);
+        }
+
+        .lap-indicator {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #9BA4A6;
+            letter-spacing: 0.05em;
+        }
+
+        .card-body {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 16px;
+        }
+
+        .card-image-container {
+            flex: 0 0 auto;
+            max-height: 38%;
+            border-radius: 20px;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            overflow: visible;
+            position: relative;
+        }
+
+
+        .card-image {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            object-position: center;
+            border-radius: 16px;
+            filter: drop-shadow(0 10px 25px rgba(90, 74, 63, 0.2)) contrast(1.03) saturate(0.95);
+            opacity: 0.98;
+        }
+
+        .card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: flex-start;
+            overflow-y: auto;
+            min-height: 0;
+        }
+
+        .word-english {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #5A4A3F;
+            letter-spacing: 0.05em;
+            text-shadow:
+                -1px -1px 4px rgba(212, 162, 75, 0.35),
+                2px 2px 8px rgba(90, 74, 63, 0.3);
+            font-family: "Georgia", "Times New Roman", serif;
+            line-height: 1.1;
+        }
+
+        .pronunciation {
+            font-size: 1.05em;
+            color: rgba(90, 74, 63, 0.9);
+            letter-spacing: 0.04em;
+            font-style: italic;
+        }
+
+        .word-chinese {
+            font-size: 1.4em;
+            color: #5A4A3F;
+            font-weight: 600;
+            font-family: "STKaiti", "KaiTi", serif;
+        }
+
+        .definition,
+        .example {
+            background: rgba(255, 255, 255, 0.88);
+            border-radius: 10px;
+            padding: 12px 14px;
+            line-height: 1.55;
+            border-left: 4px solid #9BA4A6;
+            box-shadow: 0 4px 16px rgba(90, 74, 63, 0.15);
+            color: #4A4A4A;
+            font-size: 0.92em;
+        }
+
+        .definition strong {
+            color: #5A4A3F;
+        }
+
+        .example {
+            font-style: italic;
+            border-left-color: #D4A24B;
+            background: rgba(250, 248, 242, 0.88);
+            color: #555555;
+        }
+
+        .category {
+            align-self: flex-start;
+            padding: 6px 14px;
+            background: rgba(212, 162, 75, 0.15);
+            border: 1px solid #D4A24B;
+            border-radius: 999px;
+            font-size: 0.82em;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            color: #5A4A3F;
+        }
+
+        .page-number {
+            position: absolute;
+            bottom: 12mm;
+            right: 16mm;
+            font-weight: 600;
+            font-size: 1em;
+            letter-spacing: 0.08em;
+            color: rgba(212, 162, 75, 0.9);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="card">
+            <div class="card-header">
+                <span class="badge">宁安如梦</span>
+                <span class="lap-indicator">The Double</span>
+            </div>
+            <div class="card-body">
+                <div class="card-image-container">
+                    <img src="https://c-ssl.dtstatic.com/uploads/blog/202311/08/XxS5yqOQFQBWy0E.thumb.1000_0.jpg" alt="宁安如梦剧照" class="card-image">
+                </div>
+                <div class="card-content">
+                    <div class="word-english">Delirium</div>
+                    <div class="pronunciation">/dɪˈlɪriəm/</div>
+                    <div class="word-chinese">谵妄;精神错乱</div>
+                    <div class="definition">
+                        <strong>英文:</strong> A disturbed state of mind characterized by restlessness, illusions, and incoherence; an acutely confused state of consciousness.<br><br>
+                        <strong>中文:</strong> 理智与情感崩溃的混乱状态;一种精神错乱的急性意识混乱状态,带有诗意疯狂的病态美感。
+                    </div>
+                    <div class="example">
+                        "Between desire and despair, he wandered in a delirium of love."<br>
+                        在欲望与绝望之间,他徘徊在爱的谵妄中。
+                    </div>
+                    <span class="category">情感纠葛</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-number">2 / 2</div>
+    </div>
+</body>
+</html>
