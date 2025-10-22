@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow - 宁安如梦英语单词卡</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "STKaiti", "KaiTi", "Segoe UI", serif;
+            background: #f0f0f0;
+            color: #2D3E55;
+            padding: 20px;
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            padding: 18mm;
+            background: linear-gradient(140deg, #7E8A94 0%, #9BA4A6 55%, #7B6C5C 100%);
+            border-radius: 28px;
+            box-shadow: 0 25px 60px rgba(45, 62, 85, 0.45);
+            overflow: hidden;
+        }
+
+        .page::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.15) 0 12%, transparent 13% 100%),
+                radial-gradient(circle at 75% 30%, rgba(255, 255, 255, 0.12) 0 10%, transparent 11% 100%),
+                radial-gradient(circle at 35% 75%, rgba(255, 255, 255, 0.10) 0 8%, transparent 9% 100%);
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .card {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            padding: 18mm;
+            background: linear-gradient(135deg, #F5F7F8 0%, #E8EDEF 55%, #D8E0E3 100%);
+            border-radius: 24px;
+            border: 2px solid #D4A24B;
+            box-shadow:
+                0 18px 40px rgba(212, 162, 75, 0.15),
+                0 12px 35px rgba(45, 62, 85, 0.28);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            inset: -30%;
+            background: radial-gradient(ellipse at 30% 50%, rgba(169, 184, 186, 0.12), transparent 70%);
+            transform: rotate(12deg);
+        }
+
+        .card::after {
+            content: "";
+            position: absolute;
+            bottom: -34px;
+            left: -40px;
+            width: 130%;
+            height: 140px;
+            background:
+                repeating-linear-gradient(90deg, rgba(123, 108, 92, 0.08) 0 20px, transparent 20px 40px),
+                repeating-linear-gradient(0deg, rgba(212, 162, 75, 0.12) 0 15px, transparent 15px 30px);
+            opacity: 0.25;
+            transform: skew(-18deg);
+        }
+
+        .card-header {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: linear-gradient(135deg, #2D3E55, #D4A24B);
+            border-radius: 999px;
+            font-size: 0.9em;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            color: #ffffff;
+            box-shadow: 0 8px 18px rgba(212, 162, 75, 0.35);
+        }
+
+        .lap-indicator {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #A84C3F;
+            letter-spacing: 0.05em;
+        }
+
+        .card-body {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            flex: 1;
+            gap: 20px;
+        }
+
+        .card-image-container {
+            flex: 0 0 auto;
+            max-height: 45%;
+            border-radius: 18px;
+            background: linear-gradient(160deg, #F8F9FA 0%, #E5E9EC 100%);
+            border: 1px solid #D4A24B;
+            box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.6), 0 12px 24px rgba(45, 62, 85, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card-image-container::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(169, 184, 186, 0.08), transparent 60%);
+            pointer-events: none;
+        }
+
+        .card-image {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            object-position: center;
+            filter: drop-shadow(0 8px 16px rgba(45, 62, 85, 0.25)) contrast(1.05) saturate(0.95);
+        }
+
+        .card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            justify-content: flex-start;
+            overflow-y: auto;
+        }
+
+        .word-english {
+            font-size: 3em;
+            font-weight: 700;
+            color: #2D3E55;
+            letter-spacing: 0.06em;
+            text-shadow:
+                -1px -1px 4px rgba(212, 162, 75, 0.3),
+                2px 2px 8px rgba(45, 62, 85, 0.25);
+            font-family: "Georgia", "Times New Roman", serif;
+        }
+
+        .pronunciation {
+            font-size: 1.2em;
+            color: rgba(123, 108, 92, 0.85);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        .word-chinese {
+            font-size: 1.6em;
+            color: #2D3E55;
+            font-weight: 600;
+            font-family: "STKaiti", "KaiTi", serif;
+        }
+
+        .definition,
+        .example {
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 12px;
+            padding: 14px 16px;
+            line-height: 1.65;
+            border-left: 4px solid #A9B8BA;
+            box-shadow: 0 4px 16px rgba(45, 62, 85, 0.12);
+            color: #3A4A5C;
+        }
+
+        .definition strong {
+            color: #2D3E55;
+        }
+
+        .example {
+            font-style: italic;
+            border-left-color: #D4A24B;
+            background: rgba(255, 252, 245, 0.92);
+            color: #4A5568;
+        }
+
+        .category {
+            align-self: flex-start;
+            padding: 7px 16px;
+            background: rgba(212, 162, 75, 0.12);
+            border: 1px solid #D4A24B;
+            border-radius: 999px;
+            font-size: 0.88em;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            color: #A84C3F;
+        }
+
+        .page-number {
+            position: absolute;
+            bottom: 12mm;
+            right: 16mm;
+            font-weight: 600;
+            font-size: 1em;
+            letter-spacing: 0.08em;
+            color: rgba(212, 162, 75, 0.85);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+    
+        /* iPad (portrait and landscape) */
+        @media screen and (max-width: 1024px) {
+            .page {
+                max-width: 700px;
+                padding: 15mm;
+            }
+
+            .word-english {
+                font-size: 2.2em;
+            }
+
+            .card-image-container {
+                max-height: 35%;
+            }
+        }
+
+        /* Mobile devices */
+        @media screen and (max-width: 768px) {
+            .page {
+                max-width: 100%;
+                padding: 10mm;
+                margin: 10px auto;
+            }
+
+            .card {
+                padding: 15mm;
+                border-radius: 20px;
+            }
+
+            .word-english {
+                font-size: 1.8em;
+            }
+
+            .pronunciation {
+                font-size: 0.95em;
+            }
+
+            .word-chinese {
+                font-size: 1.2em;
+            }
+
+            .definition,
+            .example {
+                font-size: 0.85em;
+                padding: 10px 12px;
+            }
+
+            .card-image-container {
+                max-height: 30%;
+            }
+        }
+
+        /* Small mobile devices */
+        @media screen and (max-width: 480px) {
+            .page {
+                padding: 8mm;
+                margin: 5px auto;
+            }
+
+            .card {
+                padding: 12mm;
+            }
+
+            .word-english {
+                font-size: 1.5em;
+            }
+
+            .badge {
+                font-size: 0.8em;
+                padding: 6px 14px;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="card">
+            <div class="card-header">
+                <span class="badge">宁安如梦</span>
+                <span class="lap-indicator">The Double</span>
+            </div>
+            <div class="card-body">
+                <div class="card-image-container">
+                    <img src="https://img0.baidu.com/it/u=298411152,3172439207&fm=253&app=138&f=JPEG?w=800&h=1110" alt="宁安如梦剧照" class="card-image">
+                </div>
+                <div class="card-content">
+                    <div class="word-english">Shadow</div>
+                    <div class="pronunciation">/ˈʃædəʊ/</div>
+                    <div class="word-chinese">影子;阴影</div>
+                    <div class="definition">
+                        <strong>英文:</strong> A dark area or shape produced by something blocking the light; a person or thing that follows or accompanies someone constantly.<br><br>
+                        <strong>中文:</strong> 物体遮挡光线而产生的阴暗区域;始终跟随或陪伴某人的人或事物。
+                    </div>
+                    <div class="example">
+                        "In the palace, everyone lives in the shadow of power and fate."<br>
+                        在宫廷中,每个人都生活在权力与命运的阴影之下。
+                    </div>
+                    <span class="category">剧情主题</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-number">1 / 1</div>
+    </div>
+</body>
+</html>
