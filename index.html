@@ -654,106 +654,391 @@
         // Cards data
         const cardsData = {
             "mario": [
-                {"filename": "01-accelerate.html", "word": "Accelerate"},
-                {"filename": "02-drift.html", "word": "Drift"},
-                {"filename": "03-shell.html", "word": "Shell"},
-                {"filename": "03-turbo-boost.html", "word": "Turbo"},
-                {"filename": "04-overtake.html", "word": "Overtake"},
-                {"filename": "04-star.html", "word": "Star"},
-                {"filename": "05-mushroom.html", "word": "Mushroom"},
-                {"filename": "06-banana.html", "word": "Banana"},
-                {"filename": "07-lightning.html", "word": "Lightning"},
-                {"filename": "08-bomb.html", "word": "Bomb"},
-                {"filename": "09-coin.html", "word": "Coin"},
-                {"filename": "10-race.html", "word": "Race"},
-                {"filename": "11-boost.html", "word": "Boost"},
-                {"filename": "12-trophy.html", "word": "Trophy"},
-                {"filename": "13-champion.html", "word": "Champion"},
-                {"filename": "14-speed.html", "word": "Speed"},
-                {"filename": "15-jump.html", "word": "Jump"},
-                {"filename": "16-rival.html", "word": "Rival"},
-                {"filename": "17-victory.html", "word": "Victory"},
-                {"filename": "18-character.html", "word": "Character"},
-                {"filename": "19-princess.html", "word": "Princess"},
-                {"filename": "20-leader.html", "word": "Leader"},
-                {"filename": "21-finish.html", "word": "Finish"},
-                {"filename": "22-circuit.html", "word": "Circuit"},
-                {"filename": "23-stadium.html", "word": "Stadium"},
-                {"filename": "24-beach.html", "word": "Beach"},
-                {"filename": "25-desert.html", "word": "Desert"},
-                {"filename": "26-castle.html", "word": "Castle"},
-                {"filename": "27-mountain.html", "word": "Mountain"},
-                {"filename": "28-rainbow.html", "word": "Rainbow"},
-                {"filename": "29-road.html", "word": "Road"},
-                {"filename": "30-airship.html", "word": "Airship"},
-                {"filename": "31-challenge.html", "word": "Challenge"},
-                {"filename": "32-flower.html", "word": "Flower"},
-                {"filename": "33-feather.html", "word": "Feather"},
-                {"filename": "34-hammer.html", "word": "Hammer"},
-                {"filename": "35-horn.html", "word": "Horn"},
-                {"filename": "36-blooper.html", "word": "Blooper"},
-                {"filename": "37-bullet.html", "word": "Bullet"},
-                {"filename": "38-battle.html", "word": "Battle"},
-                {"filename": "39-trial.html", "word": "Trial"},
-                {"filename": "40-penguin.html", "word": "Penguin"},
-                {"filename": "41-goomba.html", "word": "Goomba"}
-            ],
+                {
+                                "filename": "accelerate.html",
+                                "word": "Accelerate"
+                },
+                {
+                                "filename": "airship.html",
+                                "word": "Airship"
+                },
+                {
+                                "filename": "banana.html",
+                                "word": "Banana"
+                },
+                {
+                                "filename": "battle.html",
+                                "word": "Battle"
+                },
+                {
+                                "filename": "beach.html",
+                                "word": "Beach"
+                },
+                {
+                                "filename": "blooper.html",
+                                "word": "Blooper"
+                },
+                {
+                                "filename": "bomb.html",
+                                "word": "Bomb"
+                },
+                {
+                                "filename": "boost.html",
+                                "word": "Boost"
+                },
+                {
+                                "filename": "bullet.html",
+                                "word": "Bullet"
+                },
+                {
+                                "filename": "castle.html",
+                                "word": "Castle"
+                },
+                {
+                                "filename": "challenge.html",
+                                "word": "Challenge"
+                },
+                {
+                                "filename": "champion.html",
+                                "word": "Champion"
+                },
+                {
+                                "filename": "character.html",
+                                "word": "Character"
+                },
+                {
+                                "filename": "circuit.html",
+                                "word": "Circuit"
+                },
+                {
+                                "filename": "coin.html",
+                                "word": "Coin"
+                },
+                {
+                                "filename": "desert.html",
+                                "word": "Desert"
+                },
+                {
+                                "filename": "drift.html",
+                                "word": "Drift"
+                },
+                {
+                                "filename": "feather.html",
+                                "word": "Feather"
+                },
+                {
+                                "filename": "finish.html",
+                                "word": "Finish"
+                },
+                {
+                                "filename": "flower.html",
+                                "word": "Flower"
+                },
+                {
+                                "filename": "goomba.html",
+                                "word": "Goomba"
+                },
+                {
+                                "filename": "hammer.html",
+                                "word": "Hammer"
+                },
+                {
+                                "filename": "horn.html",
+                                "word": "Horn"
+                },
+                {
+                                "filename": "jump.html",
+                                "word": "Jump"
+                },
+                {
+                                "filename": "leader.html",
+                                "word": "Leader"
+                },
+                {
+                                "filename": "lightning.html",
+                                "word": "Lightning"
+                },
+                {
+                                "filename": "mountain.html",
+                                "word": "Mountain"
+                },
+                {
+                                "filename": "mushroom.html",
+                                "word": "Mushroom"
+                },
+                {
+                                "filename": "overtake.html",
+                                "word": "Overtake"
+                },
+                {
+                                "filename": "penguin.html",
+                                "word": "Penguin"
+                },
+                {
+                                "filename": "princess.html",
+                                "word": "Princess"
+                },
+                {
+                                "filename": "race.html",
+                                "word": "Race"
+                },
+                {
+                                "filename": "rainbow.html",
+                                "word": "Rainbow"
+                },
+                {
+                                "filename": "rival.html",
+                                "word": "Rival"
+                },
+                {
+                                "filename": "road.html",
+                                "word": "Road"
+                },
+                {
+                                "filename": "shell.html",
+                                "word": "Shell"
+                },
+                {
+                                "filename": "speed.html",
+                                "word": "Speed"
+                },
+                {
+                                "filename": "stadium.html",
+                                "word": "Stadium"
+                },
+                {
+                                "filename": "star.html",
+                                "word": "Star"
+                },
+                {
+                                "filename": "trial.html",
+                                "word": "Trial"
+                },
+                {
+                                "filename": "trophy.html",
+                                "word": "Trophy"
+                },
+                {
+                                "filename": "turbo-boost.html",
+                                "word": "Turbo Boost"
+                },
+                {
+                                "filename": "victory.html",
+                                "word": "Victory"
+                }
+],
             "zelda": [
-                {"filename": "01-adventure.html", "word": "Adventure"},
-                {"filename": "02-champion.html", "word": "Champion"},
-                {"filename": "03-guardian.html", "word": "Guardian"},
-                {"filename": "04-wilderness.html", "word": "Wilderness"},
-                {"filename": "05-princess.html", "word": "Princess"},
-                {"filename": "06-sword.html", "word": "Sword"},
-                {"filename": "07-calamity.html", "word": "Calamity"},
-                {"filename": "08-shrine.html", "word": "Shrine"},
-                {"filename": "09-breath.html", "word": "Breath"},
-                {"filename": "10-quest.html", "word": "Quest"},
-                {"filename": "11-legend.html", "word": "Legend"},
-                {"filename": "12-courage.html", "word": "Courage"},
-                {"filename": "13-warrior.html", "word": "Warrior"},
-                {"filename": "14-archer.html", "word": "Archer"},
-                {"filename": "15-hero.html", "word": "Hero"},
-                {"filename": "16-companion.html", "word": "Companion"},
-                {"filename": "17-mountain.html", "word": "Mountain"},
-                {"filename": "18-sunset.html", "word": "Sunset"},
-                {"filename": "19-trial.html", "word": "Trial"},
-                {"filename": "20-wisdom.html", "word": "Wisdom"},
-                {"filename": "21-battle.html", "word": "Battle"},
-                {"filename": "22-journey.html", "word": "Journey"},
-                {"filename": "23-temple.html", "word": "Temple"},
-                {"filename": "24-castle.html", "word": "Castle"},
-                {"filename": "25-forest.html", "word": "Forest"},
-                {"filename": "26-desert.html", "word": "Desert"},
-                {"filename": "27-tower.html", "word": "Tower"},
-                {"filename": "28-storm.html", "word": "Storm"},
-                {"filename": "29-ancient.html", "word": "Ancient"},
-                {"filename": "30-spirit.html", "word": "Spirit"},
-                {"filename": "31-flower.html", "word": "Flower"},
-                {"filename": "32-bird.html", "word": "Bird"},
-                {"filename": "33-horse.html", "word": "Horse"},
-                {"filename": "34-wolf.html", "word": "Wolf"},
-                {"filename": "35-climb.html", "word": "Climb"},
-                {"filename": "36-swim.html", "word": "Swim"},
-                {"filename": "37-tree.html", "word": "Tree"},
-                {"filename": "38-river.html", "word": "River"},
-                {"filename": "39-bridge.html", "word": "Bridge"},
-                {"filename": "40-sky.html", "word": "Sky"},
-                {"filename": "41-snow.html", "word": "Snow"},
-                {"filename": "42-cloud.html", "word": "Cloud"},
-                {"filename": "43-field.html", "word": "Field"},
-                {"filename": "44-cliff.html", "word": "Cliff"},
-                {"filename": "45-village.html", "word": "Village"},
-                {"filename": "46-house.html", "word": "House"},
-                {"filename": "47-stand.html", "word": "Stand"},
-                {"filename": "48-jump.html", "word": "Jump"},
-                {"filename": "49-shield.html", "word": "Shield"},
-                {"filename": "50-arrow.html", "word": "Arrow"}
-            ],
+                {
+                                "filename": "adventure.html",
+                                "word": "Adventure"
+                },
+                {
+                                "filename": "ancient.html",
+                                "word": "Ancient"
+                },
+                {
+                                "filename": "archer.html",
+                                "word": "Archer"
+                },
+                {
+                                "filename": "arrow.html",
+                                "word": "Arrow"
+                },
+                {
+                                "filename": "battle.html",
+                                "word": "Battle"
+                },
+                {
+                                "filename": "bird.html",
+                                "word": "Bird"
+                },
+                {
+                                "filename": "breath.html",
+                                "word": "Breath"
+                },
+                {
+                                "filename": "bridge.html",
+                                "word": "Bridge"
+                },
+                {
+                                "filename": "calamity.html",
+                                "word": "Calamity"
+                },
+                {
+                                "filename": "castle.html",
+                                "word": "Castle"
+                },
+                {
+                                "filename": "champion.html",
+                                "word": "Champion"
+                },
+                {
+                                "filename": "cliff.html",
+                                "word": "Cliff"
+                },
+                {
+                                "filename": "climb.html",
+                                "word": "Climb"
+                },
+                {
+                                "filename": "cloud.html",
+                                "word": "Cloud"
+                },
+                {
+                                "filename": "companion.html",
+                                "word": "Companion"
+                },
+                {
+                                "filename": "courage.html",
+                                "word": "Courage"
+                },
+                {
+                                "filename": "desert.html",
+                                "word": "Desert"
+                },
+                {
+                                "filename": "field.html",
+                                "word": "Field"
+                },
+                {
+                                "filename": "flower.html",
+                                "word": "Flower"
+                },
+                {
+                                "filename": "forest.html",
+                                "word": "Forest"
+                },
+                {
+                                "filename": "guardian.html",
+                                "word": "Guardian"
+                },
+                {
+                                "filename": "hero.html",
+                                "word": "Hero"
+                },
+                {
+                                "filename": "horse.html",
+                                "word": "Horse"
+                },
+                {
+                                "filename": "house.html",
+                                "word": "House"
+                },
+                {
+                                "filename": "journey.html",
+                                "word": "Journey"
+                },
+                {
+                                "filename": "jump.html",
+                                "word": "Jump"
+                },
+                {
+                                "filename": "legend.html",
+                                "word": "Legend"
+                },
+                {
+                                "filename": "mountain.html",
+                                "word": "Mountain"
+                },
+                {
+                                "filename": "princess.html",
+                                "word": "Princess"
+                },
+                {
+                                "filename": "quest.html",
+                                "word": "Quest"
+                },
+                {
+                                "filename": "river.html",
+                                "word": "River"
+                },
+                {
+                                "filename": "shield.html",
+                                "word": "Shield"
+                },
+                {
+                                "filename": "shrine.html",
+                                "word": "Shrine"
+                },
+                {
+                                "filename": "sky.html",
+                                "word": "Sky"
+                },
+                {
+                                "filename": "snow.html",
+                                "word": "Snow"
+                },
+                {
+                                "filename": "spirit.html",
+                                "word": "Spirit"
+                },
+                {
+                                "filename": "stand.html",
+                                "word": "Stand"
+                },
+                {
+                                "filename": "storm.html",
+                                "word": "Storm"
+                },
+                {
+                                "filename": "sunset.html",
+                                "word": "Sunset"
+                },
+                {
+                                "filename": "swim.html",
+                                "word": "Swim"
+                },
+                {
+                                "filename": "sword.html",
+                                "word": "Sword"
+                },
+                {
+                                "filename": "temple.html",
+                                "word": "Temple"
+                },
+                {
+                                "filename": "tower.html",
+                                "word": "Tower"
+                },
+                {
+                                "filename": "tree.html",
+                                "word": "Tree"
+                },
+                {
+                                "filename": "trial.html",
+                                "word": "Trial"
+                },
+                {
+                                "filename": "village.html",
+                                "word": "Village"
+                },
+                {
+                                "filename": "warrior.html",
+                                "word": "Warrior"
+                },
+                {
+                                "filename": "wilderness.html",
+                                "word": "Wilderness"
+                },
+                {
+                                "filename": "wisdom.html",
+                                "word": "Wisdom"
+                },
+                {
+                                "filename": "wolf.html",
+                                "word": "Wolf"
+                }
+],
             "zhanglinghe": [
-                {"filename": "1.shadow.html", "word": "Shadow"},
-                {"filename": "2.delirium.html", "word": "Delirium"}
-            ]
+                {
+                                "filename": "delirium.html",
+                                "word": "Delirium"
+                },
+                {
+                                "filename": "shadow.html",
+                                "word": "Shadow"
+                }
+]
         };
 
         const sceneInfo = {
