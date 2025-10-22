@@ -13,7 +13,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
             min-height: 100vh;
             padding: 20px;
             color: #333;
@@ -50,7 +50,7 @@
         .back-button {
             position: sticky;
             top: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #e60012 0%, #c20010 100%);
             color: white;
             padding: 20px 30px;
             cursor: pointer;
@@ -59,12 +59,14 @@
             gap: 10px;
             font-size: 1.1em;
             font-weight: 600;
-            transition: background 0.3s;
+            transition: all 0.3s;
             z-index: 100;
+            border-bottom: 3px solid #a00010;
         }
 
         .back-button:hover {
-            background: linear-gradient(135deg, #5568d3 0%, #653a8a 100%);
+            background: linear-gradient(135deg, #c20010 0%, #a00010 100%);
+            padding-left: 25px;
         }
 
         .back-icon {
@@ -87,20 +89,22 @@
         header {
             text-align: center;
             padding: 40px 20px;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
             margin-bottom: 40px;
+            border: 3px solid #e60012;
         }
 
         h1 {
             font-size: 3em;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #e60012 0%, #ff4655 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             margin-bottom: 15px;
             font-weight: 800;
+            letter-spacing: -1px;
         }
 
         .subtitle {
@@ -111,12 +115,20 @@
 
         .search-box {
             margin: 20px 0 0 0;
-            padding: 15px;
-            background: rgba(255, 255, 255, 0.9);
+            padding: 15px 20px;
+            background: #f5f5f5;
             border-radius: 50px;
             display: flex;
             align-items: center;
             gap: 10px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+
+        .search-box:focus-within {
+            border-color: #0071e0;
+            background: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 113, 224, 0.2);
         }
 
         .search-box input {
@@ -126,11 +138,12 @@
             font-size: 1.1em;
             outline: none;
             padding: 5px 15px;
+            color: #333;
         }
 
         .search-icon {
             font-size: 1.5em;
-            color: #667eea;
+            color: #0071e0;
         }
 
         .scenes-grid {
@@ -141,15 +154,16 @@
 
         .scene-card {
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
             overflow: hidden;
             transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid rgba(255, 255, 255, 0.1);
         }
 
         .scene-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
         }
 
         .scene-header {
@@ -214,98 +228,109 @@
         }
 
         .word-card {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            padding: 15px;
-            border-radius: 12px;
+            background: linear-gradient(135deg, #f8f8f8 0%, #e8e8e8 100%);
+            padding: 18px;
+            border-radius: 16px;
             text-decoration: none;
             color: #333;
-            transition: all 0.3s;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             border: 2px solid transparent;
             display: block;
             cursor: pointer;
         }
 
         .word-card:hover {
-            transform: scale(1.05);
-            border-color: #667eea;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transform: translateY(-4px) scale(1.02);
+            border-color: #0071e0;
+            box-shadow: 0 8px 20px rgba(0, 113, 224, 0.3);
+            background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
         }
 
         .word-english {
             font-weight: 700;
             font-size: 1.2em;
-            color: #667eea;
+            color: #0071e0;
         }
 
-        /* Zelda theme */
+        /* Zelda theme - Gold/Green inspired by Zelda games */
         .scene-card.zelda .scene-header {
-            border-bottom: 3px solid #4a90a4;
+            border-bottom: 4px solid #00a870;
+            background: linear-gradient(135deg, #f0fff0 0%, #e8f5e8 100%);
         }
 
         .scene-card.zelda .word-card {
-            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+            background: linear-gradient(135deg, #f0fff4 0%, #d9f5e5 100%);
         }
 
         .scene-card.zelda .word-card:hover {
-            border-color: #4a90a4;
-            box-shadow: 0 5px 15px rgba(74, 144, 164, 0.3);
+            border-color: #00a870;
+            box-shadow: 0 8px 20px rgba(0, 168, 112, 0.3);
+            background: linear-gradient(135deg, #ffffff 0%, #e8f9f0 100%);
         }
 
         .scene-card.zelda .word-english {
-            color: #4a90a4;
+            color: #00a870;
         }
 
-        /* Mario theme */
+        /* Mario theme - Nintendo Red */
         .scene-card.mario .scene-header {
-            border-bottom: 3px solid #f94144;
+            border-bottom: 4px solid #e60012;
+            background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%);
         }
 
         .scene-card.mario .word-card {
-            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            background: linear-gradient(135deg, #fff5f5 0%, #ffd9dc 100%);
         }
 
         .scene-card.mario .word-card:hover {
-            border-color: #f94144;
-            box-shadow: 0 5px 15px rgba(249, 65, 68, 0.3);
+            border-color: #e60012;
+            box-shadow: 0 8px 20px rgba(230, 0, 18, 0.3);
+            background: linear-gradient(135deg, #ffffff 0%, #ffe8ea 100%);
         }
 
         .scene-card.mario .word-english {
-            color: #f94144;
+            color: #e60012;
         }
 
-        /* Zhanglinghe theme */
+        /* Zhanglinghe theme - Purple accent */
         .scene-card.zhanglinghe .scene-header {
-            border-bottom: 3px solid #9c27b0;
+            border-bottom: 4px solid #7c3aed;
+            background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
         }
 
         .scene-card.zhanglinghe .word-card {
-            background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+            background: linear-gradient(135deg, #faf5ff 0%, #e9d5ff 100%);
         }
 
         .scene-card.zhanglinghe .word-card:hover {
-            border-color: #9c27b0;
-            box-shadow: 0 5px 15px rgba(156, 39, 176, 0.3);
+            border-color: #7c3aed;
+            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+            background: linear-gradient(135deg, #ffffff 0%, #f3e8ff 100%);
         }
 
         .scene-card.zhanglinghe .word-english {
-            color: #9c27b0;
+            color: #7c3aed;
         }
 
         footer {
             text-align: center;
             padding: 30px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
+            background: #ffffff;
+            border-radius: 24px;
             color: #666;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
         }
 
         footer a {
-            color: #667eea;
+            color: #e60012;
             text-decoration: none;
             font-weight: 600;
+            transition: color 0.3s;
         }
 
         footer a:hover {
+            color: #c20010;
             text-decoration: underline;
         }
 
