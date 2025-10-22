@@ -17,15 +17,14 @@
             color: #2D3E55;
             padding: 20px;
             display: flex;
+            min-height: 100vh;
             align-items: center;
             justify-content: center;
-            min-height: 100vh;
         }
 
         .page {
             width: 100%;
             max-width: 800px;
-            margin: 20px auto;
             position: relative;
             padding: 18mm;
             background: linear-gradient(140deg, #5A4A3F 0%, #9BA4A6 55%, #6B5A4D 100%);
@@ -116,14 +115,13 @@
         }
 
         .card-body {
-            font-family: "STKaiti", "KaiTi", "Segoe UI", serif;
-            background: #f0f0f0;
-            color: #2D3E55;
-            padding: 20px;
+            position: relative;
+            z-index: 1;
             display: flex;
-            align-items: center;
-            justify-content: center;
             min-height: 100vh;
+            flex-direction: column;
+            flex: 1;
+            gap: 16px;
         }
 
         .card-image-container {
