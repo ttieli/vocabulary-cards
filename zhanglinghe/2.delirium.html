@@ -13,17 +13,19 @@
 
         body {
             font-family: "STKaiti", "KaiTi", "Segoe UI", serif;
-            background: linear-gradient(150deg, #9BA4A6 0%, #8A9599 45%, #7A8488 100%);
+            background: #f0f0f0;
             color: #2D3E55;
             padding: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
+            min-height: 100vh;
         }
 
         .page {
-            width: 210mm;
-            height: 297mm;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
             position: relative;
             padding: 18mm;
             background: linear-gradient(140deg, #5A4A3F 0%, #9BA4A6 55%, #6B5A4D 100%);
@@ -114,12 +116,14 @@
         }
 
         .card-body {
-            position: relative;
-            z-index: 1;
+            font-family: "STKaiti", "KaiTi", "Segoe UI", serif;
+            background: #f0f0f0;
+            color: #2D3E55;
+            padding: 20px;
             display: flex;
-            flex-direction: column;
-            flex: 1;
-            gap: 16px;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
 
         .card-image-container {
@@ -232,6 +236,80 @@
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
             z-index: 1;
         }
+    
+        /* iPad (portrait and landscape) */
+        @media screen and (max-width: 1024px) {
+            .page {
+                max-width: 700px;
+                padding: 15mm;
+            }
+
+            .word-english {
+                font-size: 2.2em;
+            }
+
+            .card-image-container {
+                max-height: 35%;
+            }
+        }
+
+        /* Mobile devices */
+        @media screen and (max-width: 768px) {
+            .page {
+                max-width: 100%;
+                padding: 10mm;
+                margin: 10px auto;
+            }
+
+            .card {
+                padding: 15mm;
+                border-radius: 20px;
+            }
+
+            .word-english {
+                font-size: 1.8em;
+            }
+
+            .pronunciation {
+                font-size: 0.95em;
+            }
+
+            .word-chinese {
+                font-size: 1.2em;
+            }
+
+            .definition,
+            .example {
+                font-size: 0.85em;
+                padding: 10px 12px;
+            }
+
+            .card-image-container {
+                max-height: 30%;
+            }
+        }
+
+        /* Small mobile devices */
+        @media screen and (max-width: 480px) {
+            .page {
+                padding: 8mm;
+                margin: 5px auto;
+            }
+
+            .card {
+                padding: 12mm;
+            }
+
+            .word-english {
+                font-size: 1.5em;
+            }
+
+            .badge {
+                font-size: 0.8em;
+                padding: 6px 14px;
+            }
+        }
+    
     </style>
 </head>
 <body>
