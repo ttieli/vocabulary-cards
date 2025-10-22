@@ -5,22 +5,273 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bridge - 塞尔达英语单词卡</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; }
-        .page { width: 210mm; height: 297mm; position: relative; background: transparent; display: flex; align-items: center; justify-content: center; padding: 0; }
-        .card { width: 100%; height: 100%; background: #ffffff; border-radius: 30px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,0,0,0.4); border: 5px solid #d4a574; display: flex; flex-direction: column; }
-        .card-image-container { flex: 0 0 32%; background: linear-gradient(180deg, #e8dcc8 0%, #f5ede0 100%); display: flex; align-items: center; justify-content: center; padding: 12px; }
-        .card-image { max-width: 100%; max-height: 100%; object-fit: contain; }
-        .card-content { flex: 1; padding: 20px 30px 15px 30px; display: flex; flex-direction: column; justify-content: flex-start; overflow: auto; }
-        .word-english { font-size: 2.5em; font-weight: bold; color: #2e7d8f; margin-bottom: 6px; text-shadow: 2px 2px 4px rgba(0,0,0,0.1); }
-        .pronunciation { font-size: 1.3em; color: #8b7355; font-style: italic; margin-bottom: 10px; }
-        .word-chinese { font-size: 1.6em; color: #3d6b5c; margin-bottom: 12px; font-weight: 600; }
-        .definition { font-size: 0.95em; color: #4a4a4a; line-height: 1.5; margin-bottom: 10px; padding: 10px 12px; background: rgba(255, 255, 255, 0.6); border-left: 4px solid #5fb878; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
-        .definition strong { color: #2e7d8f; }
-        .example { font-size: 0.88em; color: #5a5a5a; font-style: italic; padding: 10px 12px; background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%); border-radius: 6px; margin-top: 8px; border: 2px solid #a8d5a3; line-height: 1.4; }
-        .category { display: inline-block; padding: 6px 16px; background: linear-gradient(135deg, #4a90a4 0%, #5fb878 100%); color: white; border-radius: 20px; font-size: 0.85em; margin-top: 8px; box-shadow: 0 2px 8px rgba(74, 144, 164, 0.4); font-weight: 600; align-self: flex-start; }
-        .page-number { position: absolute; bottom: 10mm; right: 10mm; font-size: 1em; color: white; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
-    </style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            width: 100%;
+            background: #ffffff;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.4);
+            border: 5px solid #d4a574;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-image-container {
+            width: 100%;
+            min-height: 300px;
+            background: linear-gradient(180deg, #e8dcc8 0%, #f5ede0 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card-image {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+
+        .card-content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .word-english {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2e7d8f;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .pronunciation {
+            font-size: 1.3em;
+            color: #8b7355;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .word-chinese {
+            font-size: 1.6em;
+            color: #3d6b5c;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .definition {
+            font-size: 1em;
+            color: #4a4a4a;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.6);
+            border-left: 4px solid #5fb878;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .definition strong {
+            color: #2e7d8f;
+        }
+
+        .example {
+            font-size: 0.95em;
+            color: #5a5a5a;
+            font-style: italic;
+            padding: 15px;
+            background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+            border-radius: 6px;
+            margin-top: 10px;
+            border: 2px solid #a8d5a3;
+            line-height: 1.5;
+        }
+
+        .category {
+            display: inline-block;
+            padding: 8px 20px;
+            background: linear-gradient(135deg, #4a90a4 0%, #5fb878 100%);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
+            box-shadow: 0 2px 8px rgba(74, 144, 164, 0.4);
+            font-weight: 600;
+            align-self: flex-start;
+        }
+
+        .page-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 1em;
+            color: #666;
+            font-weight: bold;
+        }
+
+        /* iPad (portrait and landscape) */
+        @media screen and (max-width: 1024px) {
+            .page {
+                max-width: 700px;
+                padding: 15px;
+            }
+
+            .card-image-container {
+                min-height: 250px;
+            }
+
+            .card-image {
+                max-height: 350px;
+            }
+
+            .word-english {
+                font-size: 2.2em;
+            }
+
+            .pronunciation {
+                font-size: 1.2em;
+            }
+
+            .word-chinese {
+                font-size: 1.4em;
+            }
+
+            .card-content {
+                padding: 25px;
+            }
+        }
+
+        /* Mobile devices */
+        @media screen and (max-width: 768px) {
+            .page {
+                max-width: 100%;
+                padding: 10px;
+                margin: 10px auto;
+            }
+
+            .card {
+                border-radius: 20px;
+                border-width: 3px;
+            }
+
+            .card-image-container {
+                min-height: 200px;
+                padding: 15px;
+            }
+
+            .card-image {
+                max-height: 250px;
+            }
+
+            .card-content {
+                padding: 20px;
+            }
+
+            .word-english {
+                font-size: 1.8em;
+                margin-bottom: 8px;
+            }
+
+            .pronunciation {
+                font-size: 1em;
+                margin-bottom: 12px;
+            }
+
+            .word-chinese {
+                font-size: 1.2em;
+                margin-bottom: 15px;
+            }
+
+            .definition {
+                font-size: 0.9em;
+                padding: 12px;
+                margin-bottom: 12px;
+            }
+
+            .example {
+                font-size: 0.85em;
+                padding: 12px;
+            }
+
+            .category {
+                font-size: 0.8em;
+                padding: 6px 15px;
+                margin-top: 12px;
+            }
+
+            .page-number {
+                bottom: 10px;
+                right: 10px;
+                font-size: 0.9em;
+            }
+        }
+
+        /* Small mobile devices */
+        @media screen and (max-width: 480px) {
+            .page {
+                padding: 5px;
+                margin: 5px auto;
+            }
+
+            .card-image-container {
+                min-height: 150px;
+                padding: 10px;
+            }
+
+            .card-image {
+                max-height: 200px;
+            }
+
+            .word-english {
+                font-size: 1.5em;
+            }
+
+            .pronunciation {
+                font-size: 0.9em;
+            }
+
+            .word-chinese {
+                font-size: 1.1em;
+            }
+
+            .definition {
+                font-size: 0.85em;
+            }
+
+            .example {
+                font-size: 0.8em;
+            }
+        }
+    
 </head>
 <body>
     <div class="page">
