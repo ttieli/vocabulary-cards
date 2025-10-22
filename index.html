@@ -309,9 +309,52 @@
             text-decoration: underline;
         }
 
+        @media (max-width: 1024px) {
+            .container {
+                max-width: 95%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .scene-icon {
+                font-size: 2.5em;
+            }
+
+            .scene-title h2 {
+                font-size: 1.6em;
+            }
+        }
+
         @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            header {
+                padding: 30px 20px;
+                margin-bottom: 30px;
+            }
+
             h1 {
                 font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            .search-box {
+                padding: 12px;
+            }
+
+            .search-box input {
+                font-size: 1em;
+            }
+
+            .scenes-grid {
+                gap: 20px;
             }
 
             .word-grid {
@@ -322,12 +365,223 @@
                 padding: 20px;
             }
 
+            .scene-icon {
+                font-size: 2.2em;
+            }
+
+            .scene-title h2 {
+                font-size: 1.5em;
+            }
+
             .scene-card.expanded .word-grid-container {
                 padding: 0 20px 20px 20px;
             }
 
             .iframe-container {
-                height: calc(100vh - 80px);
+                height: calc(100vh - 70px);
+            }
+
+            .back-button {
+                padding: 15px 20px;
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                padding: 25px 15px;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .subtitle {
+                font-size: 0.95em;
+            }
+
+            .search-box {
+                padding: 10px;
+                margin: 15px 0 0 0;
+            }
+
+            .search-box input {
+                font-size: 0.95em;
+            }
+
+            .scenes-grid {
+                gap: 15px;
+            }
+
+            .scene-header {
+                padding: 18px;
+                gap: 12px;
+            }
+
+            .scene-icon {
+                font-size: 2em;
+            }
+
+            .scene-title h2 {
+                font-size: 1.3em;
+            }
+
+            .scene-subtitle {
+                font-size: 0.9em;
+            }
+
+            .word-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 10px;
+            }
+
+            .word-card {
+                padding: 12px;
+            }
+
+            .word-english {
+                font-size: 1.1em;
+            }
+
+            .scene-card.expanded .word-grid-container {
+                padding: 0 18px 18px 18px;
+            }
+
+            .word-grid-container {
+                padding: 0 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+            }
+
+            header {
+                padding: 20px 12px;
+                margin-bottom: 15px;
+                border-radius: 15px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+
+            .subtitle {
+                font-size: 0.9em;
+                margin-bottom: 8px;
+            }
+
+            .search-box {
+                padding: 8px 12px;
+                margin: 12px 0 0 0;
+            }
+
+            .search-box input {
+                font-size: 0.9em;
+                padding: 3px 10px;
+            }
+
+            .search-icon {
+                font-size: 1.2em;
+            }
+
+            .scenes-grid {
+                gap: 12px;
+            }
+
+            .scene-card {
+                border-radius: 15px;
+            }
+
+            .scene-header {
+                padding: 15px;
+                gap: 10px;
+            }
+
+            .scene-icon {
+                font-size: 1.8em;
+            }
+
+            .scene-title h2 {
+                font-size: 1.1em;
+            }
+
+            .scene-subtitle {
+                font-size: 0.85em;
+            }
+
+            .toggle-icon {
+                font-size: 1.2em;
+            }
+
+            .word-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 8px;
+            }
+
+            .word-card {
+                padding: 10px;
+                border-radius: 10px;
+            }
+
+            .word-english {
+                font-size: 1em;
+            }
+
+            .scene-card.expanded .word-grid-container {
+                padding: 0 15px 15px 15px;
+            }
+
+            .word-grid-container {
+                padding: 0 15px;
+            }
+
+            .iframe-container {
+                height: calc(100vh - 60px);
+            }
+
+            .back-button {
+                padding: 12px 15px;
+                font-size: 0.9em;
+            }
+
+            .back-icon {
+                font-size: 1.2em;
+            }
+
+            footer {
+                padding: 20px 15px;
+                border-radius: 12px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 360px) {
+            h1 {
+                font-size: 1.3em;
+            }
+
+            .scene-title h2 {
+                font-size: 1em;
+            }
+
+            .word-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+
+            .word-card {
+                padding: 8px;
+            }
+
+            .word-english {
+                font-size: 0.95em;
             }
         }
     </style>
