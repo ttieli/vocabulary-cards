@@ -409,8 +409,42 @@
     </div>
 
     <script>
-        // 图片与单词映射
-        const imageWordMappings = {
+        // Global data
+        let imageWordMappings = {};
+        let imageUrls = [];
+
+        // Load data from JSON
+        async function loadData() {
+            try {
+                const response = await fetch('cards-data.json');
+                const data = await response.json();
+
+                // Build image-word mappings and URL list
+                const uniqueUrls = new Set();
+
+                for (const theme in data.cards) {
+                    for (const card of data.cards[theme]) {
+                        if (card.image) {
+                            imageWordMappings[card.image] = {
+                                english: card.word,
+                                chinese: card.chinese,
+                                theme: theme
+                            };
+                            uniqueUrls.add(card.image);
+                        }
+                    }
+                }
+
+                imageUrls = Array.from(uniqueUrls).sort();
+                return true;
+            } catch (error) {
+                console.error('Error loading data:', error);
+                return false;
+            }
+        }
+
+        // OLD: 图片与单词映射 (keeping as fallback)
+        const imageWordMappingsFallback = {
             "https://mario.wiki.gallery/images/0/0a/MKWorld_Mario.png": {"english": "Champion", "chinese": "冠军;优胜者"},
             "https://mario.wiki.gallery/images/7/75/MKW_Banana_Roulette.png": {"english": "Banana", "chinese": "香蕉"},
             "https://mario.wiki.gallery/images/thumb/9/9e/MKW_Feather_Roulette.png/120px-MKW_Feather_Roulette.png": {"english": "Feather", "chinese": "羽毛"},
@@ -501,8 +535,8 @@
             "https://img0.baidu.com/it/u=298411152,3172439207&fm=253&app=138&f=JPEG?w=800&h=1110": {"english": "Shadow", "chinese": "影子;阴影"}
         };
 
-        // 所有图片 URL 列表
-        const imageUrls = [
+        // 所有图片 URL 列表 (fallback)
+        const imageUrlsFallback = [
             "https://cdn.wikimg.net/en/zeldawiki/images/0/02/BotW_Link_Shooting_Artwork.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/0/09/BotW_Temple_of_Time_Concept_Artwork.png",
@@ -614,14 +648,25 @@
             loading: 0,
             available: 0,
             unavailable: 0,
-            total: imageUrls.length
+            total: 0
         };
 
         // 不可用图片列表
         const unavailableImages = [];
 
         // 初始化
-        function init() {
+        async function init() {
+            // Load data from JSON
+            const loaded = await loadData();
+
+            // Use fallback if loading failed
+            if (!loaded || imageUrls.length === 0) {
+                console.warn('Using fallback data');
+                imageWordMappings = imageWordMappingsFallback;
+                imageUrls = imageUrlsFallback;
+            }
+
+            stats.total = imageUrls.length;
             updateStats();
             createImageCards();
             setupFilters();
@@ -629,6 +674,20 @@
 
         // 获取图片来源标签
         function getSourceTag(url) {
+            // Try to get theme from mapping
+            const mapping = imageWordMappings[url];
+            if (mapping && mapping.theme) {
+                const theme = mapping.theme;
+                if (theme === 'mario') {
+                    return '<span class="source-tag mario">Mario</span>';
+                } else if (theme === 'zelda') {
+                    return '<span class="source-tag zelda">Zelda</span>';
+                } else {
+                    return `<span class="source-tag other">${theme}</span>`;
+                }
+            }
+
+            // Fallback: detect from URL
             if (url.includes('mario.wiki.gallery')) {
                 return '<span class="source-tag mario">Mario</span>';
             } else if (url.includes('zeldawiki') || url.includes('zelda')) {
