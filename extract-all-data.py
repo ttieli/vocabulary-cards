@@ -55,19 +55,31 @@ def extract_card_data(filepath, theme):
     # Extract example (both English and Chinese)
     match = re.search(r'<div class="example">(.*?)</div>', html_content, re.DOTALL)
     if match:
-        example_content = match.group(1)
+        example_content = match.group(1).strip()
 
-        # Split by <br>
-        parts = re.split(r'<br>|\n', example_content)
+        # Split by <br> or newline
+        parts = [p.strip() for p in re.split(r'<br\s*/?>|\n', example_content) if p.strip()]
+
         if len(parts) >= 2:
-            # English example (with quotes)
+            # First part is English (with quotes)
             en_example = parts[0].strip()
-            en_example = re.sub(r'^["\']|["\']$', '', en_example)  # Remove quotes
+            # Remove surrounding quotes
+            en_example = re.sub(r'^[""]|[""]$', '', en_example)
+            en_example = en_example.strip('"\'')
             data["example_en"] = en_example.strip()
 
-            # Chinese example
+            # Second part is Chinese
             zh_example = parts[1].strip()
             data["example_zh"] = zh_example.strip()
+        elif len(parts) == 1:
+            # Only one part, try to determine which
+            part = parts[0].strip()
+            # Check if it starts with quotes (likely English)
+            if part.startswith('"') or part.startswith('"'):
+                en_example = re.sub(r'^[""]|[""]$', '', part).strip('"\'')
+                data["example_en"] = en_example.strip()
+            else:
+                data["example_zh"] = part
 
     # Extract category
     match = re.search(r'<span class="category">([^<]+)</span>', html_content)
