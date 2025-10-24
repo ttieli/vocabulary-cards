@@ -1,0 +1,478 @@
+[
+  {
+    "theme": "mario",
+    "filename": "accelerate.html",
+    "card_word": "Accelerate",
+    "url_word": "World Mario",
+    "image_url": "https://mario.wiki.gallery/images/0/0a/MKWorld_Mario.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "bomb.html",
+    "card_word": "Bomb",
+    "url_word": "Roulette",
+    "image_url": "https://mario.wiki.gallery/images/2/24/MKW_Bob-omb_Roulette.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "boost.html",
+    "card_word": "Boost",
+    "url_word": "Golden Mushroom Item",
+    "image_url": "https://mario.wiki.gallery/images/9/91/MKW_Golden_Mushroom_Item_Roulette.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "challenge.html",
+    "card_word": "Challenge",
+    "url_word": "Mario Kart World Mushroom Cup Icon",
+    "image_url": "https://mario.wiki.gallery/images/thumb/7/78/Mario_Kart_World_Mushroom_Cup_Icon.png/120px-Mario_Kart_World_Mushroom_Cup_Icon.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "champion.html",
+    "card_word": "Champion",
+    "url_word": "World Mario",
+    "image_url": "https://mario.wiki.gallery/images/0/0a/MKWorld_Mario.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "character.html",
+    "card_word": "Character",
+    "url_word": "World Yoshi",
+    "image_url": "https://mario.wiki.gallery/images/thumb/3/3d/MKWorld_Yoshi.png/120px-MKWorld_Yoshi.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "finish.html",
+    "card_word": "Finish",
+    "url_word": "Mario Kart World Mushroom Cup Icon",
+    "image_url": "https://mario.wiki.gallery/images/thumb/7/78/Mario_Kart_World_Mushroom_Cup_Icon.png/120px-Mario_Kart_World_Mushroom_Cup_Icon.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "jump.html",
+    "card_word": "Jump",
+    "url_word": "Mario",
+    "image_url": "https://mario.wiki.gallery/images/thumb/9/98/MKWorldBabyMario.png/120px-MKWorldBabyMario.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "leader.html",
+    "card_word": "Leader",
+    "url_word": "World Luigi",
+    "image_url": "https://mario.wiki.gallery/images/thumb/6/6a/MKWorld_Luigi.png/120px-MKWorld_Luigi.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "overtake.html",
+    "card_word": "Overtake",
+    "url_word": "World Bowser",
+    "image_url": "https://mario.wiki.gallery/images/e/ef/MKWorld_Bowser.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "princess.html",
+    "card_word": "Princess",
+    "url_word": "World Peach",
+    "image_url": "https://mario.wiki.gallery/images/thumb/2/27/MKWorld_Peach.png/78px-MKWorld_Peach.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "race.html",
+    "card_word": "Race",
+    "url_word": "MKWorld VS icon",
+    "image_url": "https://mario.wiki.gallery/images/8/86/MKWorld_VS_icon.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "rival.html",
+    "card_word": "Rival",
+    "url_word": "World Bowser",
+    "image_url": "https://mario.wiki.gallery/images/thumb/e/ef/MKWorld_Bowser.png/105px-MKWorld_Bowser.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "road.html",
+    "card_word": "Road",
+    "url_word": "Map",
+    "image_url": "https://mario.wiki.gallery/images/thumb/6/6c/MKW_Map_with_Roads_Artwork.png/120px-MKW_Map_with_Roads_Artwork.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "speed.html",
+    "card_word": "Speed",
+    "url_word": "Mushroom",
+    "image_url": "https://mario.wiki.gallery/images/thumb/0/03/MKW_Mushroom_Roulette.png/120px-MKW_Mushroom_Roulette.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "turbo-boost.html",
+    "card_word": "Turbo Boost",
+    "url_word": "World Yoshi",
+    "image_url": "https://mario.wiki.gallery/images/3/3d/MKWorld_Yoshi.png"
+  },
+  {
+    "theme": "mario",
+    "filename": "victory.html",
+    "card_word": "Victory",
+    "url_word": "Mario Kart World Star Cup Icon",
+    "image_url": "https://mario.wiki.gallery/images/thumb/f/f5/Mario_Kart_World_Star_Cup_Icon.png/120px-Mario_Kart_World_Star_Cup_Icon.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "adventure.html",
+    "card_word": "Adventure",
+    "url_word": "Link Climbing",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "archer.html",
+    "card_word": "Archer",
+    "url_word": "Link Shooting",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/BotW_Link_Shooting_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "arrow.html",
+    "card_word": "Arrow",
+    "url_word": "Link Fired",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Link_Fired_Bow.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "battle.html",
+    "card_word": "Battle",
+    "url_word": "Bokoblin",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "bird.html",
+    "card_word": "Bird",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "breath.html",
+    "card_word": "Breath",
+    "url_word": "Hyrule Day",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "bridge.html",
+    "card_word": "Bridge",
+    "url_word": "Unknown",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/1/1b/BotW_Unknown_Bridge.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "canyon.html",
+    "card_word": "Canyon",
+    "url_word": "Gerudo",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "castle.html",
+    "card_word": "Castle",
+    "url_word": "Hyrule",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Hyrule_Castle.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "cliff.html",
+    "card_word": "Cliff",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "climb.html",
+    "card_word": "Climb",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "cloud.html",
+    "card_word": "Cloud",
+    "url_word": "Hyrule Sunset",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/BotW_Hyrule_Sunset_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "companion.html",
+    "card_word": "Companion",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "cooking.html",
+    "card_word": "Cooking",
+    "url_word": "Hyrule Day",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "courage.html",
+    "card_word": "Courage",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/BotW_Link_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "desert.html",
+    "card_word": "Desert",
+    "url_word": "Gerudo",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "elixir.html",
+    "card_word": "Elixir",
+    "url_word": "Expansion Pass",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "fairy.html",
+    "card_word": "Fairy",
+    "url_word": "Flower",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "field.html",
+    "card_word": "Field",
+    "url_word": "Hyrule",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/77/BotW_Hyrule_Field.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "goron.html",
+    "card_word": "Goron",
+    "url_word": "Daruk",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "hero.html",
+    "card_word": "Hero",
+    "url_word": "Link Gazing",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/BotW_Link_Gazing_at_Hyrule_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "hinox.html",
+    "card_word": "Hinox",
+    "url_word": "Guardian",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "horse.html",
+    "card_word": "Horse",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "house.html",
+    "card_word": "House",
+    "url_word": "Building Concept",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "journey.html",
+    "card_word": "Journey",
+    "url_word": "Link Riding Master Cycle Zero",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/BotW_Link_Riding_Master_Cycle_Zero_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "korok.html",
+    "card_word": "Korok",
+    "url_word": "Forest",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/BotW_Forest_of_Spirits_Daytime.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "legend.html",
+    "card_word": "Legend",
+    "url_word": "Wallpaper",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/BotW_Wallpaper_2.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "lizalfos.html",
+    "card_word": "Lizalfos",
+    "url_word": "Bokoblin",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "lynel.html",
+    "card_word": "Lynel",
+    "url_word": "Calamity Ganon",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "moblin.html",
+    "card_word": "Moblin",
+    "url_word": "Bokoblin Jump",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "mountain.html",
+    "card_word": "Mountain",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "ore.html",
+    "card_word": "Ore",
+    "url_word": "Building Concept",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "paraglider.html",
+    "card_word": "Paraglider",
+    "url_word": "Expansion Pass",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "princess.html",
+    "card_word": "Princess",
+    "url_word": "Zelda",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/BotW_Zelda_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "quest.html",
+    "card_word": "Quest",
+    "url_word": "Link Rider",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/2/21/BotW_Link_Rider_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "rune.html",
+    "card_word": "Rune",
+    "url_word": "Sheikah Slate",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "rupee.html",
+    "card_word": "Rupee",
+    "url_word": "Building Concept",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "shield.html",
+    "card_word": "Shield",
+    "url_word": "Link Climbing",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "shrine.html",
+    "card_word": "Shrine",
+    "url_word": "Sheikah Slate",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "sky.html",
+    "card_word": "Sky",
+    "url_word": "Hyrule Day",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "spirit.html",
+    "card_word": "Spirit",
+    "url_word": "Forest",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/BotW_Forest_of_Spirits_Daytime.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "stable.html",
+    "card_word": "Stable",
+    "url_word": "Building Concept",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "stand.html",
+    "card_word": "Stand",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/f/f1/BotW_Link_before_Master_Sword.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "storm.html",
+    "card_word": "Storm",
+    "url_word": "Temple",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/6/68/BotW_Temple_of_Time_Storm.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "swim.html",
+    "card_word": "Swim",
+    "url_word": "Lake",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/BotW_Lake_Floria.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "warrior.html",
+    "card_word": "Warrior",
+    "url_word": "Daruk",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "wilderness.html",
+    "card_word": "Wilderness",
+    "url_word": "Link Gazing",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/BotW_Link_Gazing_at_Hyrule_Artwork.jpg"
+  },
+  {
+    "theme": "zelda",
+    "filename": "wisdom.html",
+    "card_word": "Wisdom",
+    "url_word": "Expansion Pass",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png"
+  },
+  {
+    "theme": "zelda",
+    "filename": "wolf.html",
+    "card_word": "Wolf",
+    "url_word": "Link",
+    "image_url": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/BotW_Link_with_Wolf_Link.png"
+  },
+  {
+    "theme": "zhanglinghe",
+    "filename": "delirium.html",
+    "card_word": "Delirium",
+    "url_word": "photo-1617791160505-6f00504e3519",
+    "image_url": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800&h=1200&fit=crop"
+  },
+  {
+    "theme": "zhanglinghe",
+    "filename": "shadow.html",
+    "card_word": "Shadow",
+    "url_word": "u=298411152,3172439207&fm=253&app=138&f=JPEG",
+    "image_url": "https://img0.baidu.com/it/u=298411152,3172439207&fm=253&app=138&f=JPEG?w=800&h=1110"
+  }
+]

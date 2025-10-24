@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.5em;
+            color: #666;
+        }
+
+        .error {
+            text-align: center;
+            padding: 40px;
+            color: #e60012;
+            font-size: 1.2em;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Zelda theme */
+        .card.zelda {
+            background: #ffffff;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.4);
+            border: 5px solid #d4a574;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card.zelda .card-image-container {
+            width: 100%;
+            min-height: 300px;
+            background: linear-gradient(180deg, #e8dcc8 0%, #f5ede0 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card.zelda .word-english {
+            color: #2e7d8f;
+        }
+
+        .card.zelda .pronunciation {
+            color: #8b7355;
+        }
+
+        .card.zelda .word-chinese {
+            color: #3d6b5c;
+        }
+
+        .card.zelda .definition {
+            border-left: 4px solid #5fb878;
+        }
+
+        .card.zelda .definition strong {
+            color: #2e7d8f;
+        }
+
+        .card.zelda .example {
+            background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+            border: 2px solid #a8d5a3;
+        }
+
+        .card.zelda .category {
+            background: linear-gradient(135deg, #4a90a4 0%, #5fb878 100%);
+        }
+
+        /* Mario theme */
+        body.mario {
+            background: linear-gradient(150deg, #ffecec 0%, #ffd9d9 45%, #ffb3b3 100%);
+        }
+
+        .page.mario {
+            background: linear-gradient(140deg, #f94144 0%, #f3722c 55%, #d00000 100%);
+            border-radius: 28px;
+            box-shadow: 0 25px 60px rgba(194, 23, 38, 0.45);
+            padding: 18mm;
+        }
+
+        .card.mario {
+            background: linear-gradient(135deg, #fffdfc 0%, #fff3f3 55%, #ffe3e3 100%);
+            border-radius: 24px;
+            border: 3px solid rgba(255, 255, 255, 0.75);
+            box-shadow:
+                0 18px 40px rgba(255, 255, 255, 0.22),
+                0 12px 35px rgba(176, 17, 32, 0.3);
+            display: flex;
+            flex-direction: column;
+            padding: 18mm;
+        }
+
+        .card.mario .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .card.mario .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: linear-gradient(135deg, #d00000, #f48c06);
+            border-radius: 999px;
+            font-size: 0.9em;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #ffffff;
+            box-shadow: 0 8px 18px rgba(208, 0, 0, 0.35);
+        }
+
+        .card.mario .card-body {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .card.mario .card-image-container {
+            flex: 0 0 38%;
+            border-radius: 18px;
+            background: linear-gradient(160deg, #fff8f8 0%, #ffe3e3 100%);
+            border: 2px solid rgba(208, 0, 0, 0.45);
+            box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.7), 0 12px 24px rgba(163, 16, 26, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .card.mario .card-content {
+            flex: 1;
+        }
+
+        .card.mario .word-english {
+            color: #d00000;
+            text-shadow:
+                -2px -2px 6px rgba(255, 191, 191, 0.6),
+                3px 3px 10px rgba(255, 123, 123, 0.4);
+        }
+
+        .card.mario .pronunciation {
+            color: rgba(139, 24, 33, 0.9);
+        }
+
+        .card.mario .word-chinese {
+            color: #a91b0d;
+        }
+
+        .card.mario .definition {
+            background: rgba(255, 255, 255, 0.95);
+            border-left: 5px solid rgba(240, 81, 81, 0.85);
+            box-shadow: 0 6px 20px rgba(255, 153, 153, 0.2);
+            color: #3b1717;
+        }
+
+        .card.mario .definition strong {
+            color: #d00000;
+        }
+
+        .card.mario .example {
+            border-left-color: rgba(244, 140, 6, 0.85);
+            background: rgba(255, 244, 236, 0.95);
+            color: #4c1a1a;
+        }
+
+        .card.mario .category {
+            background: rgba(208, 0, 0, 0.08);
+            border: 1px solid rgba(208, 0, 0, 0.45);
+            color: #a91b0d;
+        }
+
+        /* Common styles */
+        .card {
+            width: 100%;
+        }
+
+        .card-image-container {
+            width: 100%;
+            min-height: 300px;
+        }
+
+        .card-image {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+
+        .card-content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .word-english {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .pronunciation {
+            font-size: 1.3em;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .word-chinese {
+            font-size: 1.6em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .definition {
+            font-size: 1em;
+            color: #4a4a4a;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .example {
+            font-size: 0.95em;
+            color: #5a5a5a;
+            font-style: italic;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .category {
+            display: inline-block;
+            padding: 8px 20px;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
+            box-shadow: 0 2px 8px rgba(74, 144, 164, 0.4);
+            font-weight: 600;
+            align-self: flex-start;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .page {
+                max-width: 100%;
+                padding: 10px;
+                margin: 10px auto;
+            }
+
+            .card {
+                border-radius: 20px;
+            }
+
+            .card.mario .card-body {
+                flex-direction: column;
+            }
+
+            .card.mario .card-image-container {
+                flex: 0 0 auto;
+                width: 100%;
+            }
+
+            .card-image-container {
+                min-height: 200px;
+                padding: 15px;
+            }
+
+            .card-image {
+                max-height: 250px;
+            }
+
+            .card-content {
+                padding: 20px;
+            }
+
+            .word-english {
+                font-size: 1.8em;
+            }
+
+            .pronunciation {
+                font-size: 1em;
+            }
+
+            .word-chinese {
+                font-size: 1.2em;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .word-english {
+                font-size: 1.5em;
+            }
+
+            .card-content {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loading">Loading card...</div>
+    <div class="error" id="error" style="display: none;">Card not found</div>
+    <div class="page" id="page-container" style="display: none;"></div>
+
+    <script>
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const theme = urlParams.get('theme');
+        const filename = urlParams.get('file');
+
+        async function loadCard() {
+            try {
+                // Load cards data
+                const response = await fetch('cards-data.json');
+                const data = await response.json();
+
+                // Find the card
+                const cards = data.cards[theme];
+                if (!cards) {
+                    throw new Error('Theme not found');
+                }
+
+                const card = cards.find(c => c.filename === filename);
+                if (!card) {
+                    throw new Error('Card not found');
+                }
+
+                // Set body theme class
+                document.body.className = theme;
+
+                // Render the card
+                renderCard(card, theme);
+
+                // Hide loading, show card
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('page-container').style.display = 'flex';
+
+                // Update page title
+                document.title = `${card.word} - Vocabulary Card`;
+
+            } catch (error) {
+                console.error('Error loading card:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error: ${error.message}`;
+            }
+        }
+
+        function renderCard(card, theme) {
+            const container = document.getElementById('page-container');
+            container.className = `page ${theme}`;
+
+            const cardHtml = theme === 'mario' ? `
+                <div class="card mario">
+                    <div class="card-header">
+                        <span class="badge">Mario Kart World</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-image-container">
+                            <img src="${card.image}" alt="${card.word}" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <div class="word-english">${card.word}</div>
+                            <div class="pronunciation">${card.pronunciation || ''}</div>
+                            <div class="word-chinese">${card.chinese}</div>
+                            <div class="definition">
+                                <strong>英文:</strong> ${card.definition_en || ''}<br><br>
+                                <strong>中文:</strong> ${card.definition_zh || ''}
+                            </div>
+                            <div class="example">
+                                ${card.example_en ? '"' + card.example_en + '"<br>' : ''}
+                                ${card.example_zh || ''}
+                            </div>
+                            <span class="category">${card.category || 'Vocabulary'}</span>
+                        </div>
+                    </div>
+                </div>
+            ` : `
+                <div class="card ${theme}">
+                    <div class="card-image-container">
+                        <img src="${card.image}" alt="${card.word}" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <div class="word-english">${card.word}</div>
+                        <div class="pronunciation">${card.pronunciation || ''}</div>
+                        <div class="word-chinese">${card.chinese}</div>
+                        <div class="definition">
+                            <strong>英文:</strong> ${card.definition_en || ''}<br><br>
+                            <strong>中文:</strong> ${card.definition_zh || ''}
+                        </div>
+                        <div class="example">
+                            ${card.example_en ? '"' + card.example_en + '"<br>' : ''}
+                            ${card.example_zh || ''}
+                        </div>
+                        <span class="category">${card.category || 'Vocabulary'}</span>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = cardHtml;
+        }
+
+        // Load card on page load
+        loadCard();
+    </script>
+</body>
+</html>
