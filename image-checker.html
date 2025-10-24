@@ -242,6 +242,72 @@
             color: #fff;
         }
 
+        .word-info {
+            background: linear-gradient(135deg, #4a90e2 0%, #5fb8e8 100%);
+            color: white;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .word-english {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        .word-chinese {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .image-card.unavailable .word-info {
+            background: linear-gradient(135deg, #ff4444 0%, #ff6666 100%);
+        }
+
+        .resolution-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            background: rgba(0, 0, 0, 0.03);
+            border-radius: 6px;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .resolution-text {
+            color: #555;
+            font-weight: 500;
+        }
+
+        .hd-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .hd-badge.hd {
+            background: linear-gradient(135deg, #00c853 0%, #69f0ae 100%);
+            color: white;
+        }
+
+        .hd-badge.sd {
+            background: linear-gradient(135deg, #ff9800 0%, #ffb74d 100%);
+            color: white;
+        }
+
+        .hd-badge.loading {
+            background: #e0e0e0;
+            color: #999;
+        }
+
+        .image-card.unavailable .resolution-info {
+            background: rgba(255, 68, 68, 0.05);
+        }
+
         .image-url {
             word-break: break-all;
             font-size: 0.85em;
@@ -343,6 +409,98 @@
     </div>
 
     <script>
+        // 图片与单词映射
+        const imageWordMappings = {
+            "https://mario.wiki.gallery/images/0/0a/MKWorld_Mario.png": {"english": "Champion", "chinese": "冠军;优胜者"},
+            "https://mario.wiki.gallery/images/7/75/MKW_Banana_Roulette.png": {"english": "Banana", "chinese": "香蕉"},
+            "https://mario.wiki.gallery/images/thumb/9/9e/MKW_Feather_Roulette.png/120px-MKW_Feather_Roulette.png": {"english": "Feather", "chinese": "羽毛"},
+            "https://mario.wiki.gallery/images/thumb/2/27/MKWorld_Peach.png/78px-MKWorld_Peach.png": {"english": "Princess", "chinese": "公主"},
+            "https://mario.wiki.gallery/images/thumb/3/34/MKWorld_Icon_Desert_Hills.png/120px-MKWorld_Icon_Desert_Hills.png": {"english": "Desert", "chinese": "沙漠"},
+            "https://mario.wiki.gallery/images/9/91/MKW_Golden_Mushroom_Item_Roulette.png": {"english": "Boost", "chinese": "加速;推进"},
+            "https://mario.wiki.gallery/images/thumb/f/fd/MKWorld_Icon_Peach_Stadium.png/120px-MKWorld_Icon_Peach_Stadium.png": {"english": "Stadium", "chinese": "体育场;竞技场"},
+            "https://mario.wiki.gallery/images/thumb/6/6a/MKWorld_Luigi.png/120px-MKWorld_Luigi.png": {"english": "Leader", "chinese": "领先者;领导者"},
+            "https://mario.wiki.gallery/images/thumb/6/6c/MKW_Hammer_Roulette.png/110px-MKW_Hammer_Roulette.png": {"english": "Hammer", "chinese": "锤子;铁锤"},
+            "https://mario.wiki.gallery/images/thumb/1/16/MKWorld_Icon_Choco_Mountain.png/120px-MKWorld_Icon_Choco_Mountain.png": {"english": "Mountain", "chinese": "山;山脉"},
+            "https://mario.wiki.gallery/images/thumb/5/5a/MKWorld_Penguin_artwork.png/120px-MKWorld_Penguin_artwork.png": {"english": "Penguin", "chinese": "企鹅"},
+            "https://mario.wiki.gallery/images/1/17/MKW_Lightning_Roulette.png": {"english": "Lightning", "chinese": "闪电"},
+            "https://mario.wiki.gallery/images/thumb/e/ef/MKWorld_Bowser.png/105px-MKWorld_Bowser.png": {"english": "Rival", "chinese": "对手;竞争者"},
+            "https://mario.wiki.gallery/images/thumb/9/9d/MKW_Super_Horn_Roulette.png/120px-MKW_Super_Horn_Roulette.png": {"english": "Horn", "chinese": "喇叭;号角"},
+            "https://mario.wiki.gallery/images/e/ef/MKWorld_Bowser.png": {"english": "Overtake", "chinese": "超越"},
+            "https://mario.wiki.gallery/images/thumb/4/41/MKWorld_Time_Trial_icon.png/120px-MKWorld_Time_Trial_icon.png": {"english": "Trial", "chinese": "试验;计时赛"},
+            "https://mario.wiki.gallery/images/thumb/7/78/Mario_Kart_World_Mushroom_Cup_Icon.png/120px-Mario_Kart_World_Mushroom_Cup_Icon.png": {"english": "Challenge", "chinese": "挑战;难题"},
+            "https://mario.wiki.gallery/images/a/ae/MKWorld_Mario_Drift.png": {"english": "Drift", "chinese": "漂移;甩尾"},
+            "https://mario.wiki.gallery/images/thumb/c/cc/MKWorld_Icon_Bowsers_Castle.png/120px-MKWorld_Icon_Bowsers_Castle.png": {"english": "Castle", "chinese": "城堡"},
+            "https://mario.wiki.gallery/images/thumb/9/98/MKWorldBabyMario.png/120px-MKWorldBabyMario.png": {"english": "Jump", "chinese": "跳跃;跳"},
+            "https://mario.wiki.gallery/images/0/03/MKW_Mushroom_Roulette.png": {"english": "Mushroom", "chinese": "蘑菇"},
+            "https://mario.wiki.gallery/images/thumb/3/36/MKW_Bullet_Bill_Roulette.png/120px-MKW_Bullet_Bill_Roulette.png": {"english": "Bullet", "chinese": "子弹;炮弹"},
+            "https://mario.wiki.gallery/images/f/f9/MKW_Super_Star_Roulette.png": {"english": "Star", "chinese": "星星;无敌星"},
+            "https://mario.wiki.gallery/images/thumb/f/f5/Mario_Kart_World_Star_Cup_Icon.png/120px-Mario_Kart_World_Star_Cup_Icon.png": {"english": "Victory", "chinese": "胜利;成功"},
+            "https://mario.wiki.gallery/images/thumb/7/77/MKW_Fire_Flower_Roulette.png/115px-MKW_Fire_Flower_Roulette.png": {"english": "Flower", "chinese": "花;花朵"},
+            "https://mario.wiki.gallery/images/1/10/MKW_Coin_Roulette.png": {"english": "Coin", "chinese": "硬币;金币"},
+            "https://mario.wiki.gallery/images/thumb/1/1f/MKWorld_Icon_Airship_Fortress.png/120px-MKWorld_Icon_Airship_Fortress.png": {"english": "Airship", "chinese": "飞艇;飞船"},
+            "https://mario.wiki.gallery/images/thumb/1/18/MKWorld_Balloon_Battle_icon.png/120px-MKWorld_Balloon_Battle_icon.png": {"english": "Battle", "chinese": "战斗;对战"},
+            "https://mario.wiki.gallery/images/thumb/3/31/MKWorld_Icon_Mario_Circuit.png/120px-MKWorld_Icon_Mario_Circuit.png": {"english": "Circuit", "chinese": "赛道;环形赛道"},
+            "https://mario.wiki.gallery/images/b/b8/MKW_Red_Shell_Roulette.png": {"english": "Shell", "chinese": "龟壳;贝壳"},
+            "https://mario.wiki.gallery/images/3/3d/MKWorld_Yoshi.png": {"english": "Turbo Boost", "chinese": "涡轮冲刺"},
+            "https://mario.wiki.gallery/images/thumb/6/6c/MKW_Map_with_Roads_Artwork.png/120px-MKW_Map_with_Roads_Artwork.png": {"english": "Road", "chinese": "道路;公路"},
+            "https://mario.wiki.gallery/images/thumb/f/f8/MKW_Blooper_Roulette.png/93px-MKW_Blooper_Roulette.png": {"english": "Blooper", "chinese": "乌贼;喷墨鱼"},
+            "https://mario.wiki.gallery/images/thumb/1/1a/MKWorld_Icon_Peach_Beach.png/120px-MKWorld_Icon_Peach_Beach.png": {"english": "Beach", "chinese": "海滩;沙滩"},
+            "https://mario.wiki.gallery/images/thumb/f/f5/Goomba_Mario_Kart_World.png/120px-Goomba_Mario_Kart_World.png": {"english": "Goomba", "chinese": "栗宝宝"},
+            "https://mario.wiki.gallery/images/thumb/0/03/MKW_Mushroom_Roulette.png/120px-MKW_Mushroom_Roulette.png": {"english": "Speed", "chinese": "速度;迅速"},
+            "https://mario.wiki.gallery/images/b/bb/Grand_Prix_Golden_Trophy.png": {"english": "Trophy", "chinese": "奖杯;战利品"},
+            "https://mario.wiki.gallery/images/thumb/3/3d/MKWorld_Yoshi.png/120px-MKWorld_Yoshi.png": {"english": "Character", "chinese": "角色;人物"},
+            "https://mario.wiki.gallery/images/thumb/2/25/MKWorld_Icon_Rainbow_Road.png/120px-MKWorld_Icon_Rainbow_Road.png": {"english": "Rainbow", "chinese": "彩虹"},
+            "https://mario.wiki.gallery/images/8/86/MKWorld_VS_icon.png": {"english": "Race", "chinese": "比赛;竞速"},
+            "https://mario.wiki.gallery/images/2/24/MKW_Bob-omb_Roulette.png": {"english": "Bomb", "chinese": "炸弹"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/0/02/BotW_Link_Shooting_Artwork.png": {"english": "Archer", "chinese": "弓箭手"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/BotW_Wallpaper_2.png": {"english": "Legend", "chinese": "传说;传奇"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg": {"english": "Adventure", "chinese": "冒险"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/BotW_Hyrule_Sunset_Artwork.jpg": {"english": "Cloud", "chinese": "云;云朵"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/9/90/BotW_Hateno_Village_2.png": {"english": "Village", "chinese": "村庄;村落"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/BotW_Link_Gazing_at_Hyrule_Artwork.jpg": {"english": "Wilderness", "chinese": "荒野;旷野"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/BotW_Zelda_Artwork.png": {"english": "Princess", "chinese": "公主"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png": {"english": "Canyon", "chinese": "峡谷"},
+            "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/8/86/TP_Tree_Model.png": {"english": "Tree", "chinese": "树;树木"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Forest_Landscape.png": {"english": "Forest", "chinese": "森林"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/1/1b/BotW_Unknown_Bridge.png": {"english": "Bridge", "chinese": "桥;桥梁"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/BotW_Link_Riding_Master_Cycle_Zero_Artwork.png": {"english": "Journey", "chinese": "旅程;旅行"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg": {"english": "Cooking", "chinese": "烹饪;烹调"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg": {"english": "Bird", "chinese": "鸟;飞禽"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Link_Fired_Bow.png": {"english": "Arrow", "chinese": "箭;箭矢"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png": {"english": "Horse", "chinese": "马"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/BotW_The_Master_Trials_Artwork.png": {"english": "Trial", "chinese": "试炼;考验"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png": {"english": "Cliff", "chinese": "悬崖;峭壁"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png": {"english": "Shrine", "chinese": "神殿;圣地"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Hyrule_Castle.png": {"english": "Castle", "chinese": "城堡"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png": {"english": "Moblin", "chinese": "魔布林(怪物)"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png": {"english": "Lynel", "chinese": "人马(怪物)"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/6/68/BotW_Temple_of_Time_Storm.png": {"english": "Storm", "chinese": "暴风雨;风暴"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/77/BotW_Hyrule_Field.png": {"english": "Field", "chinese": "田野;原野"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png": {"english": "Goron", "chinese": "格龙(种族)"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/f/f1/BotW_Link_before_Master_Sword.png": {"english": "Stand", "chinese": "站立;站着"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/1/17/BotW_Champions_Artwork.png": {"english": "Champion", "chinese": "英雄;冠军"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png": {"english": "Fairy", "chinese": "妖精;仙女"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg": {"english": "Rupee", "chinese": "卢比;货币"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png": {"english": "Bokoblin", "chinese": "波克布林(怪物)"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/2/21/BotW_Link_Rider_Artwork.png": {"english": "Quest", "chinese": "探索;任务"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/BotW_Forest_of_Spirits_Daytime.png": {"english": "Korok", "chinese": "克洛格;树精"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/3/33/BotW_Ancient_Shrine_Rising.png": {"english": "Ancient", "chinese": "古代的;远古的"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/5/56/BotW_Lake_Floria.png": {"english": "Swim", "chinese": "游泳"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/0/09/BotW_Temple_of_Time_Concept_Artwork.png": {"english": "Temple", "chinese": "寺庙;神殿"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/BotW_Link_with_Wolf_Link.png": {"english": "Wolf", "chinese": "狼"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png": {"english": "Elixir", "chinese": "药剂;灵药"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/b/b4/BotW_Snowy_Landscape.png": {"english": "Snow", "chinese": "雪;下雪"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/BotW_Link_Artwork.png": {"english": "Courage", "chinese": "勇气;胆量"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_1st_Anniversary_Master_Sword_Artwork.jpg": {"english": "Sword", "chinese": "剑"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/BotW_River_of_the_Dead.png": {"english": "Riverside", "chinese": "河边;河畔"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png": {"english": "Hinox", "chinese": "希诺克斯(巨人)"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/BotW_Great_Plateau_Tower_Pre-release.png": {"english": "Plateau", "chinese": "高原;平台"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg": {"english": "Stable", "chinese": "马厩;马棚"},
+            "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png": {"english": "Rune", "chinese": "符文;古文字"},
+            "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800&h=1200&fit=crop": {"english": "Delirium", "chinese": "谵妄;精神错乱"},
+            "https://img0.baidu.com/it/u=298411152,3172439207&fm=253&app=138&f=JPEG?w=800&h=1110": {"english": "Shadow", "chinese": "影子;阴影"}
+        };
+
         // 所有图片 URL 列表
         const imageUrls = [
             "https://cdn.wikimg.net/en/zeldawiki/images/0/02/BotW_Link_Shooting_Artwork.png",
@@ -360,10 +518,8 @@
             "https://cdn.wikimg.net/en/zeldawiki/images/2/21/BotW_Link_Rider_Artwork.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/3/33/BotW_Ancient_Shrine_Rising.png",
-            "https://cdn.wikimg.net/en/zeldawiki/images/3/3f/BotW_Riverside_Stable.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png",
-            "https://cdn.wikimg.net/en/zeldawiki/images/4/49/BotW_Sheikah_Slate_Artwork.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_1st_Anniversary_Master_Sword_Artwork.jpg",
             "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png",
             "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png",
@@ -493,12 +649,23 @@
                 card.dataset.status = 'loading';
                 card.dataset.url = url;
 
+                // 获取单词信息
+                const wordInfo = imageWordMappings[url] || { english: 'Unknown', chinese: '未知' };
+
                 card.innerHTML = `
                     <div class="status-badge loading">加载中...</div>
                     <div class="image-container">
                         <div class="loading-spinner"></div>
                     </div>
                     <div class="image-info">
+                        <div class="word-info">
+                            <div class="word-english">${wordInfo.english}</div>
+                            <div class="word-chinese">${wordInfo.chinese}</div>
+                        </div>
+                        <div class="resolution-info">
+                            <span class="resolution-text">分辨率: <span class="resolution-value">加载中...</span></span>
+                            <span class="hd-badge loading">检测中</span>
+                        </div>
                         <div class="image-url">${url}</div>
                         ${getSourceTag(url)}
                         <div class="unavailable-text">❌ 不可用 UNAVAILABLE</div>
@@ -517,15 +684,38 @@
             const img = new Image();
             const container = card.querySelector('.image-container');
             const badge = card.querySelector('.status-badge');
+            const resolutionValue = card.querySelector('.resolution-value');
+            const hdBadge = card.querySelector('.hd-badge');
 
             img.onload = function() {
                 // 图片加载成功
+                const width = img.naturalWidth;
+                const height = img.naturalHeight;
+                const resolution = `${width} x ${height}`;
+
+                // 判断是否高清 (HD: 1280x720以上, Full HD: 1920x1080)
+                const isHD = width >= 1280 && height >= 720;
+                const isFHD = width >= 1920 && height >= 1080;
+
                 container.innerHTML = '';
                 container.appendChild(img);
                 card.className = 'image-card available';
                 card.dataset.status = 'available';
                 badge.className = 'status-badge available';
                 badge.textContent = '✓ 可用';
+
+                // 更新分辨率信息
+                resolutionValue.textContent = resolution;
+                if (isFHD) {
+                    hdBadge.className = 'hd-badge hd';
+                    hdBadge.textContent = 'Full HD';
+                } else if (isHD) {
+                    hdBadge.className = 'hd-badge hd';
+                    hdBadge.textContent = 'HD';
+                } else {
+                    hdBadge.className = 'hd-badge sd';
+                    hdBadge.textContent = 'SD';
+                }
 
                 stats.loading--;
                 stats.available++;
@@ -539,6 +729,11 @@
                 card.dataset.status = 'unavailable';
                 badge.className = 'status-badge unavailable';
                 badge.textContent = '✗ 不可用';
+
+                // 更新分辨率信息
+                resolutionValue.textContent = 'N/A';
+                hdBadge.className = 'hd-badge loading';
+                hdBadge.textContent = 'N/A';
 
                 stats.loading--;
                 stats.unavailable++;
