@@ -652,8 +652,26 @@
     </div>
 
     <script>
-        // Cards data
-        const cardsData = {
+        // Global data variable
+        let cardsData = null;
+        let themesInfo = null;
+
+        // Load data from JSON
+        async function loadData() {
+            try {
+                const response = await fetch('cards-data.json');
+                const data = await response.json();
+                cardsData = data.cards;
+                themesInfo = data.themes;
+                return true;
+            } catch (error) {
+                console.error('Error loading cards data:', error);
+                return false;
+            }
+        }
+
+        // OLD Cards data (keeping as fallback)
+        const cardsDataFallback = {
             "mario": [
                 {
                                 "filename": "accelerate.html",
@@ -1122,7 +1140,8 @@
 ]
         };
 
-        const sceneInfo = {
+        // Scene info will be loaded from JSON
+        const sceneInfoFallback = {
             "mario": {
                 icon: "🏎️",
                 title: "Mario Kart World",
@@ -1148,7 +1167,7 @@
 
             homePage.classList.add('hidden');
             cardDetail.classList.add('active');
-            iframe.src = `${sceneName}/${filename}`;
+            iframe.src = `card-viewer.html?theme=${sceneName}&file=${filename}`;
 
             // Scroll to top
             window.scrollTo(0, 0);
@@ -1173,8 +1192,11 @@
             const container = document.getElementById('scenes-container');
             container.innerHTML = '';
 
-            for (const [sceneName, cards] of Object.entries(cardsData)) {
-                const info = sceneInfo[sceneName];
+            const dataToUse = cardsData || cardsDataFallback;
+            const infoToUse = themesInfo || sceneInfoFallback;
+
+            for (const [sceneName, cards] of Object.entries(dataToUse)) {
+                const info = infoToUse[sceneName];
 
                 // Filter cards
                 const filteredCards = filterText ?
@@ -1236,8 +1258,21 @@
             }
         });
 
-        // Initial render
-        renderScenes();
+        // Initialize app
+        async function initApp() {
+            // Load data from JSON
+            await loadData();
+
+            // Render scenes
+            renderScenes();
+        }
+
+        // Start the app when DOM is loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initApp);
+        } else {
+            initApp();
+        }
     </script>
 </body>
 </html>
