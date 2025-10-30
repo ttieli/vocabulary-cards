@@ -670,6 +670,67 @@
             }
         }
 
+        // Image Preloader Module
+        const ImagePreloader = {
+            preloadedImages: new Set(),
+            preloadQueue: [],
+            maxConcurrent: 3,
+            currentLoading: 0,
+
+            // Preload a single image
+            preload(url) {
+                if (this.preloadedImages.has(url)) {
+                    return Promise.resolve();
+                }
+
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        this.preloadedImages.add(url);
+                        resolve();
+                    };
+                    img.onerror = () => {
+                        console.warn(`Failed to preload image: ${url}`);
+                        reject();
+                    };
+                    img.src = url;
+                });
+            },
+
+            // Preload multiple images in batches
+            async preloadBatch(urls) {
+                const uniqueUrls = urls.filter(url => !this.preloadedImages.has(url));
+
+                for (let i = 0; i < uniqueUrls.length; i += this.maxConcurrent) {
+                    const batch = uniqueUrls.slice(i, i + this.maxConcurrent);
+                    await Promise.allSettled(batch.map(url => this.preload(url)));
+                }
+            },
+
+            // Preload images for visible cards in viewport
+            preloadVisibleCards(cardElements) {
+                const viewportHeight = window.innerHeight;
+                const preloadThreshold = viewportHeight * 1.5; // Preload 1.5 viewports ahead
+
+                const visibleImages = [];
+                cardElements.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const isNearViewport = rect.top < preloadThreshold && rect.bottom > -viewportHeight;
+
+                    if (isNearViewport) {
+                        const img = card.querySelector('img');
+                        if (img && img.dataset.cardImage) {
+                            visibleImages.push(img.dataset.cardImage);
+                        }
+                    }
+                });
+
+                if (visibleImages.length > 0) {
+                    this.preloadBatch(visibleImages);
+                }
+            }
+        };
+
         // OLD Cards data (keeping as fallback)
         const cardsDataFallback = {
             "mario": [

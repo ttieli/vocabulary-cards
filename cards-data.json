@@ -6,19 +6,28 @@
       "icon": "🏎️",
       "title": "Mario Kart World",
       "subtitle": "Racing Adventure Vocabulary",
-      "theme_color": "#e60012"
+      "theme_color": "#e60012",
+      "layout": "horizontal",
+      "badge_text": "RACING",
+      "show_header": true
     },
     "zelda": {
       "icon": "🗡️",
       "title": "The Legend of Zelda",
       "subtitle": "Adventure & Exploration Words",
-      "theme_color": "#00a870"
+      "theme_color": "#00a870",
+      "layout": "vertical",
+      "badge_text": "ADVENTURE",
+      "show_header": true
     },
     "zhanglinghe": {
       "icon": "📝",
       "title": "Zhang Linghe",
       "subtitle": "Special Collection",
-      "theme_color": "#7c3aed"
+      "theme_color": "#7c3aed",
+      "layout": "vertical",
+      "badge_text": null,
+      "show_header": true
     }
   },
   "cards": {
