@@ -580,6 +580,7 @@
             /* 移除页面装饰 */
             .page {
                 max-width: 100%;
+                width: 100%;
                 padding: 0;
                 margin: 0;
                 background: none !important;
@@ -596,6 +597,7 @@
 
             /* 简化卡片样式 - 移除所有装饰 */
             .card {
+                width: 100%;
                 border: none !important;
                 box-shadow: none !important;
                 border-radius: 0 !important;
@@ -613,19 +615,21 @@
             /* 强制垂直布局 */
             .card .card-body {
                 flex-direction: column !important;
+                width: 100%;
             }
 
             .card-header {
                 display: none;
             }
 
-            /* 图片容器 - 上下布局 */
+            /* 图片容器 - 宽度95% */
             .card-image-container {
-                width: 100% !important;
+                width: 95% !important;
                 flex: none !important;
                 min-height: 250px;
                 max-height: 300px;
-                padding: 15px 10px;
+                padding: 15px 5px;
+                margin: 0 auto;
                 background: #f8f8f8 !important;
                 border: none !important;
             }
@@ -633,10 +637,11 @@
             .card.mario .card-image-container,
             .card.hayday .card-image-container,
             .card.zelda .card-image-container {
-                width: 100% !important;
+                width: 95% !important;
                 flex: none !important;
                 min-height: 250px;
-                padding: 15px 10px;
+                padding: 15px 5px;
+                margin: 0 auto;
                 background: #f8f8f8 !important;
             }
 
@@ -646,10 +651,11 @@
                 object-fit: contain;
             }
 
-            /* 内容区域 - 紧凑布局 */
+            /* 内容区域 - 宽度95% */
             .card-content {
-                width: 100%;
-                padding: 12px 15px;
+                width: 95%;
+                margin: 0 auto;
+                padding: 12px 10px;
             }
 
             .word-english {
@@ -697,21 +703,57 @@
                 color: #333 !important;
                 border-radius: 3px;
             }
+
+            /* 移动端导航按钮 - 改为上下布局 */
+            .nav-container {
+                position: fixed;
+                top: auto;
+                left: 50%;
+                right: auto;
+                bottom: 20px;
+                transform: translateX(-50%);
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px;
+                padding: 0;
+                width: auto;
+            }
+
+            .nav-button {
+                width: 60px;
+                height: 60px;
+                font-size: 28px;
+                background: rgba(255, 255, 255, 0.95);
+                border: 2px solid rgba(0, 0, 0, 0.15);
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            }
+
+            .nav-button.prev {
+                margin-left: 0;
+            }
+
+            .nav-button.next {
+                margin-right: 0;
+            }
         }
 
         @media screen and (max-width: 480px) {
             /* 更小屏幕 - 进一步压缩 */
             .card-image-container {
+                width: 95% !important;
                 min-height: 200px;
                 max-height: 250px;
-                padding: 10px 8px;
+                padding: 10px 5px;
+                margin: 0 auto;
             }
 
             .card.mario .card-image-container,
             .card.hayday .card-image-container,
             .card.zelda .card-image-container {
+                width: 95% !important;
                 min-height: 200px;
-                padding: 10px 8px;
+                padding: 10px 5px;
+                margin: 0 auto;
             }
 
             .card-image {
@@ -719,7 +761,9 @@
             }
 
             .card-content {
-                padding: 10px 12px;
+                width: 95%;
+                margin: 0 auto;
+                padding: 10px 8px;
             }
 
             .word-english {
@@ -753,6 +797,18 @@
                 font-size: 0.7em;
                 padding: 3px 8px;
                 margin-top: 6px;
+            }
+
+            /* 更小屏幕上的导航按钮 */
+            .nav-container {
+                bottom: 15px;
+                gap: 15px;
+            }
+
+            .nav-button {
+                width: 55px;
+                height: 55px;
+                font-size: 26px;
             }
         }
     </style>
