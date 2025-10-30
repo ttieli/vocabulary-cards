@@ -15,7 +15,7 @@
       "definition_en": "A cereal grain that is a staple food used to make flour, bread, and many other products. It's the first and fastest-growing crop in Hay Day.",
       "example_en": "Plant wheat in your field and harvest it after 2 minutes.",
       "example_zh": "在你的田地里种植小麦,2分钟后收获。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Wheat.png/revision/latest?cb=20240218150024",
+      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Wheat.png/revision/latest/scale-to-width-down/400?cb=20240218150024",
       "theme": "hayday",
       "filename": "wheat.html"
     },
@@ -29,7 +29,7 @@
       "definition_en": "A cereal grain that can be eaten fresh or processed into various foods and animal feed. Essential for making corn bread and popcorn.",
       "example_en": "Corn takes 5 minutes to grow and is used in many recipes.",
       "example_zh": "玉米需要5分钟生长,用于许多配方中。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/f/f8/Corn.png/revision/latest?cb=20240218151631",
+      "image": "https://static.wikia.nocookie.net/hayday/images/f/f8/Corn.png/revision/latest/scale-to-width-down/400?cb=20240218151631",
       "theme": "hayday",
       "filename": "corn.html"
     },
@@ -43,7 +43,7 @@
       "definition_en": "A legume high in protein, used to make tofu, soy sauce, and animal feed. Unlocked at level 5 with a 20-minute growth time.",
       "example_en": "Soybeans are perfect for making nutritious animal feed.",
       "example_zh": "大豆非常适合制作营养丰富的动物饲料。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/9/9e/Soybean.png/revision/latest?cb=20240219031547",
+      "image": "https://static.wikia.nocookie.net/hayday/images/9/9e/Soybean.png/revision/latest/scale-to-width-down/400?cb=20240219031547",
       "theme": "hayday",
       "filename": "soybean.html"
     },
@@ -57,7 +57,7 @@
       "definition_en": "A tall grass plant from which sugar is extracted. Takes 30 minutes to grow and is used to make white and brown sugar.",
       "example_en": "Harvest sugarcane to make sweet brown sugar for your products.",
       "example_zh": "收获甘蔗来为你的产品制作甜美的红糖。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/03/Sugarcane.png/revision/latest?cb=20240219031727",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/03/Sugarcane.png/revision/latest/scale-to-width-down/400?cb=20240219031727",
       "theme": "hayday",
       "filename": "sugarcane.html"
     },
@@ -71,7 +71,7 @@
       "definition_en": "An orange root vegetable rich in vitamin A and beta-carotene. Used to make carrot pie and carrot cake in the game.",
       "example_en": "Plant carrots to make delicious carrot pie for your customers.",
       "example_zh": "种植胡萝卜为你的顾客制作美味的胡萝卜派。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Carrot.png/revision/latest?cb=20240218151353",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Carrot.png/revision/latest/scale-to-width-down/400?cb=20240218151353",
       "theme": "hayday",
       "filename": "carrot.html"
     },
@@ -99,7 +99,7 @@
       "definition_en": "A large orange gourd vegetable often used in pies and soups. Takes 3 hours to grow and is perfect for making pumpkin pie.",
       "example_en": "Grow pumpkins in autumn to make festive pumpkin pie.",
       "example_zh": "在秋天种植南瓜来制作节日南瓜派。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/64/Pumpkin.png/revision/latest?cb=20240219030742",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/64/Pumpkin.png/revision/latest/scale-to-width-down/400?cb=20240219030742",
       "theme": "hayday",
       "filename": "pumpkin.html"
     },
@@ -111,7 +111,7 @@
       "category": "Tree Crop",
       "definition_zh": "苹果是一种甜美的水果,富含纤维和维生素。在游戏中,苹果树需要在农场上种植,每棵树可以收获多次。",
       "definition_en": "A sweet fruit rich in fiber and vitamins. Apple trees can be harvested multiple times.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/7/7d/Apple.png/revision/latest?cb=20240219032402",
+      "image": "https://static.wikia.nocookie.net/hayday/images/7/7d/Apple.png/revision/latest/scale-to-width-down/400?cb=20240219032402",
       "theme": "hayday",
       "filename": "apple.html"
     },
@@ -125,7 +125,7 @@
       "definition_en": "A soft, fluffy fiber used to make textiles and clothing. Not edible, but essential for making cotton shirts and other fabric items.",
       "example_en": "Harvest cotton to weave cloth for making shirts and sweaters.",
       "example_zh": "收获棉花来编织布料制作衬衫和毛衣。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Cotton.png/revision/latest?cb=20240218151721",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Cotton.png/revision/latest/scale-to-width-down/400?cb=20240218151721",
       "theme": "hayday",
       "filename": "cotton.html"
     },
@@ -137,7 +137,7 @@
       "category": "Bush Crop",
       "definition_zh": "覆盆子是一种小巧的红色浆果,味道酸甜可口,富含抗氧化剂。",
       "definition_en": "A small red berry that is sweet-tart and rich in antioxidants.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/1/1f/Raspberry.png/revision/latest?cb=20240219032258",
+      "image": "https://static.wikia.nocookie.net/hayday/images/1/1f/Raspberry.png/revision/latest/scale-to-width-down/400?cb=20240219032258",
       "theme": "hayday",
       "filename": "raspberry.html"
     },
@@ -149,7 +149,7 @@
       "category": "Tree Crop",
       "definition_zh": "樱桃是一种小而圆的红色水果,味道甜美,常用于制作果酱和甜点。",
       "definition_en": "A small, round red fruit that is sweet and commonly used in jams and desserts.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/2/20/Cherry.png/revision/latest?cb=20191023150203",
+      "image": "https://static.wikia.nocookie.net/hayday/images/2/20/Cherry.png/revision/latest/scale-to-width-down/400?cb=20191023150203",
       "theme": "hayday",
       "filename": "cherry.html"
     },
@@ -175,7 +175,7 @@
       "category": "Bush Crop",
       "definition_zh": "黑莓是一种深紫色的浆果,富含维生素和矿物质,味道酸甜可口。",
       "definition_en": "A dark purple berry rich in vitamins and minerals with a sweet-tart flavor.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/2/25/Blackberry.png/revision/latest?cb=20240219032632",
+      "image": "https://static.wikia.nocookie.net/hayday/images/2/25/Blackberry.png/revision/latest/scale-to-width-down/400?cb=20240219032632",
       "theme": "hayday",
       "filename": "blackberry.html"
     },
@@ -189,7 +189,7 @@
       "definition_en": "A red fruit-vegetable rich in vitamin C and lycopene. Used to make tomato juice, pizza sauce, and many other products.",
       "example_en": "Fresh tomatoes are perfect for making healthy tomato juice.",
       "example_zh": "新鲜番茄非常适合制作健康的番茄汁。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/9/9d/Tomato.png/revision/latest?cb=20240219025108",
+      "image": "https://static.wikia.nocookie.net/hayday/images/9/9d/Tomato.png/revision/latest/scale-to-width-down/400?cb=20240219025108",
       "theme": "hayday",
       "filename": "tomato.html"
     },
@@ -215,7 +215,7 @@
       "category": "Field Crop",
       "definition_zh": "草莓是一种红色的心形浆果,味道香甜,深受人们喜爱,富含维生素C。",
       "definition_en": "A red, heart-shaped berry that is sweet and beloved, rich in vitamin C.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/6d/Strawberry.png/revision/latest?cb=20240219031821",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/6d/Strawberry.png/revision/latest/scale-to-width-down/400?cb=20240219031821",
       "theme": "hayday",
       "filename": "strawberry.html"
     },
