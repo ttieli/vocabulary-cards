@@ -1321,11 +1321,43 @@
 
         // Initialize app
         async function initApp() {
-            // Load data from JSON
+            // 1. Load data from JSON
             await loadData();
 
-            // Render scenes
+            // 2. Render scenes
             renderScenes();
+
+            // 3. Preload visible card images (high priority)
+            setTimeout(() => {
+                ImagePreloader.preloadVisibleCards();
+            }, 500);
+
+            // 4. Add scroll listener for dynamic preloading
+            let scrollTimeout;
+            window.addEventListener('scroll', () => {
+                clearTimeout(scrollTimeout);
+                scrollTimeout = setTimeout(() => {
+                    ImagePreloader.preloadVisibleCards();
+                }, 200);
+            });
+
+            // 5. Preload theme images when scene card is clicked
+            document.addEventListener('click', (e) => {
+                const sceneCard = e.target.closest('.scene-card');
+                if (sceneCard) {
+                    const themeName = sceneCard.dataset.scene;
+                    if (themeName && cardsData && cardsData[themeName]) {
+                        const themeImages = cardsData[themeName]
+                            .map(card => card.image)
+                            .filter(url => url);
+
+                        // Low priority preload after 2 seconds
+                        setTimeout(() => {
+                            ImagePreloader.preloadBatch(themeImages);
+                        }, 2000);
+                    }
+                }
+            });
         }
 
         // Start the app when DOM is loaded
