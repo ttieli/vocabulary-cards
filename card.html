@@ -561,127 +561,198 @@
             margin-right: 0;
         }
 
-        /* Responsive Design */
+        /* Responsive Design - Simplified Mobile View */
         @media screen and (max-width: 768px) {
+            /* 简化背景 */
+            body {
+                background: #ffffff !important;
+                padding: 0;
+                min-height: 100svh;
+                align-items: flex-start;
+            }
+
+            body.mario,
+            body.zelda,
+            body.hayday {
+                background: #ffffff !important;
+            }
+
+            /* 移除页面装饰 */
             .page {
                 max-width: 100%;
-                padding: 8px;
-                margin: 8px auto;
+                padding: 0;
+                margin: 0;
+                background: none !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
             }
 
+            .page.mario,
+            .page.zelda,
+            .page.hayday {
+                background: none !important;
+                box-shadow: none !important;
+            }
+
+            /* 简化卡片样式 - 移除所有装饰 */
             .card {
-                border-radius: 20px;
+                border: none !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+                background: #ffffff !important;
             }
 
-            /* 保持横屏布局，优化图片占比 */
-            .card.mario .card-image-container {
-                flex: 0 0 35%;
-                min-height: 200px;
+            .card.zelda,
+            .card.mario,
+            .card.hayday {
+                border: none !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
             }
 
-            .card.hayday .card-image-container {
-                flex: 0 0 35%;
-                min-height: 200px;
+            /* 强制垂直布局 */
+            .card .card-body {
+                flex-direction: column !important;
             }
 
-            .card.zelda .card-image-container {
-                min-height: 200px;
+            .card-header {
+                display: none;
             }
 
+            /* 图片容器 - 上下布局 */
             .card-image-container {
-                min-height: 200px;
-                padding: 15px;
+                width: 100% !important;
+                flex: none !important;
+                min-height: 250px;
+                max-height: 300px;
+                padding: 15px 10px;
+                background: #f8f8f8 !important;
+                border: none !important;
+            }
+
+            .card.mario .card-image-container,
+            .card.hayday .card-image-container,
+            .card.zelda .card-image-container {
+                width: 100% !important;
+                flex: none !important;
+                min-height: 250px;
+                padding: 15px 10px;
+                background: #f8f8f8 !important;
             }
 
             .card-image {
-                max-height: 250px;
+                max-height: 240px;
+                max-width: 100%;
+                object-fit: contain;
             }
 
+            /* 内容区域 - 紧凑布局 */
             .card-content {
-                padding: 20px;
+                width: 100%;
+                padding: 12px 15px;
             }
 
             .word-english {
-                font-size: 1.8em;
+                font-size: 1.6em;
+                margin-bottom: 4px;
             }
 
             .pronunciation {
-                font-size: 1em;
+                font-size: 0.9em;
+                margin-bottom: 6px;
             }
 
             .word-chinese {
-                font-size: 1.2em;
+                font-size: 1.1em;
+                margin-bottom: 10px;
+            }
+
+            /* 简化定义样式 */
+            .definition {
+                font-size: 0.85em;
+                padding: 8px 10px;
+                margin: 8px 0;
+                background: #f5f5f5 !important;
+                border: none !important;
+                border-left: 3px solid #999 !important;
+                border-radius: 0;
+            }
+
+            /* 简化例句样式 */
+            .example {
+                font-size: 0.8em;
+                padding: 6px 10px;
+                margin: 6px 0;
+                background: #fafafa !important;
+                border: none !important;
+                border-radius: 0;
+            }
+
+            /* 简化分类标签 */
+            .category {
+                font-size: 0.75em;
+                padding: 4px 10px;
+                margin-top: 8px;
+                background: #e0e0e0 !important;
+                color: #333 !important;
+                border-radius: 3px;
             }
         }
 
         @media screen and (max-width: 480px) {
-            .page {
-                padding: 5px;
-                margin: 5px auto;
-            }
-
-            .card {
-                border-radius: 15px;
-            }
-
-            /* 保持横屏，进一步缩小图片占比 */
-            .card.mario .card-image-container {
-                flex: 0 0 32%;
-                min-height: 160px;
-                padding: 10px;
-            }
-
-            .card.hayday .card-image-container {
-                flex: 0 0 32%;
-                min-height: 160px;
-                padding: 10px;
-            }
-
-            .card.zelda .card-image-container {
-                min-height: 160px;
-                padding: 10px;
-            }
-
+            /* 更小屏幕 - 进一步压缩 */
             .card-image-container {
-                min-height: 160px;
-                padding: 10px;
+                min-height: 200px;
+                max-height: 250px;
+                padding: 10px 8px;
+            }
+
+            .card.mario .card-image-container,
+            .card.hayday .card-image-container,
+            .card.zelda .card-image-container {
+                min-height: 200px;
+                padding: 10px 8px;
             }
 
             .card-image {
-                max-height: 180px;
+                max-height: 200px;
             }
 
             .card-content {
-                padding: 10px;
+                padding: 10px 12px;
             }
 
             .word-english {
                 font-size: 1.4em;
+                margin-bottom: 3px;
             }
 
             .pronunciation {
                 font-size: 0.85em;
+                margin-bottom: 5px;
             }
 
             .word-chinese {
                 font-size: 1em;
+                margin-bottom: 8px;
             }
 
             .definition {
-                font-size: 0.85em;
-                padding: 8px;
-                margin: 8px 0;
-            }
-
-            .example {
                 font-size: 0.8em;
-                padding: 6px;
+                padding: 6px 8px;
                 margin: 6px 0;
             }
 
-            .category {
+            .example {
                 font-size: 0.75em;
-                padding: 4px 8px;
+                padding: 5px 8px;
+                margin: 5px 0;
+            }
+
+            .category {
+                font-size: 0.7em;
+                padding: 3px 8px;
+                margin-top: 6px;
             }
         }
     </style>
