@@ -13,7 +13,7 @@
       "definition_en": "A cereal grain that is a staple food used to make flour, bread, and many other products. It's the first and fastest-growing crop in Hay Day.",
       "example_en": "Plant wheat in your field and harvest it after 2 minutes.",
       "example_zh": "在你的田地里种植小麦,2分钟后收获。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Wheat.png/revision/latest?cb=20240218150024",
+      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Wheat.png/revision/latest/scale-to-width-down/400?cb=20240218150024",
       "theme": "hayday",
       "filename": "wheat.html"
     },
@@ -27,7 +27,7 @@
       "definition_en": "A cereal grain that can be eaten fresh or processed into various foods and animal feed. Essential for making corn bread and popcorn.",
       "example_en": "Corn takes 5 minutes to grow and is used in many recipes.",
       "example_zh": "玉米需要5分钟生长,用于许多配方中。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/f/f8/Corn.png/revision/latest?cb=20240218151631",
+      "image": "https://static.wikia.nocookie.net/hayday/images/f/f8/Corn.png/revision/latest/scale-to-width-down/400?cb=20240218151631",
       "theme": "hayday",
       "filename": "corn.html"
     },
@@ -41,7 +41,7 @@
       "definition_en": "A legume high in protein, used to make tofu, soy sauce, and animal feed. Unlocked at level 5 with a 20-minute growth time.",
       "example_en": "Soybeans are perfect for making nutritious animal feed.",
       "example_zh": "大豆非常适合制作营养丰富的动物饲料。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/9/9e/Soybean.png/revision/latest?cb=20240219031547",
+      "image": "https://static.wikia.nocookie.net/hayday/images/9/9e/Soybean.png/revision/latest/scale-to-width-down/400?cb=20240219031547",
       "theme": "hayday",
       "filename": "soybean.html"
     },
@@ -55,7 +55,7 @@
       "definition_en": "A tall grass plant from which sugar is extracted. Takes 30 minutes to grow and is used to make white and brown sugar.",
       "example_en": "Harvest sugarcane to make sweet brown sugar for your products.",
       "example_zh": "收获甘蔗来为你的产品制作甜美的红糖。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/03/Sugarcane.png/revision/latest?cb=20240219031727",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/03/Sugarcane.png/revision/latest/scale-to-width-down/400?cb=20240219031727",
       "theme": "hayday",
       "filename": "sugarcane.html"
     },
@@ -69,7 +69,7 @@
       "definition_en": "An orange root vegetable rich in vitamin A and beta-carotene. Used to make carrot pie and carrot cake in the game.",
       "example_en": "Plant carrots to make delicious carrot pie for your customers.",
       "example_zh": "种植胡萝卜为你的顾客制作美味的胡萝卜派。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Carrot.png/revision/latest?cb=20240218151353",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Carrot.png/revision/latest/scale-to-width-down/400?cb=20240218151353",
       "theme": "hayday",
       "filename": "carrot.html"
     },
@@ -97,7 +97,7 @@
       "definition_en": "A large orange gourd vegetable often used in pies and soups. Takes 3 hours to grow and is perfect for making pumpkin pie.",
       "example_en": "Grow pumpkins in autumn to make festive pumpkin pie.",
       "example_zh": "在秋天种植南瓜来制作节日南瓜派。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/64/Pumpkin.png/revision/latest?cb=20240219030742",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/64/Pumpkin.png/revision/latest/scale-to-width-down/400?cb=20240219030742",
       "theme": "hayday",
       "filename": "pumpkin.html"
     },
@@ -109,7 +109,7 @@
       "category": "Tree Crop",
       "definition_zh": "苹果是一种甜美的水果,富含纤维和维生素。在游戏中,苹果树需要在农场上种植,每棵树可以收获多次。",
       "definition_en": "A sweet fruit rich in fiber and vitamins. Apple trees can be harvested multiple times.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/7/7d/Apple.png/revision/latest?cb=20240219032402",
+      "image": "https://static.wikia.nocookie.net/hayday/images/7/7d/Apple.png/revision/latest/scale-to-width-down/400?cb=20240219032402",
       "theme": "hayday",
       "filename": "apple.html"
     },
@@ -123,7 +123,7 @@
       "definition_en": "A soft, fluffy fiber used to make textiles and clothing. Not edible, but essential for making cotton shirts and other fabric items.",
       "example_en": "Harvest cotton to weave cloth for making shirts and sweaters.",
       "example_zh": "收获棉花来编织布料制作衬衫和毛衣。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Cotton.png/revision/latest?cb=20240218151721",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Cotton.png/revision/latest/scale-to-width-down/400?cb=20240218151721",
       "theme": "hayday",
       "filename": "cotton.html"
     },
@@ -135,7 +135,7 @@
       "category": "Bush Crop",
       "definition_zh": "覆盆子是一种小巧的红色浆果,味道酸甜可口,富含抗氧化剂。",
       "definition_en": "A small red berry that is sweet-tart and rich in antioxidants.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/1/1f/Raspberry.png/revision/latest?cb=20240219032258",
+      "image": "https://static.wikia.nocookie.net/hayday/images/1/1f/Raspberry.png/revision/latest/scale-to-width-down/400?cb=20240219032258",
       "theme": "hayday",
       "filename": "raspberry.html"
     },
@@ -147,7 +147,7 @@
       "category": "Tree Crop",
       "definition_zh": "樱桃是一种小而圆的红色水果,味道甜美,常用于制作果酱和甜点。",
       "definition_en": "A small, round red fruit that is sweet and commonly used in jams and desserts.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/2/20/Cherry.png/revision/latest?cb=20191023150203",
+      "image": "https://static.wikia.nocookie.net/hayday/images/2/20/Cherry.png/revision/latest/scale-to-width-down/400?cb=20191023150203",
       "theme": "hayday",
       "filename": "cherry.html"
     },
@@ -173,7 +173,7 @@
       "category": "Bush Crop",
       "definition_zh": "黑莓是一种深紫色的浆果,富含维生素和矿物质,味道酸甜可口。",
       "definition_en": "A dark purple berry rich in vitamins and minerals with a sweet-tart flavor.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/2/25/Blackberry.png/revision/latest?cb=20240219032632",
+      "image": "https://static.wikia.nocookie.net/hayday/images/2/25/Blackberry.png/revision/latest/scale-to-width-down/400?cb=20240219032632",
       "theme": "hayday",
       "filename": "blackberry.html"
     },
@@ -187,7 +187,7 @@
       "definition_en": "A red fruit-vegetable rich in vitamin C and lycopene. Used to make tomato juice, pizza sauce, and many other products.",
       "example_en": "Fresh tomatoes are perfect for making healthy tomato juice.",
       "example_zh": "新鲜番茄非常适合制作健康的番茄汁。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/9/9d/Tomato.png/revision/latest?cb=20240219025108",
+      "image": "https://static.wikia.nocookie.net/hayday/images/9/9d/Tomato.png/revision/latest/scale-to-width-down/400?cb=20240219025108",
       "theme": "hayday",
       "filename": "tomato.html"
     },
@@ -213,7 +213,7 @@
       "category": "Field Crop",
       "definition_zh": "草莓是一种红色的心形浆果,味道香甜,深受人们喜爱,富含维生素C。",
       "definition_en": "A red, heart-shaped berry that is sweet and beloved, rich in vitamin C.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/6d/Strawberry.png/revision/latest?cb=20240219031821",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/6d/Strawberry.png/revision/latest/scale-to-width-down/400?cb=20240219031821",
       "theme": "hayday",
       "filename": "strawberry.html"
     },
@@ -285,7 +285,7 @@
       "definition_en": "The first farm animal you unlock. Chickens lay eggs regularly, which are essential ingredients for many recipes like bacon and eggs, cakes, and cookies.",
       "example_en": "Feed your chickens regularly to collect fresh eggs every day.",
       "example_zh": "定期喂养你的鸡以每天收集新鲜鸡蛋。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/a/a3/Chicken.png/revision/latest?cb=20191025192121",
+      "image": "https://static.wikia.nocookie.net/hayday/images/a/a3/Chicken.png/revision/latest/scale-to-width-down/400?cb=20191025192121",
       "theme": "hayday",
       "filename": "chicken.html"
     },
@@ -301,7 +301,7 @@
       "definition_en": "Cows produce milk, which is used to make cream, butter, cheese, and ice cream. They must be housed in cow sheds and fed with cow feed.",
       "example_en": "Your cows produce fresh milk that can be turned into delicious dairy products.",
       "example_zh": "你的奶牛生产新鲜牛奶,可以制成美味的乳制品。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/8/84/Cow.png/revision/latest?cb=20191025194659",
+      "image": "https://static.wikia.nocookie.net/hayday/images/8/84/Cow.png/revision/latest/scale-to-width-down/400?cb=20191025194659",
       "theme": "hayday",
       "filename": "cow.html"
     },
@@ -317,7 +317,7 @@
       "definition_en": "Pigs produce bacon, a cured meat product used in recipes like bacon and eggs, bacon pie, and hamburgers. Pigs live in pig pens and eat pig feed.",
       "example_en": "Raise pigs on your farm to harvest bacon for cooking delicious meals.",
       "example_zh": "在农场饲养猪来收获培根烹饪美味佳肴。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/30/Pig.png/revision/latest?cb=20191025201248",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/30/Pig.png/revision/latest/scale-to-width-down/400?cb=20191025201248",
       "theme": "hayday",
       "filename": "pig.html"
     },
@@ -333,7 +333,7 @@
       "definition_en": "Sheep produce wool, which is essential for making clothing items like sweaters, woolly hats, and wooly chaps. They live in sheep pens and need sheep feed.",
       "example_en": "Shear your sheep regularly to collect soft wool for knitting warm clothes.",
       "example_zh": "定期剪你的羊毛来收集柔软的羊毛编织保暖衣物。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/cc/Sheep.png/revision/latest?cb=20191025203649",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/cc/Sheep.png/revision/latest/scale-to-width-down/400?cb=20191025203649",
       "theme": "hayday",
       "filename": "sheep.html"
     },
@@ -349,7 +349,7 @@
       "definition_en": "Goats produce goat milk, which is used to make goat cheese and pizza. Goats need goat sheds and goat feed to thrive.",
       "example_en": "Goat milk makes excellent cheese that customers love in pizza recipes.",
       "example_zh": "羊奶制作出顾客喜爱的优质奶酪,用于披萨配方。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/52/Goat.png/revision/latest?cb=20191025202216",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/52/Goat.png/revision/latest/scale-to-width-down/400?cb=20191025202216",
       "theme": "hayday",
       "filename": "goat.html"
     },
@@ -365,7 +365,7 @@
       "definition_en": "Honey bees produce honeycombs, which can be processed into honey. Honey is a natural sweetener used in many recipes. Bees live in beehives and don't require feed.",
       "example_en": "Your bees work hard to produce sweet honey for delicious treats.",
       "example_zh": "你的蜜蜂勤劳工作生产甜美的蜂蜜制作美味佳肴。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Honey_Bee.png/revision/latest?cb=20191025204515",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/c3/Honey_Bee.png/revision/latest/scale-to-width-down/400?cb=20191025204515",
       "theme": "hayday",
       "filename": "honey-bee.html"
     },
@@ -381,7 +381,7 @@
       "definition_en": "Ducks produce duck feathers, which are used to make pillows and down jackets. Ducks live in duck salons and need to be fed duck feed.",
       "example_en": "Collect duck feathers to craft soft, comfortable pillows for your customers.",
       "example_zh": "收集鸭毛为顾客制作柔软舒适的枕头。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/38/Duck.png/revision/latest?cb=20150713101647",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/38/Duck.png/revision/latest/scale-to-width-down/400?cb=20150713101647",
       "theme": "hayday",
       "filename": "duck.html"
     },
@@ -397,7 +397,7 @@
       "definition_en": "Squirrels collect peanuts, which are used to make peanut butter, peanut brittle, and other snacks. They live in squirrel houses.",
       "example_en": "Watch your squirrels gather peanuts to make tasty peanut butter.",
       "example_zh": "看你的松鼠收集花生来制作美味的花生酱。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/4/41/Squirrel.png/revision/latest?cb=20200707053020",
+      "image": "https://static.wikia.nocookie.net/hayday/images/4/41/Squirrel.png/revision/latest/scale-to-width-down/400?cb=20200707053020",
       "theme": "hayday",
       "filename": "squirrel.html"
     },
@@ -408,7 +408,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "大象是陆地上最大的动物,拥有长长的鼻子和大耳朵。在保护区中,可以饲养成年大象和小象。",
       "definition_en": "The largest land animal with a long trunk and big ears. Both adults and calves can be raised in the sanctuary.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/4/45/Brown_Elephant.png/revision/latest?cb=20191028140246",
+      "image": "https://static.wikia.nocookie.net/hayday/images/4/45/Brown_Elephant.png/revision/latest/scale-to-width-down/400?cb=20191028140246",
       "theme": "hayday",
       "filename": "elephant.html"
     },
@@ -419,7 +419,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "长颈鹿拥有世界上最长的脖子,可以吃到高处的树叶。它们的斑点图案非常独特。",
       "definition_en": "Has the world's longest neck to reach high leaves. Each giraffe's spot pattern is unique.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/7/71/Beige_Giraffe.png/revision/latest?cb=20191028140607",
+      "image": "https://static.wikia.nocookie.net/hayday/images/7/71/Beige_Giraffe.png/revision/latest/scale-to-width-down/400?cb=20191028140607",
       "theme": "hayday",
       "filename": "giraffe.html"
     },
@@ -430,7 +430,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "河马是半水生的大型哺乳动物,喜欢在水中度过大部分时间,但实际上不会游泳。",
       "definition_en": "A large semi-aquatic mammal that spends most of its time in water but cannot actually swim.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/b/b9/Brown_Hippo.png/revision/latest?cb=20191028140311",
+      "image": "https://static.wikia.nocookie.net/hayday/images/b/b9/Brown_Hippo.png/revision/latest/scale-to-width-down/400?cb=20191028140311",
       "theme": "hayday",
       "filename": "hippopotamus.html"
     },
@@ -441,7 +441,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "斑马以其独特的黑白条纹而闻名,每只斑马的条纹图案都是独一无二的。",
       "definition_en": "Famous for its unique black and white stripes. Each zebra's stripe pattern is one of a kind.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/6e/Cowlick_Zebra.png/revision/latest?cb=20191023104131",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/6e/Cowlick_Zebra.png/revision/latest/scale-to-width-down/400?cb=20191023104131",
       "theme": "hayday",
       "filename": "zebra.html"
     },
@@ -452,7 +452,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "大猩猩是最大的灵长类动物,非常聪明,与人类DNA相似度达98%。",
       "definition_en": "The largest primate, highly intelligent with 98% DNA similarity to humans.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/2/22/Silverback_Gorilla.png/revision/latest?cb=20210715200749",
+      "image": "https://static.wikia.nocookie.net/hayday/images/2/22/Silverback_Gorilla.png/revision/latest/scale-to-width-down/400?cb=20210715200749",
       "theme": "hayday",
       "filename": "gorilla.html"
     },
@@ -463,7 +463,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "驯鹿生活在寒冷地区,是圣诞老人雪橇队的成员。它们的鹿角非常雄伟。",
       "definition_en": "Lives in cold regions and is a member of Santa's sleigh team. They have magnificent antlers.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/30/Grey_Reindeer.png/revision/latest?cb=20210715203333",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/30/Grey_Reindeer.png/revision/latest/scale-to-width-down/400?cb=20210715203333",
       "theme": "hayday",
       "filename": "reindeer.html"
     },
@@ -474,7 +474,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "北极狐生活在极地地区,拥有厚厚的毛皮来抵御严寒。",
       "definition_en": "Arctic foxes live in polar regions with thick fur to withstand extreme cold.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/05/White_Arctic_Fox.png/revision/latest?cb=20211018203835",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/05/White_Arctic_Fox.png/revision/latest/scale-to-width-down/400?cb=20211018203835",
       "theme": "hayday",
       "filename": "fox.html"
     },
@@ -485,7 +485,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "猎豹是陆地上跑得最快的动物,时速可达120公里。它们身上有独特的黑色斑点。",
       "definition_en": "The fastest land animal, capable of speeds up to 120 km/h. They have distinctive black spots.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/b/b4/Yellow_Cheetah.png/revision/latest?cb=20220107221702",
+      "image": "https://static.wikia.nocookie.net/hayday/images/b/b4/Yellow_Cheetah.png/revision/latest/scale-to-width-down/400?cb=20220107221702",
       "theme": "hayday",
       "filename": "cheetah.html"
     },
@@ -496,7 +496,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "海象生活在北极地区,拥有长长的獠牙,可以用来在冰上移动和防御。",
       "definition_en": "Lives in Arctic regions with long tusks used for moving on ice and defense.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/5a/Grey_Walrus.png/revision/latest?cb=20221003214740",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/5a/Grey_Walrus.png/revision/latest/scale-to-width-down/400?cb=20221003214740",
       "theme": "hayday",
       "filename": "walrus.html"
     },
@@ -507,7 +507,7 @@
       "category": "Sanctuary Animal",
       "definition_zh": "狐獴是小型群居动物,经常站立起来警戒周围环境,非常机警可爱。",
       "definition_en": "Small social animals that often stand upright to watch their surroundings, very alert and adorable.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/64/Red_Meerkat.png/revision/latest?cb=20230625170853",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/64/Red_Meerkat.png/revision/latest/scale-to-width-down/400?cb=20230625170853",
       "theme": "hayday",
       "filename": "meerkat.html"
     },
@@ -523,7 +523,7 @@
       "definition_en": "Fish are caught in the fishing lake and can be processed into fish fillets. Used to make fish and chips, sushi, and other seafood dishes.",
       "example_en": "Catch fresh fish from the lake and fillet them for tasty seafood recipes.",
       "example_zh": "从湖中捕捉新鲜的鱼并切成鱼片做美味的海鲜菜肴。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/f/f8/Sockeye_Salmon.png/revision/latest?cb=20150711153706",
+      "image": "https://static.wikia.nocookie.net/hayday/images/f/f8/Sockeye_Salmon.png/revision/latest/scale-to-width-down/400?cb=20150711153706",
       "theme": "hayday",
       "filename": "fish.html"
     },
@@ -539,7 +539,7 @@
       "definition_en": "Lobsters are caught in the fishing lake and provide lobster tails, a premium seafood ingredient used in gourmet recipes.",
       "example_en": "Lobster tails are a delicacy that fetch high prices at the roadside shop.",
       "example_zh": "龙虾尾是一种美味佳肴,在路边小店可以卖高价。",
-      "image": "https://static.wikia.nocookie.net/hayday/images/9/9f/Lobster.png/revision/latest?cb=20150713102226",
+      "image": "https://static.wikia.nocookie.net/hayday/images/9/9f/Lobster.png/revision/latest/scale-to-width-down/400?cb=20150713102226",
       "theme": "hayday",
       "filename": "lobster.html"
     },
@@ -551,7 +551,7 @@
       "category": "Pet",
       "definition_zh": "狗是人类忠实的朋友。在游戏中,狗作为宠物可以在农场自由活动,喂养它们可以获得经验值和道具奖励。",
       "definition_en": "Man's best friend. Dogs are pets that roam freely on the farm and provide experience and rewards when fed.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/b/b1/Retriever.png/revision/latest?cb=20150713100611",
+      "image": "https://static.wikia.nocookie.net/hayday/images/b/b1/Retriever.png/revision/latest/scale-to-width-down/400?cb=20150713100611",
       "theme": "hayday",
       "filename": "dog.html"
     },
@@ -563,7 +563,7 @@
       "category": "Pet",
       "definition_zh": "猫是可爱的宠物,喜欢在农场四处探索。喂养猫咪可以获得各种奖励。",
       "definition_en": "Cute pets that love to explore the farm. Feeding cats provides various rewards.",
-      "image": "https://static.wikia.nocookie.net/hayday/images/b/b3/Tabby_Cat.png/revision/latest?cb=20150912164934",
+      "image": "https://static.wikia.nocookie.net/hayday/images/b/b3/Tabby_Cat.png/revision/latest/scale-to-width-down/400?cb=20150912164934",
       "theme": "hayday",
       "filename": "cat.html"
     },
