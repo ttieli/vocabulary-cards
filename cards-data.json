@@ -20,15 +20,6 @@
       "badge_text": "ADVENTURE",
       "show_header": true
     },
-    "zhanglinghe": {
-      "icon": "📝",
-      "title": "Zhang Linghe",
-      "subtitle": "Special Collection",
-      "theme_color": "#7c3aed",
-      "layout": "vertical",
-      "badge_text": null,
-      "show_header": true
-    },
     "hayday": {
       "icon": "🌾",
       "title": "Hay Day Farm",
@@ -1511,34 +1502,6 @@
         "example_en": "Wolf Link accompanies Link on his adventure.",
         "example_zh": "狼林克陪伴林克进行冒险。",
         "category": "行动"
-      }
-    ],
-    "zhanglinghe": [
-      {
-        "theme": "zhanglinghe",
-        "filename": "delirium.html",
-        "word": "Delirium",
-        "pronunciation": "/dɪˈlɪriəm/",
-        "chinese": "谵妄;精神错乱",
-        "image": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800&h=1200&fit=crop",
-        "definition_en": "A disturbed state of mind characterized by restlessness, illusions, and incoherence; an acutely confused state of consciousness.",
-        "definition_zh": "理智与情感崩溃的混乱状态;一种精神错乱的急性意识混乱状态,带有诗意疯狂的病态美感。",
-        "example_en": "Between desire and despair, he wandered in a delirium of love.",
-        "example_zh": "在欲望与绝望之间,他徘徊在爱的谵妄中。",
-        "category": "剧情主题"
-      },
-      {
-        "theme": "zhanglinghe",
-        "filename": "shadow.html",
-        "word": "Shadow",
-        "pronunciation": "/ˈʃædəʊ/",
-        "chinese": "影子;阴影",
-        "image": "https://img0.baidu.com/it/u=298411152,3172439207&fm=253&app=138&f=JPEG?w=800&h=1110",
-        "definition_en": "A dark area or shape produced by something blocking the light; a person or thing that follows or accompanies someone constantly.",
-        "definition_zh": "物体遮挡光线而产生的阴暗区域;始终跟随或陪伴某人的人或事物。",
-        "example_en": "In the palace, everyone lives in the shadow of power and fate.",
-        "example_zh": "在宫廷中,每个人都生活在权力与命运的阴影之下。",
-        "category": "剧情主题"
       }
     ],
     "hayday": [

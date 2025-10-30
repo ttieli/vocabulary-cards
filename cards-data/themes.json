@@ -18,15 +18,6 @@
       "badge_text": "ADVENTURE",
       "show_header": true
     },
-    "zhanglinghe": {
-      "icon": "📝",
-      "title": "Zhang Linghe",
-      "subtitle": "Special Collection",
-      "theme_color": "#7c3aed",
-      "layout": "vertical",
-      "badge_text": null,
-      "show_header": true
-    },
     "hayday": {
       "icon": "🌾",
       "title": "Hay Day Farm",
