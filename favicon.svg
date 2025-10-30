@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#667eea"/>
+
+  <!-- Card stack representation -->
+  <g>
+    <!-- Back card (Mario theme - red) -->
+    <rect x="20" y="35" width="50" height="40" rx="4" fill="#e60012" opacity="0.6"/>
+
+    <!-- Middle card (Zelda theme - green) -->
+    <rect x="25" y="30" width="50" height="40" rx="4" fill="#00a870" opacity="0.8"/>
+
+    <!-- Front card (white) -->
+    <rect x="30" y="25" width="50" height="40" rx="4" fill="#ffffff"/>
+
+    <!-- Letter "A" on front card -->
+    <text x="55" y="52" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#667eea" text-anchor="middle">A</text>
+  </g>
+</svg>
