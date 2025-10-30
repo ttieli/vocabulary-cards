@@ -81,7 +81,7 @@
       "chinese": "靛蓝",
       "level": 13,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/4/48/Indigo.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/4/48/Indigo.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "indigo.html",
       "definition_zh": "靛蓝是一种用于提取天然蓝色染料的植物,在历史上被广泛用于纺织品染色。在游戏中,靛蓝在13级解锁,生长时间为45分钟,用于制作蓝色染料。",
@@ -159,7 +159,7 @@
       "chinese": "辣椒",
       "level": 25,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/a/ab/Chili_Pepper.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/a/ab/Chili_Pepper.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "chili-pepper.html",
       "definition_zh": "辣椒是一种辛辣的蔬菜,富含维生素C和辣椒素,可以为食物增添辣味。在游戏中,辣椒在25级解锁,生长时间为2小时,用于制作辣味食品。",
@@ -199,7 +199,7 @@
       "chinese": "蓝莓",
       "level": 30,
       "category": "Bush Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/a/af/Blueberries.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/a/af/Blueberries.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "blueberries.html",
       "definition_zh": "蓝莓是一种小型的蓝紫色浆果,富含抗氧化剂,被誉为超级食物。在游戏中,蓝莓在30级解锁,用于制作蓝莓派和果汁。",
@@ -225,7 +225,7 @@
       "chinese": "土豆",
       "level": 35,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/c2/Potato.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/c2/Potato.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "potato.html",
       "definition_zh": "土豆是一种重要的根茎类作物,富含淀粉和营养,可以用多种方式烹饪。在游戏中,土豆在35级解锁,用于制作薯条、土豆泥等食品。",
@@ -239,7 +239,7 @@
       "chinese": "可可",
       "level": 36,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/60/Cacao.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/60/Cacao.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "cacao.html",
       "definition_zh": "可可是巧克力的原料,来自可可树的种子。在游戏中,可可在36级解锁,生长时间较长,用于制作巧克力和可可粉。",
@@ -253,7 +253,7 @@
       "chinese": "咖啡豆",
       "level": 42,
       "category": "Bush Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/33/Coffee_Bean.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/33/Coffee_Bean.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "coffee-bean.html",
       "definition_zh": "咖啡豆是咖啡饮料的原料,经过烘焙后具有独特的香气和风味。在游戏中,咖啡豆在42级解锁,用于制作各种咖啡饮品。",
@@ -267,7 +267,7 @@
       "chinese": "洋甘菊",
       "level": 45,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/31/Chamomile.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/31/Chamomile.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "chamomile.html",
       "definition_zh": "洋甘菊是一种具有药用价值的草本植物,常用于制作舒缓镇静的花草茶。在游戏中,洋甘菊在45级解锁,用于制作洋甘菊茶。",
@@ -281,7 +281,7 @@
       "chinese": "芦笋",
       "level": 49,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/4/45/Asparagus.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/4/45/Asparagus.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "asparagus.html"
     },
@@ -291,7 +291,7 @@
       "chinese": "芝麻",
       "level": 50,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/07/Sesame.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/07/Sesame.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "sesame.html"
     },
@@ -301,7 +301,7 @@
       "chinese": "菠萝",
       "level": 52,
       "category": "Bush Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/f/fb/Pineapple.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/f/fb/Pineapple.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "pineapple.html"
     },
@@ -311,7 +311,7 @@
       "chinese": "百合",
       "level": 53,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/0a/Lily.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/0a/Lily.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "lily.html"
     },
@@ -321,7 +321,7 @@
       "chinese": "水稻",
       "level": 56,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/d/da/Rice.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/d/da/Rice.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "rice.html"
     },
@@ -331,7 +331,7 @@
       "chinese": "橄榄",
       "level": 57,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/5f/Olive.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/5f/Olive.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "olive.html"
     },
@@ -341,7 +341,7 @@
       "chinese": "生菜",
       "level": 58,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/d/da/Lettuce.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/d/da/Lettuce.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "lettuce.html"
     },
@@ -351,7 +351,7 @@
       "chinese": "大蒜",
       "level": 60,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/cc/Garlic.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/cc/Garlic.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "garlic.html"
     },
@@ -361,7 +361,7 @@
       "chinese": "向日葵",
       "level": 63,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/8/81/Sunflower.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/8/81/Sunflower.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "sunflower.html"
     },
@@ -371,7 +371,7 @@
       "chinese": "卷心菜",
       "level": 65,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/c/cc/Cabbage.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/c/cc/Cabbage.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "cabbage.html"
     },
@@ -381,7 +381,7 @@
       "chinese": "柠檬",
       "level": 66,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/35/Lemon.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/35/Lemon.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "lemon.html"
     },
@@ -391,7 +391,7 @@
       "chinese": "洋葱",
       "level": 68,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/51/Onion.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/51/Onion.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "onion.html"
     },
@@ -401,7 +401,7 @@
       "chinese": "黄瓜",
       "level": 70,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/59/Cucumber.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/59/Cucumber.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "cucumber.html"
     },
@@ -411,7 +411,7 @@
       "chinese": "橙子",
       "level": 71,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/4/43/Orange.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/4/43/Orange.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "orange.html"
     },
@@ -421,7 +421,7 @@
       "chinese": "甜菜根",
       "level": 72,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/56/Beetroot.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/56/Beetroot.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "beetroot.html"
     },
@@ -431,7 +431,7 @@
       "chinese": "甜椒",
       "level": 74,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Bell_Pepper.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Bell_Pepper.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "bell-pepper.html"
     },
@@ -441,7 +441,7 @@
       "chinese": "桃子",
       "level": 76,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Peach.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/e/e2/Peach.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "peach.html"
     },
@@ -451,7 +451,7 @@
       "chinese": "生姜",
       "level": 78,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/8/85/Ginger.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/8/85/Ginger.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "ginger.html"
     },
@@ -461,7 +461,7 @@
       "chinese": "茶叶",
       "level": 80,
       "category": "Bush Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/e/e3/Tea_Leaf.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/e/e3/Tea_Leaf.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "tea-leaf.html"
     },
@@ -471,7 +471,7 @@
       "chinese": "牡丹",
       "level": 82,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/5/50/Peony.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/5/50/Peony.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "peony.html"
     },
@@ -481,7 +481,7 @@
       "chinese": "西兰花",
       "level": 83,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/f/f1/Broccoli.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/f/f1/Broccoli.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "broccoli.html"
     },
@@ -491,7 +491,7 @@
       "chinese": "葡萄",
       "level": 84,
       "category": "Bush Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/39/Grapes.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/39/Grapes.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "grapes.html"
     },
@@ -501,7 +501,7 @@
       "chinese": "薄荷",
       "level": 85,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/1/13/Mint.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/1/13/Mint.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "mint.html"
     },
@@ -511,7 +511,7 @@
       "chinese": "香蕉",
       "level": 88,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/6/69/Banana.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/6/69/Banana.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "banana.html"
     },
@@ -521,7 +521,7 @@
       "chinese": "百香果",
       "level": 88,
       "category": "Bush Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/f/fb/Passion_Fruit.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/f/fb/Passion_Fruit.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "passion-fruit.html"
     },
@@ -531,7 +531,7 @@
       "chinese": "蘑菇",
       "level": 89,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/8/8c/Mushroom.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/8/8c/Mushroom.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "mushroom.html"
     },
@@ -541,7 +541,7 @@
       "chinese": "茄子",
       "level": 90,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/8/8f/Eggplant.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/8/8f/Eggplant.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "eggplant.html"
     },
@@ -551,7 +551,7 @@
       "chinese": "西瓜",
       "level": 92,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/06/Watermelon.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/06/Watermelon.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "watermelon.html"
     },
@@ -561,7 +561,7 @@
       "chinese": "李子",
       "level": 94,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/e/e6/Plum.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/e/e6/Plum.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "plum.html"
     },
@@ -571,7 +571,7 @@
       "chinese": "粘土",
       "level": 94,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/a/a2/Clay.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/a/a2/Clay.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "clay.html"
     },
@@ -581,7 +581,7 @@
       "chinese": "鹰嘴豆",
       "level": 95,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/0/02/Chickpea.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/0/02/Chickpea.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "chickpea.html"
     },
@@ -591,7 +591,7 @@
       "chinese": "芒果",
       "level": 97,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/38/Mango.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/38/Mango.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "mango.html"
     },
@@ -601,7 +601,7 @@
       "chinese": "椰子",
       "level": 101,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/2/2f/Coconut.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/2/2f/Coconut.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "coconut.html"
     },
@@ -611,7 +611,7 @@
       "chinese": "番石榴",
       "level": 104,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/8/87/Guava.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/8/87/Guava.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "guava.html"
     },
@@ -621,7 +621,7 @@
       "chinese": "石榴",
       "level": 107,
       "category": "Tree Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/1/1b/Pomegranate.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/1/1b/Pomegranate.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "pomegranate.html"
     },
@@ -631,7 +631,7 @@
       "chinese": "燕麦",
       "level": 119,
       "category": "Field Crop",
-      "image": "https://static.wikia.nocookie.net/hayday/images/3/34/Oats.png",
+      "image": "https://static.wikia.nocookie.net/hayday/images/3/34/Oats.png/revision/latest/scale-to-width-down/400",
       "theme": "hayday",
       "filename": "oats.html"
     }
