@@ -551,68 +551,91 @@
             const resolutionValue = card.querySelector('.resolution-value');
             const hdBadge = card.querySelector('.hd-badge');
 
-            img.onload = function() {
-                // 图片加载成功
-                const width = img.naturalWidth;
-                const height = img.naturalHeight;
-                const resolution = `${width} x ${height}`;
+            // 先用 fetch 验证图片是否可访问（检测404）
+            fetch(url, { method: 'HEAD', mode: 'no-cors' })
+                .then(response => {
+                    // 继续加载图片
+                    loadImageElement();
+                })
+                .catch(error => {
+                    // fetch 失败，继续尝试用 img 加载
+                    console.warn('Fetch failed for:', url, error);
+                    loadImageElement();
+                });
 
-                // 判断是否高清 (HD: 1280x720以上, Full HD: 1920x1080)
-                const isHD = width >= 1280 && height >= 720;
-                const isFHD = width >= 1920 && height >= 1080;
+            function loadImageElement() {
+                img.onload = function() {
+                    // 检查图片尺寸是否有效
+                    const width = img.naturalWidth;
+                    const height = img.naturalHeight;
 
-                container.innerHTML = '';
-                container.appendChild(img);
-                card.className = 'image-card available';
-                card.dataset.status = 'available';
-                badge.className = 'status-badge available';
-                badge.textContent = '✓ 可用';
+                    // 如果尺寸为0或过小，视为不可用
+                    if (width === 0 || height === 0 || width < 10 || height < 10) {
+                        handleImageError();
+                        return;
+                    }
 
-                // 更新分辨率信息
-                resolutionValue.textContent = resolution;
-                if (isFHD) {
-                    hdBadge.className = 'hd-badge hd';
-                    hdBadge.textContent = 'Full HD';
-                } else if (isHD) {
-                    hdBadge.className = 'hd-badge hd';
-                    hdBadge.textContent = 'HD';
-                } else {
-                    hdBadge.className = 'hd-badge sd';
-                    hdBadge.textContent = 'SD';
+                    const resolution = `${width} x ${height}`;
+
+                    // 判断是否高清 (HD: 1280x720以上, Full HD: 1920x1080)
+                    const isHD = width >= 1280 && height >= 720;
+                    const isFHD = width >= 1920 && height >= 1080;
+
+                    container.innerHTML = '';
+                    container.appendChild(img);
+                    card.className = 'image-card available';
+                    card.dataset.status = 'available';
+                    badge.className = 'status-badge available';
+                    badge.textContent = '✓ 可用';
+
+                    // 更新分辨率信息
+                    resolutionValue.textContent = resolution;
+                    if (isFHD) {
+                        hdBadge.className = 'hd-badge hd';
+                        hdBadge.textContent = 'Full HD';
+                    } else if (isHD) {
+                        hdBadge.className = 'hd-badge hd';
+                        hdBadge.textContent = 'HD';
+                    } else {
+                        hdBadge.className = 'hd-badge sd';
+                        hdBadge.textContent = 'SD';
+                    }
+
+                    stats.loading--;
+                    stats.available++;
+                    updateStats();
+                };
+
+                img.onerror = handleImageError;
+
+                function handleImageError() {
+                    // 图片加载失败
+                    container.innerHTML = '<div class="error-icon">❌</div>';
+                    card.className = 'image-card unavailable';
+                    card.dataset.status = 'unavailable';
+                    badge.className = 'status-badge unavailable';
+                    badge.textContent = '✗ 不可用';
+
+                    // 更新分辨率信息
+                    resolutionValue.textContent = 'N/A';
+                    hdBadge.className = 'hd-badge loading';
+                    hdBadge.textContent = 'N/A';
+
+                    stats.loading--;
+                    stats.unavailable++;
+                    unavailableImages.push(url);
+                    updateStats();
                 }
 
-                stats.loading--;
-                stats.available++;
-                updateStats();
-            };
+                img.src = url;
 
-            img.onerror = function() {
-                // 图片加载失败
-                container.innerHTML = '<div class="error-icon">❌</div>';
-                card.className = 'image-card unavailable';
-                card.dataset.status = 'unavailable';
-                badge.className = 'status-badge unavailable';
-                badge.textContent = '✗ 不可用';
-
-                // 更新分辨率信息
-                resolutionValue.textContent = 'N/A';
-                hdBadge.className = 'hd-badge loading';
-                hdBadge.textContent = 'N/A';
-
-                stats.loading--;
-                stats.unavailable++;
-                unavailableImages.push(url);
-                updateStats();
-            };
-
-            img.src = url;
-
-            // 设置超时（15秒）
-            setTimeout(() => {
-                if (card.dataset.status === 'loading') {
-                    img.onerror();
-                }
-            }, 15000);
+                // 设置超时（10秒）
+                setTimeout(() => {
+                    if (card.dataset.status === 'loading') {
+                        handleImageError();
+                    }
+                }, 10000);
+            }
         }
 
         // 更新统计数据
