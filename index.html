@@ -708,9 +708,15 @@
             },
 
             // Preload images for visible cards in viewport
-            preloadVisibleCards(cardElements) {
+            preloadVisibleCards() {
+                if (!cardsData) return;
+
                 const viewportHeight = window.innerHeight;
                 const preloadThreshold = viewportHeight * 1.5; // Preload 1.5 viewports ahead
+
+                // Get all card elements from the DOM
+                const cardElements = document.querySelectorAll('.word-card');
+                if (!cardElements || cardElements.length === 0) return;
 
                 const visibleImages = [];
                 cardElements.forEach(card => {
@@ -718,9 +724,15 @@
                     const isNearViewport = rect.top < preloadThreshold && rect.bottom > -viewportHeight;
 
                     if (isNearViewport) {
-                        const img = card.querySelector('img');
-                        if (img && img.dataset.cardImage) {
-                            visibleImages.push(img.dataset.cardImage);
+                        // Get card data from data attributes
+                        const theme = card.dataset.theme;
+                        const filename = card.dataset.filename;
+
+                        if (theme && filename && cardsData[theme]) {
+                            const cardData = cardsData[theme].find(c => c.filename === filename);
+                            if (cardData && cardData.image) {
+                                visibleImages.push(cardData.image);
+                            }
                         }
                     }
                 });
