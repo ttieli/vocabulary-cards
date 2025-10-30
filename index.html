@@ -313,6 +313,26 @@
             color: #7c3aed;
         }
 
+        /* Hay Day theme - Farm Green */
+        .scene-card.hayday .scene-header {
+            border-bottom: 4px solid #8BC34A;
+            background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%);
+        }
+
+        .scene-card.hayday .word-card {
+            background: linear-gradient(135deg, #f1f8e9 0%, #c5e1a5 100%);
+        }
+
+        .scene-card.hayday .word-card:hover {
+            border-color: #8BC34A;
+            box-shadow: 0 8px 20px rgba(139, 195, 74, 0.3);
+            background: linear-gradient(135deg, #ffffff 0%, #dcedc8 100%);
+        }
+
+        .scene-card.hayday .word-english {
+            color: #33691E;
+        }
+
         footer {
             text-align: center;
             padding: 30px;
@@ -652,21 +672,38 @@
         </div>
     </div>
 
+    <!-- Load modular data loader -->
+    <script src="js/data-loader.js"></script>
+
     <script>
+        // Configuration: Use modular structure or legacy single-file
+        const USE_MODULAR = true; // Set to false to use legacy cards-data.json
+
         // Global data variable
         let cardsData = null;
         let themesInfo = null;
 
-        // Load data from JSON
+        // Load data from JSON (supports both modular and legacy formats)
         async function loadData() {
             try {
-                const response = await fetch('cards-data.json');
-                const data = await response.json();
-                cardsData = data.cards;
-                themesInfo = data.themes;
+                if (USE_MODULAR) {
+                    // Use modular data loader
+                    const loader = new VocabularyDataLoader();
+                    const data = await loader.loadAll();
+                    cardsData = data.cards;
+                    themesInfo = data.themes;
+                    console.log('✅ Loaded data from modular structure:', loader.getStats());
+                } else {
+                    // Use legacy single-file approach
+                    const response = await fetch('cards-data.json');
+                    const data = await response.json();
+                    cardsData = data.cards;
+                    themesInfo = data.themes;
+                    console.log('✅ Loaded data from cards-data.json');
+                }
                 return true;
             } catch (error) {
-                console.error('Error loading cards data:', error);
+                console.error('❌ Error loading cards data:', error);
                 return false;
             }
         }
