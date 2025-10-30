@@ -527,22 +527,18 @@
                 border-radius: 20px;
             }
 
-            .card.mario .card-body {
-                flex-direction: column;
-            }
-
+            /* 保持横屏布局，优化图片占比 */
             .card.mario .card-image-container {
-                flex: 0 0 auto;
-                width: 100%;
-            }
-
-            .card.hayday .card-body {
-                flex-direction: column;
+                flex: 0 0 35%;
+                min-height: 200px;
             }
 
             .card.hayday .card-image-container {
-                flex: 0 0 auto;
-                width: 100%;
+                flex: 0 0 35%;
+                min-height: 200px;
+            }
+
+            .card.zelda .card-image-container {
                 min-height: 200px;
             }
 
@@ -582,41 +578,64 @@
                 border-radius: 15px;
             }
 
+            /* 保持横屏，进一步缩小图片占比 */
+            .card.mario .card-image-container {
+                flex: 0 0 32%;
+                min-height: 160px;
+                padding: 10px;
+            }
+
+            .card.hayday .card-image-container {
+                flex: 0 0 32%;
+                min-height: 160px;
+                padding: 10px;
+            }
+
+            .card.zelda .card-image-container {
+                min-height: 160px;
+                padding: 10px;
+            }
+
             .card-image-container {
-                min-height: 180px;
+                min-height: 160px;
                 padding: 10px;
             }
 
             .card-image {
-                max-height: 200px;
+                max-height: 180px;
             }
 
             .card-content {
-                padding: 12px;
+                padding: 10px;
             }
 
             .word-english {
-                font-size: 1.5em;
+                font-size: 1.4em;
             }
 
             .pronunciation {
-                font-size: 0.9em;
+                font-size: 0.85em;
             }
 
             .word-chinese {
-                font-size: 1.1em;
+                font-size: 1em;
             }
 
             .definition {
-                font-size: 0.9em;
-                padding: 10px;
-                margin: 10px 0;
-            }
-
-            .example {
                 font-size: 0.85em;
                 padding: 8px;
                 margin: 8px 0;
+            }
+
+            .example {
+                font-size: 0.8em;
+                padding: 6px;
+                margin: 6px 0;
+            }
+
+            .category {
+                font-size: 0.75em;
+                padding: 4px 8px;
             }
         }
     </style>
