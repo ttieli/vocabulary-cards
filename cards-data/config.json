@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "created_at": "2025-10-30T18:58:15.962876",
+  "description": "Vocabulary Cards Data - Modular Structure",
+  "data_structure": {
+    "themes": "themes.json - Theme configurations",
+    "cards": "cards/*.json - Individual theme card data"
+  }
+}
