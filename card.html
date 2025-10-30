@@ -11,11 +11,60 @@
             box-sizing: border-box;
         }
 
+        /* CSS Variables for Theme Colors */
+        :root {
+            --theme-primary: #667eea;
+            --theme-secondary: #764ba2;
+            --theme-text: #333;
+            --theme-text-light: #666;
+            --theme-border: #ddd;
+            --theme-bg: #f0f0f0;
+        }
+
+        /* Mario Theme Variables */
+        body.mario {
+            --theme-primary: #e60012;
+            --theme-secondary: #f3722c;
+            --theme-accent: #f48c06;
+            --theme-text: #d00000;
+            --theme-text-dark: #a91b0d;
+            --theme-text-content: #3b1717;
+            --theme-border: rgba(208, 0, 0, 0.45);
+            --theme-bg-gradient-start: #ffecec;
+            --theme-bg-gradient-mid: #ffd9d9;
+            --theme-bg-gradient-end: #ffb3b3;
+        }
+
+        /* Zelda Theme Variables */
+        body.zelda {
+            --theme-primary: #00a870;
+            --theme-secondary: #2e7d8f;
+            --theme-accent: #5fb878;
+            --theme-text: #2e7d8f;
+            --theme-text-dark: #3d6b5c;
+            --theme-text-light: #8b7355;
+            --theme-border: #d4a574;
+            --theme-bg-gradient-start: #e8dcc8;
+            --theme-bg-gradient-end: #f5ede0;
+        }
+
+        /* Zhang Linghe Theme Variables */
+        body.zhanglinghe {
+            --theme-primary: #7c3aed;
+            --theme-secondary: #6d28d9;
+            --theme-accent: #8b5cf6;
+            --theme-text: #5b21b6;
+            --theme-text-dark: #4c1d95;
+            --theme-border: #c4b5fd;
+            --theme-bg-gradient-start: #f3e8ff;
+            --theme-bg-gradient-end: #e9d5ff;
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f0f0f0;
+            background: var(--theme-bg, #f0f0f0);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -216,6 +265,27 @@
             max-width: 100%;
             max-height: 400px;
             object-fit: contain;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+
+        .card-image.loaded {
+            opacity: 1;
+        }
+
+        /* Image loading spinner */
+        .image-loading-spinner {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            border-top-color: var(--theme-primary, #667eea);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
 
         .card-content {
@@ -352,6 +422,12 @@
                 const response = await fetch('cards-data.json');
                 const data = await response.json();
 
+                // Get theme configuration
+                const themeConfig = data.themes[theme];
+                if (!themeConfig) {
+                    throw new Error('Theme not found');
+                }
+
                 // Find the card
                 const cards = data.cards[theme];
                 if (!cards) {
@@ -366,8 +442,8 @@
                 // Set body theme class
                 document.body.className = theme;
 
-                // Render the card
-                renderCard(card, theme);
+                // Render the card with theme configuration
+                renderCard(card, theme, themeConfig);
 
                 // Hide loading, show card
                 document.getElementById('loading').style.display = 'none';
@@ -384,56 +460,72 @@
             }
         }
 
-        function renderCard(card, theme) {
+        function renderCard(card, theme, themeConfig) {
             const container = document.getElementById('page-container');
             container.className = `page ${theme}`;
 
-            const cardHtml = theme === 'mario' ? `
-                <div class="card mario">
-                    <div class="card-header">
-                        <span class="badge">Mario Kart World</span>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-image-container">
-                            <img src="${card.image}" alt="${card.word}" class="card-image">
-                        </div>
-                        <div class="card-content">
-                            <div class="word-english">${card.word}</div>
-                            <div class="pronunciation">${card.pronunciation || ''}</div>
-                            <div class="word-chinese">${card.chinese}</div>
-                            <div class="definition">
-                                <strong>英文:</strong> ${card.definition_en || ''}<br><br>
-                                <strong>中文:</strong> ${card.definition_zh || ''}
-                            </div>
-                            <div class="example">
-                                ${card.example_en ? '"' + card.example_en + '"<br>' : ''}
-                                ${card.example_zh || ''}
-                            </div>
-                            <span class="category">${card.category || 'Vocabulary'}</span>
-                        </div>
-                    </div>
+            // Build card content HTML
+            const contentHtml = `
+                <div class="word-english">${card.word}</div>
+                <div class="pronunciation">${card.pronunciation || ''}</div>
+                <div class="word-chinese">${card.chinese}</div>
+                <div class="definition">
+                    <strong>英文:</strong> ${card.definition_en || ''}<br><br>
+                    <strong>中文:</strong> ${card.definition_zh || ''}
                 </div>
-            ` : `
-                <div class="card ${theme}">
-                    <div class="card-image-container">
-                        <img src="${card.image}" alt="${card.word}" class="card-image">
-                    </div>
-                    <div class="card-content">
-                        <div class="word-english">${card.word}</div>
-                        <div class="pronunciation">${card.pronunciation || ''}</div>
-                        <div class="word-chinese">${card.chinese}</div>
-                        <div class="definition">
-                            <strong>英文:</strong> ${card.definition_en || ''}<br><br>
-                            <strong>中文:</strong> ${card.definition_zh || ''}
-                        </div>
-                        <div class="example">
-                            ${card.example_en ? '"' + card.example_en + '"<br>' : ''}
-                            ${card.example_zh || ''}
-                        </div>
-                        <span class="category">${card.category || 'Vocabulary'}</span>
-                    </div>
+                <div class="example">
+                    ${card.example_en ? '"' + card.example_en + '"<br>' : ''}
+                    ${card.example_zh || ''}
+                </div>
+                <span class="category">${card.category || 'Vocabulary'}</span>
+            `;
+
+            // Build header HTML if needed
+            const headerHtml = (themeConfig.show_header && themeConfig.badge_text) ? `
+                <div class="card-header">
+                    <span class="badge">${themeConfig.badge_text}</span>
+                </div>
+            ` : '';
+
+            // Build image HTML with lazy loading and error handling
+            const imageHtml = `
+                <div class="card-image-container">
+                    <img src="${card.image}"
+                         alt="${card.word}"
+                         class="card-image"
+                         loading="lazy"
+                         onload="this.classList.add('loaded')"
+                         onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'padding:40px;text-align:center;color:#999;\\'>Image not available</div>'">
                 </div>
             `;
+
+            // Build card HTML based on layout
+            let cardHtml;
+            if (themeConfig.layout === 'horizontal') {
+                // Horizontal layout: header + body with image and content side by side
+                cardHtml = `
+                    <div class="card ${theme}">
+                        ${headerHtml}
+                        <div class="card-body">
+                            ${imageHtml}
+                            <div class="card-content">
+                                ${contentHtml}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                // Vertical layout: image on top, content below
+                cardHtml = `
+                    <div class="card ${theme}">
+                        ${headerHtml}
+                        ${imageHtml}
+                        <div class="card-content">
+                            ${contentHtml}
+                        </div>
+                    </div>
+                `;
+            }
 
             container.innerHTML = cardHtml;
         }
