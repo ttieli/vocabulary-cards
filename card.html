@@ -55,18 +55,6 @@
             --theme-bg-gradient-end: #f5ede0;
         }
 
-        /* Zhang Linghe Theme Variables */
-        body.zhanglinghe {
-            --theme-primary: #7c3aed;
-            --theme-secondary: #6d28d9;
-            --theme-accent: #8b5cf6;
-            --theme-text: #5b21b6;
-            --theme-text-dark: #4c1d95;
-            --theme-border: #c4b5fd;
-            --theme-bg-gradient-start: #f3e8ff;
-            --theme-bg-gradient-end: #e9d5ff;
-        }
-
         /* Hay Day Theme Variables */
         body.hayday {
             --theme-primary: #8BC34A;
@@ -518,6 +506,61 @@
             align-self: flex-start;
         }
 
+        /* Navigation Buttons */
+        .nav-container {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+            z-index: 1000;
+            padding: 0 20px;
+        }
+
+        .nav-button {
+            pointer-events: auto;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 24px;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .nav-button:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            transform: scale(1.1);
+        }
+
+        .nav-button:active {
+            transform: scale(0.95);
+        }
+
+        .nav-button.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .nav-button.prev {
+            margin-left: 0;
+        }
+
+        .nav-button.next {
+            margin-right: 0;
+        }
+
         /* Responsive Design */
         @media screen and (max-width: 768px) {
             .page {
@@ -648,11 +691,25 @@
     <div class="error" id="error" style="display: none;">Card not found</div>
     <div class="page" id="page-container" style="display: none;"></div>
 
+    <!-- Navigation Buttons -->
+    <div class="nav-container" id="nav-container" style="display: none;">
+        <button class="nav-button prev" id="prev-button" aria-label="Previous card">
+            ←
+        </button>
+        <button class="nav-button next" id="next-button" aria-label="Next card">
+            →
+        </button>
+    </div>
+
     <script>
         // Get URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const theme = urlParams.get('theme');
         const filename = urlParams.get('file');
+
+        // Global variables for navigation
+        let allCards = [];
+        let currentIndex = -1;
 
         async function loadCard() {
             try {
@@ -678,6 +735,10 @@
                     throw new Error('Card not found');
                 }
 
+                // Store cards for navigation
+                allCards = cards;
+                currentIndex = cards.findIndex(c => c.filename === filename);
+
                 // Set body theme class
                 document.body.className = theme;
 
@@ -691,11 +752,104 @@
                 // Update page title
                 document.title = `${card.word} - Vocabulary Card`;
 
+                // Setup navigation
+                setupNavigation();
+
             } catch (error) {
                 console.error('Error loading card:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
                 document.getElementById('error').textContent = `Error: ${error.message}`;
+            }
+        }
+
+        function setupNavigation() {
+            // Show navigation container if we have cards
+            if (allCards.length > 1) {
+                const navContainer = document.getElementById('nav-container');
+                navContainer.style.display = 'flex';
+
+                // Update button states
+                updateNavigationButtons();
+
+                // Add click event listeners
+                document.getElementById('prev-button').addEventListener('click', navigatePrev);
+                document.getElementById('next-button').addEventListener('click', navigateNext);
+            }
+        }
+
+        function updateNavigationButtons() {
+            const prevButton = document.getElementById('prev-button');
+            const nextButton = document.getElementById('next-button');
+
+            // Disable prev button on first card
+            if (currentIndex <= 0) {
+                prevButton.disabled = true;
+            } else {
+                prevButton.disabled = false;
+            }
+
+            // Disable next button on last card
+            if (currentIndex >= allCards.length - 1) {
+                nextButton.disabled = true;
+            } else {
+                nextButton.disabled = false;
+            }
+        }
+
+        function navigatePrev() {
+            if (currentIndex > 0) {
+                const prevCard = allCards[currentIndex - 1];
+                navigateToCard(prevCard.filename);
+            }
+        }
+
+        function navigateNext() {
+            if (currentIndex < allCards.length - 1) {
+                const nextCard = allCards[currentIndex + 1];
+                navigateToCard(nextCard.filename);
+            }
+        }
+
+        function navigateToCard(filename) {
+            window.location.href = `card.html?theme=${theme}&file=${filename}`;
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                navigatePrev();
+            } else if (e.key === 'ArrowRight') {
+                e.preventDefault();
+                navigateNext();
+            }
+        });
+
+        // Touch gesture support for mobile
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const minSwipeDistance = 50;
+
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        document.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, { passive: true });
+
+        function handleSwipe() {
+            const swipeDistance = touchEndX - touchStartX;
+
+            // Swipe left (next card)
+            if (swipeDistance < -minSwipeDistance) {
+                navigateNext();
+            }
+            // Swipe right (previous card)
+            else if (swipeDistance > minSwipeDistance) {
+                navigatePrev();
             }
         }
 
