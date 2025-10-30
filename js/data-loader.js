@@ -23,6 +23,17 @@ class VocabularyDataLoader {
     this.themes = null;
     this.cards = {};
     this._loadCache = new Map(); // 缓存已加载的数据
+    this._cacheBuster = `v=${Date.now()}`; // Cache busting parameter
+  }
+
+  /**
+   * 添加缓存破坏参数到URL
+   * @param {string} url - 原始URL
+   * @returns {string} 带缓存破坏参数的URL
+   */
+  _addCacheBuster(url) {
+    const separator = url.includes('?') ? '&' : '?';
+    return `${url}${separator}${this._cacheBuster}`;
   }
 
   /**
@@ -36,7 +47,8 @@ class VocabularyDataLoader {
     }
 
     try {
-      const response = await fetch(`${this.basePath}config.json`);
+      const url = this._addCacheBuster(`${this.basePath}config.json`);
+      const response = await fetch(url);
       if (!response.ok) {
         throw new Error(`Failed to load config: ${response.statusText}`);
       }
@@ -60,7 +72,8 @@ class VocabularyDataLoader {
     }
 
     try {
-      const response = await fetch(`${this.basePath}themes.json`);
+      const url = this._addCacheBuster(`${this.basePath}themes.json`);
+      const response = await fetch(url);
       if (!response.ok) {
         throw new Error(`Failed to load themes: ${response.statusText}`);
       }
@@ -86,7 +99,8 @@ class VocabularyDataLoader {
     }
 
     try {
-      const response = await fetch(`${this.basePath}cards/${themeId}.json`);
+      const url = this._addCacheBuster(`${this.basePath}cards/${themeId}.json`);
+      const response = await fetch(url);
       if (!response.ok) {
         throw new Error(`Failed to load cards for theme '${themeId}': ${response.statusText}`);
       }

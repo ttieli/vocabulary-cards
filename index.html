@@ -698,8 +698,9 @@
                     themesInfo = data.themes;
                     console.log('✅ Loaded data from modular structure:', loader.getStats());
                 } else {
-                    // Use legacy single-file approach
-                    const response = await fetch('cards-data.json');
+                    // Use legacy single-file approach (with cache busting)
+                    const cacheBuster = `v=${Date.now()}`;
+                    const response = await fetch(`cards-data.json?${cacheBuster}`);
                     const data = await response.json();
                     cardsData = data.cards;
                     themesInfo = data.themes;
