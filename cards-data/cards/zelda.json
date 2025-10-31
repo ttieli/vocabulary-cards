@@ -9,12 +9,13 @@
       "word": "Adventure",
       "pronunciation": "/ədˈventʃər/",
       "chinese": "冒险",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg",
+      "image": "images/zelda/adventure.jpg",
       "definition_en": "An unusual, exciting, and possibly dangerous activity or experience.",
       "definition_zh": "一种不寻常的、令人兴奋的、可能有危险的活动或经历。",
       "example_en": "Link embarks on an epic adventure across Hyrule.",
       "example_zh": "林克在海拉鲁大陆上展开了一场史诗般的冒险。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/adventure.jpg"
     },
     {
       "theme": "zelda",
@@ -22,12 +23,13 @@
       "word": "Ancient",
       "pronunciation": "/ˈeɪnʃənt/",
       "chinese": "古代的;远古的",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/33/BotW_Ancient_Shrine_Rising.png",
+      "image": "images/zelda/ancient.png",
       "definition_en": "Belonging to the very distant past; very old or aged.",
       "definition_zh": "属于非常遥远的过去;非常古老或年代久远的。",
       "example_en": "Ancient shrines hold the secrets of the past.",
       "example_zh": "古代神殿蕴藏着过去的秘密。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/ancient.jpg"
     },
     {
       "theme": "zelda",
@@ -35,12 +37,13 @@
       "word": "Archer",
       "pronunciation": "/ˈɑːrtʃər/",
       "chinese": "弓箭手",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/BotW_Link_Shooting_Artwork.png",
+      "image": "images/zelda/archer.png",
       "definition_en": "A person who shoots with a bow and arrows, especially at a target for sport.",
       "definition_zh": "使用弓箭射击的人,尤其是作为运动瞄准目标射击的人。",
       "example_en": "Link is a skilled archer with perfect aim.",
       "example_zh": "林克是一位技艺高超、百发百中的弓箭手。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/archer.jpg"
     },
     {
       "theme": "zelda",
@@ -48,12 +51,13 @@
       "word": "Arrow",
       "pronunciation": "/ˈæroʊ/",
       "chinese": "箭;箭矢",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Link_Fired_Bow.png",
+      "image": "images/zelda/arrow.png",
       "definition_en": "A projectile with a pointed tip, designed to be shot from a bow.",
       "definition_zh": "带有尖头的抛射物,设计用于从弓上射出。",
       "example_en": "Link fires arrows with precision at distant targets.",
       "example_zh": "林克精准地向远处目标射箭。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/arrow.jpg"
     },
     {
       "theme": "zelda",
@@ -61,12 +65,13 @@
       "word": "Battle",
       "pronunciation": "/ˈbætl/",
       "chinese": "战斗;战役",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png",
+      "image": "images/zelda/battle.png",
       "definition_en": "A sustained fight between armed forces; a prolonged struggle or conflict.",
       "definition_zh": "武装力量之间的持续战斗;长期的斗争或冲突。",
       "example_en": "Link engages in battles against dangerous monsters.",
       "example_zh": "林克与危险的怪物进行战斗。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/battle.jpg"
     },
     {
       "theme": "zelda",
@@ -74,12 +79,13 @@
       "word": "Bird",
       "pronunciation": "/bɜːrd/",
       "chinese": "鸟;飞禽",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg",
+      "image": "images/zelda/bird.jpg",
       "definition_en": "A warm-blooded animal with feathers, wings, and a beak that typically can fly.",
       "definition_zh": "有羽毛、翅膀和喙的温血动物,通常能够飞翔。",
       "example_en": "A flock of birds flies across the vast sky of Hyrule.",
       "example_zh": "一群鸟儿飞越海拉鲁辽阔的天空。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/bird.jpg"
     },
     {
       "theme": "zelda",
@@ -87,12 +93,13 @@
       "word": "Bokoblin",
       "pronunciation": "/ˈboʊkoʊblɪn/",
       "chinese": "波克布林(怪物)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png",
+      "image": "images/zelda/bokoblin.png",
       "definition_en": "A common goblin-like monster found throughout Hyrule.",
       "definition_zh": "在海拉鲁各地常见的类似哥布林的怪物。",
       "example_en": "Bokoblins are one of the most common enemies Link encounters.",
       "example_zh": "波克布林是林克遇到的最常见的敌人之一。",
-      "category": "敌人"
+      "category": "敌人",
+      "thumbnail": "images/zelda/thumbnails/bokoblin.jpg"
     },
     {
       "theme": "zelda",
@@ -100,12 +107,13 @@
       "word": "Breath",
       "pronunciation": "/breθ/",
       "chinese": "呼吸;气息",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg",
+      "image": "images/zelda/breath.jpg",
       "definition_en": "The air taken into or expelled from the lungs; a slight movement of air.",
       "definition_zh": "吸入或呼出肺部的空气;轻微的空气流动。",
       "example_en": "The Breath of the Wild represents freedom and life in nature.",
       "example_zh": "旷野之息代表着自由和大自然中的生命。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/breath.jpg"
     },
     {
       "theme": "zelda",
@@ -113,12 +121,13 @@
       "word": "Bridge",
       "pronunciation": "/brɪdʒ/",
       "chinese": "桥;桥梁",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1b/BotW_Unknown_Bridge.png",
+      "image": "images/zelda/bridge.png",
       "definition_en": "A structure carrying a road or path over a river, road, or other obstacle.",
       "definition_zh": "承载道路或小径跨越河流、道路或其他障碍物的结构。",
       "example_en": "The Bridge of Hylia spans across a vast canyon.",
       "example_zh": "海利亚大桥横跨广阔的峡谷。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/bridge.jpg"
     },
     {
       "theme": "zelda",
@@ -126,12 +135,13 @@
       "word": "Calamity",
       "pronunciation": "/kəˈlæməti/",
       "chinese": "灾难;浩劫",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png",
+      "image": "images/zelda/calamity.png",
       "definition_en": "An event causing great and often sudden damage or distress; a disaster.",
       "definition_zh": "造成巨大且经常是突然的破坏或痛苦的事件;灾难。",
       "example_en": "Calamity Ganon brought destruction to the kingdom of Hyrule.",
       "example_zh": "灾厄加农为海拉鲁王国带来了毁灭。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/calamity.jpg"
     },
     {
       "theme": "zelda",
@@ -139,12 +149,13 @@
       "word": "Canyon",
       "pronunciation": "/ˈkænjən/",
       "chinese": "峡谷",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png",
+      "image": "images/zelda/canyon.png",
       "definition_en": "A deep, narrow valley with steep sides, often carved by a river.",
       "definition_zh": "有陡峭两侧的深窄山谷，通常由河流侵蚀而成。",
       "example_en": "The Gerudo Canyon leads to the desert region.",
       "example_zh": "格鲁德峡谷通往沙漠地区。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/canyon.jpg"
     },
     {
       "theme": "zelda",
@@ -152,12 +163,13 @@
       "word": "Castle",
       "pronunciation": "/ˈkæsl/",
       "chinese": "城堡",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Hyrule_Castle.png",
+      "image": "images/zelda/castle.png",
       "definition_en": "A large fortified building or group of buildings with thick walls, typically from the medieval period.",
       "definition_zh": "带有厚墙的大型防御建筑或建筑群,通常来自中世纪时期。",
       "example_en": "Hyrule Castle is the heart of the kingdom.",
       "example_zh": "海拉鲁城堡是王国的中心。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/castle.jpg"
     },
     {
       "theme": "zelda",
@@ -165,12 +177,13 @@
       "word": "Champion",
       "pronunciation": "/ˈtʃæmpiən/",
       "chinese": "英雄;冠军",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/BotW_Champions_Artwork.png",
+      "image": "images/zelda/champion.png",
       "definition_en": "A person who fights or speaks publicly in support of a cause; a warrior of exceptional skill.",
       "definition_zh": "为某项事业公开战斗或发声的人;技艺高超的战士。",
       "example_en": "The four Champions were chosen to pilot the Divine Beasts.",
       "example_zh": "四位英雄被选中来操控神兽。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/champion.jpg"
     },
     {
       "theme": "zelda",
@@ -178,12 +191,13 @@
       "word": "Cliff",
       "pronunciation": "/klɪf/",
       "chinese": "悬崖;峭壁",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png",
+      "image": "images/zelda/cliff.png",
       "definition_en": "A steep rock face, especially at the edge of the sea or a mountain.",
       "definition_zh": "陡峭的岩石表面,尤其是在海边或山边。",
       "example_en": "Link climbs steep cliffs to reach new areas.",
       "example_zh": "林克攀爬陡峭的悬崖到达新区域。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/cliff.jpg"
     },
     {
       "theme": "zelda",
@@ -191,12 +205,13 @@
       "word": "Climb",
       "pronunciation": "/klaɪm/",
       "chinese": "攀爬;攀登",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png",
+      "image": "images/zelda/climb.png",
       "definition_en": "To go up or ascend, especially by using the hands and feet.",
       "definition_zh": "向上移动或攀升,尤其是使用手和脚。",
       "example_en": "Link can climb almost any surface in Hyrule.",
       "example_zh": "林克几乎能攀爬海拉鲁的任何表面。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/climb.jpg"
     },
     {
       "theme": "zelda",
@@ -204,12 +219,13 @@
       "word": "Cloud",
       "pronunciation": "/klaʊd/",
       "chinese": "云;云朵",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/BotW_Hyrule_Sunset_Artwork.jpg",
+      "image": "images/zelda/cloud.jpg",
       "definition_en": "A visible mass of water droplets or ice crystals suspended in the atmosphere.",
       "definition_zh": "悬浮在大气中的可见水滴或冰晶团。",
       "example_en": "Clouds drift across the sky above Hyrule.",
       "example_zh": "云朵在海拉鲁的天空中飘过。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/cloud.jpg"
     },
     {
       "theme": "zelda",
@@ -217,12 +233,13 @@
       "word": "Companion",
       "pronunciation": "/kəmˈpænjən/",
       "chinese": "同伴;伙伴",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png",
+      "image": "images/zelda/companion.png",
       "definition_en": "A person or animal with whom one spends time or travels; a partner or friend.",
       "definition_zh": "与某人共度时光或一起旅行的人或动物;伙伴或朋友。",
       "example_en": "A loyal horse is Link's faithful companion.",
       "example_zh": "一匹忠诚的马是林克忠实的伙伴。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/companion.jpg"
     },
     {
       "theme": "zelda",
@@ -230,12 +247,13 @@
       "word": "Cooking",
       "pronunciation": "/ˈkʊkɪŋ/",
       "chinese": "烹饪;烹调",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg",
+      "image": "images/zelda/cooking.jpg",
       "definition_en": "The practice or skill of preparing food by combining, mixing, and heating ingredients.",
       "definition_zh": "通过混合、搅拌和加热食材来准备食物的技能或做法。",
       "example_en": "Link improves his cooking skills to create powerful dishes.",
       "example_zh": "林克提高烹饪技能来制作强大的料理。",
-      "category": "活动"
+      "category": "活动",
+      "thumbnail": "images/zelda/thumbnails/cooking.jpg"
     },
     {
       "theme": "zelda",
@@ -243,12 +261,13 @@
       "word": "Courage",
       "pronunciation": "/ˈkɜːrɪdʒ/",
       "chinese": "勇气;胆量",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/BotW_Link_Artwork.png",
+      "image": "images/zelda/courage.png",
       "definition_en": "The ability to do something that frightens one; strength in the face of pain.",
       "definition_zh": "做让人害怕的事情的能力;面对痛苦时的力量。",
       "example_en": "Link embodies the spirit of courage.",
       "example_zh": "林克体现了勇气的精神。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/courage.jpg"
     },
     {
       "theme": "zelda",
@@ -256,12 +275,13 @@
       "word": "Desert",
       "pronunciation": "/ˈdezərt/",
       "chinese": "沙漠",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png",
+      "image": "images/zelda/desert.png",
       "definition_en": "A barren area of land with little precipitation and extreme temperatures.",
       "definition_zh": "降水稀少、温度极端的贫瘠地区。",
       "example_en": "The Gerudo Desert is harsh and unforgiving.",
       "example_zh": "格鲁德沙漠严酷而无情。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/desert.jpg"
     },
     {
       "theme": "zelda",
@@ -269,12 +289,13 @@
       "word": "Elixir",
       "pronunciation": "/ɪˈlɪksər/",
       "chinese": "药剂;灵药",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png",
+      "image": "images/zelda/elixir.png",
       "definition_en": "A magical or medicinal potion that heals or grants special abilities.",
       "definition_zh": "具有治疗或赋予特殊能力的魔法或药用药水。",
       "example_en": "Link brews elixirs to restore health and gain temporary powers.",
       "example_zh": "林克调制灵药来恢复生命值并获得临时能力。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/elixir.jpg"
     },
     {
       "theme": "zelda",
@@ -282,12 +303,13 @@
       "word": "Fairy",
       "pronunciation": "/ˈfɛri/",
       "chinese": "妖精;仙女",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png",
+      "image": "images/zelda/fairy.png",
       "definition_en": "A small magical being with wings that can restore health.",
       "definition_zh": "有翅膀的小型魔法生物，可以恢复生命值。",
       "example_en": "Fairies can revive Link if he falls in battle.",
       "example_zh": "如果林克在战斗中倒下，妖精可以复活他。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/fairy.jpg"
     },
     {
       "theme": "zelda",
@@ -295,12 +317,13 @@
       "word": "Field",
       "pronunciation": "/fiːld/",
       "chinese": "田野;原野",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/77/BotW_Hyrule_Field.png",
+      "image": "images/zelda/field.png",
       "definition_en": "An open area of land, especially one planted with crops or used for grazing.",
       "definition_zh": "开阔的土地区域,尤其是种植作物或用于放牧的地方。",
       "example_en": "Hyrule Field is a vast open area to explore.",
       "example_zh": "海拉鲁平原是一片广阔的开放区域供探索。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/field.jpg"
     },
     {
       "theme": "zelda",
@@ -308,12 +331,13 @@
       "word": "Flower",
       "pronunciation": "/ˈflaʊər/",
       "chinese": "花;花朵",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png",
+      "image": "images/zelda/flower.png",
       "definition_en": "The seed-bearing part of a plant, often brightly colored and with a sweet scent.",
       "definition_zh": "植物的开花部分,通常色彩鲜艳并带有芬芳的香气。",
       "example_en": "The Silent Princess is a rare and beautiful flower.",
       "example_zh": "寂静公主是一种稀有而美丽的花。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/flower.jpg"
     },
     {
       "theme": "zelda",
@@ -321,12 +345,13 @@
       "word": "Forest",
       "pronunciation": "/ˈfɔːrɪst/",
       "chinese": "森林",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Forest_Landscape.png",
+      "image": "images/zelda/forest.png",
       "definition_en": "A large area covered with trees and plants; a woodland.",
       "definition_zh": "被树木和植物覆盖的大片区域;林地。",
       "example_en": "Dense forests cover much of Hyrule's landscape.",
       "example_zh": "茂密的森林覆盖了海拉鲁的大部分地貌。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/forest.jpg"
     },
     {
       "theme": "zelda",
@@ -334,12 +359,13 @@
       "word": "Gerudo",
       "pronunciation": "/ɡəˈruːdoʊ/",
       "chinese": "格鲁德(种族)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png",
+      "image": "images/zelda/gerudo.png",
       "definition_en": "A race of warrior women living in the desert region of Hyrule.",
       "definition_zh": "生活在海拉鲁沙漠地区的女战士种族。",
       "example_en": "The Gerudo people have their own language and customs.",
       "example_zh": "格鲁德人有自己的语言和习俗。",
-      "category": "种族"
+      "category": "种族",
+      "thumbnail": "images/zelda/thumbnails/gerudo.jpg"
     },
     {
       "theme": "zelda",
@@ -347,12 +373,13 @@
       "word": "Goron",
       "pronunciation": "/ˈɡɔːrɒn/",
       "chinese": "格龙(种族)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png",
+      "image": "images/zelda/goron.png",
       "definition_en": "A race of large, rock-eating people who live in volcanic regions.",
       "definition_zh": "居住在火山地区的巨大的、以岩石为食的种族。",
       "example_en": "The Gorons are known for their strength and mining skills.",
       "example_zh": "格龙族以其力量和采矿技能而闻名。",
-      "category": "种族"
+      "category": "种族",
+      "thumbnail": "images/zelda/thumbnails/goron.jpg"
     },
     {
       "theme": "zelda",
@@ -360,12 +387,13 @@
       "word": "Guardian",
       "pronunciation": "/ˈɡɑːrdiən/",
       "chinese": "守护者",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png",
+      "image": "images/zelda/guardian.png",
       "definition_en": "A defender, protector, or keeper; something that watches over or protects.",
       "definition_zh": "保卫者、保护者或看守者;监视或保护某物的东西。",
       "example_en": "Ancient Guardians patrol the ruins of Hyrule Castle.",
       "example_zh": "远古守护者在海拉鲁城堡的废墟中巡逻。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/guardian.jpg"
     },
     {
       "theme": "zelda",
@@ -373,12 +401,13 @@
       "word": "Hero",
       "pronunciation": "/ˈhɪroʊ/",
       "chinese": "英雄;勇士",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/BotW_Link_Gazing_at_Hyrule_Artwork.jpg",
+      "image": "images/zelda/hero.jpg",
       "definition_en": "A person admired for courage, noble qualities, and outstanding achievements.",
       "definition_zh": "因勇气、高尚品质和杰出成就而受人钦佩的人。",
       "example_en": "Link is the hero destined to save Hyrule.",
       "example_zh": "林克是命中注定拯救海拉鲁的英雄。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/hero.jpg"
     },
     {
       "theme": "zelda",
@@ -386,12 +415,13 @@
       "word": "Hinox",
       "pronunciation": "/ˈhaɪnɒks/",
       "chinese": "希诺克斯(巨人)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png",
+      "image": "images/zelda/hinox.png",
       "definition_en": "A giant cyclops-like monster that sleeps during the day.",
       "definition_zh": "像独眼巨人一样的大型怪物，白天会睡觉。",
       "example_en": "The Hinox wears weapons around its neck like a necklace.",
       "example_zh": "希诺克斯把武器像项链一样戴在脖子上。",
-      "category": "敌人"
+      "category": "敌人",
+      "thumbnail": "images/zelda/thumbnails/hinox.jpg"
     },
     {
       "theme": "zelda",
@@ -399,12 +429,13 @@
       "word": "Horse",
       "pronunciation": "/hɔːrs/",
       "chinese": "马",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png",
+      "image": "images/zelda/horse.png",
       "definition_en": "A large four-legged animal used for riding and carrying loads.",
       "definition_zh": "用于骑乘和运载的大型四足动物。",
       "example_en": "Link tames wild horses in the open fields.",
       "example_zh": "林克在开阔的田野上驯服野马。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/horse.jpg"
     },
     {
       "theme": "zelda",
@@ -412,12 +443,13 @@
       "word": "House",
       "pronunciation": "/haʊs/",
       "chinese": "房屋;住宅",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+      "image": "images/zelda/house.jpg",
       "definition_en": "A building for people to live in, typically for one family.",
       "definition_zh": "供人们居住的建筑物,通常供一个家庭使用。",
       "example_en": "Traditional houses in Kakariko Village have unique architecture.",
       "example_zh": "卡卡利科村的传统房屋有独特的建筑风格。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/house.jpg"
     },
     {
       "theme": "zelda",
@@ -425,12 +457,13 @@
       "word": "Journey",
       "pronunciation": "/ˈdʒɜːrni/",
       "chinese": "旅程;旅行",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/BotW_Link_Riding_Master_Cycle_Zero_Artwork.png",
+      "image": "images/zelda/journey.png",
       "definition_en": "An act of traveling from one place to another; an adventure or experience.",
       "definition_zh": "从一个地方到另一个地方的旅行行为;冒险或经历。",
       "example_en": "Link's journey across Hyrule is full of discoveries.",
       "example_zh": "林克穿越海拉鲁的旅程充满了发现。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/journey.jpg"
     },
     {
       "theme": "zelda",
@@ -438,12 +471,13 @@
       "word": "Jump",
       "pronunciation": "/dʒʌmp/",
       "chinese": "跳跃;跳",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png",
+      "image": "images/zelda/jump.png",
       "definition_en": "To push oneself off the ground using the legs and feet.",
       "definition_zh": "用腿和脚将自己推离地面。",
       "example_en": "Enemies can jump to attack from above.",
       "example_zh": "敌人可以跳跃从上方进行攻击。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/jump.jpg"
     },
     {
       "theme": "zelda",
@@ -451,12 +485,13 @@
       "word": "Korok",
       "pronunciation": "/ˈkɔːrɒk/",
       "chinese": "克洛格;树精",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/BotW_Forest_of_Spirits_Daytime.png",
+      "image": "images/zelda/korok.png",
       "definition_en": "A small forest spirit in the shape of a wooden creature with leaves.",
       "definition_zh": "形状像木制生物并长着叶子的小型森林精灵。",
       "example_en": "Finding all the Koroks hidden across Hyrule is a great challenge.",
       "example_zh": "找到隐藏在海拉鲁各处的所有克洛格是一个巨大的挑战。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/korok.jpg"
     },
     {
       "theme": "zelda",
@@ -464,12 +499,13 @@
       "word": "Legend",
       "pronunciation": "/ˈledʒənd/",
       "chinese": "传说;传奇",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/BotW_Wallpaper_2.png",
+      "image": "images/zelda/legend.png",
       "definition_en": "A traditional story sometimes popularly regarded as historical but not authenticated.",
       "definition_zh": "一个传统故事,有时被普遍认为是历史性的但未经证实。",
       "example_en": "The Legend of Zelda has been passed down through generations.",
       "example_zh": "塞尔达传说世代相传。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/legend.jpg"
     },
     {
       "theme": "zelda",
@@ -477,12 +513,13 @@
       "word": "Lizalfos",
       "pronunciation": "/lɪˈzælfɒs/",
       "chinese": "蜥蜴战士(怪物)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png",
+      "image": "images/zelda/lizalfos.png",
       "definition_en": "A reptilian monster that is agile and attacks with weapons.",
       "definition_zh": "敏捷的爬行类怪物，会使用武器攻击。",
       "example_en": "Lizalfos can camouflage themselves in certain environments.",
       "example_zh": "蜥蜴战士可以在某些环境中伪装自己。",
-      "category": "敌人"
+      "category": "敌人",
+      "thumbnail": "images/zelda/thumbnails/lizalfos.jpg"
     },
     {
       "theme": "zelda",
@@ -490,12 +527,13 @@
       "word": "Lynel",
       "pronunciation": "/ˈlaɪnəl/",
       "chinese": "人马(怪物)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png",
+      "image": "images/zelda/lynel.png",
       "definition_en": "A powerful centaur-like creature that is one of the most dangerous enemies in Hyrule.",
       "definition_zh": "强大的半人马生物，是海拉鲁最危险的敌人之一。",
       "example_en": "Lynels are incredibly tough and require skill to defeat.",
       "example_zh": "人马非常强大，需要技巧才能战胜。",
-      "category": "敌人"
+      "category": "敌人",
+      "thumbnail": "images/zelda/thumbnails/lynel.jpg"
     },
     {
       "theme": "zelda",
@@ -503,12 +541,13 @@
       "word": "Moblin",
       "pronunciation": "/ˈmɒblɪn/",
       "chinese": "魔布林(怪物)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png",
+      "image": "images/zelda/moblin.png",
       "definition_en": "A large pig-like monster that is stronger than Bokoblins.",
       "definition_zh": "像猪一样的大型怪物，比波克布林更强大。",
       "example_en": "Moblins wield heavy weapons and deal massive damage.",
       "example_zh": "魔布林使用重型武器，造成巨大伤害。",
-      "category": "敌人"
+      "category": "敌人",
+      "thumbnail": "images/zelda/thumbnails/moblin.jpg"
     },
     {
       "theme": "zelda",
@@ -516,12 +555,13 @@
       "word": "Mountain",
       "pronunciation": "/ˈmaʊntən/",
       "chinese": "山;山脉",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg",
+      "image": "images/zelda/mountain.jpg",
       "definition_en": "A large natural elevation of the earth's surface rising to a summit.",
       "definition_zh": "地球表面隆起至顶峰的巨大自然高地。",
       "example_en": "Link climbs high mountains to explore new regions.",
       "example_zh": "林克攀登高山探索新的地区。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/mountain.jpg"
     },
     {
       "theme": "zelda",
@@ -529,12 +569,13 @@
       "word": "Ore",
       "pronunciation": "/ɔːr/",
       "chinese": "矿石;矿砂",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+      "image": "images/zelda/ore.jpg",
       "definition_en": "A naturally occurring solid material from which a metal or valuable mineral can be extracted.",
       "definition_zh": "可以从中提取金属或贵重矿物的天然固体材料。",
       "example_en": "Link mines ore deposits to collect valuable materials for crafting.",
       "example_zh": "林克开采矿石以收集用于制作的宝贵材料。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/ore.jpg"
     },
     {
       "theme": "zelda",
@@ -542,12 +583,13 @@
       "word": "Paraglider",
       "pronunciation": "/ˈpærəɡlaɪdər/",
       "chinese": "滑翔伞",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png",
+      "image": "images/zelda/paraglider.png",
       "definition_en": "A lightweight, free-flying, foot-launched aircraft with no rigid structure.",
       "definition_zh": "一种轻便的、自由飞行的、用脚起飞的无刚性结构飞行器。",
       "example_en": "The paraglider allows Link to glide safely from high places.",
       "example_zh": "滑翔伞让林克能够从高处安全滑翔。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/paraglider.jpg"
     },
     {
       "theme": "zelda",
@@ -555,12 +597,13 @@
       "word": "Plateau",
       "pronunciation": "/plæˈtoʊ/",
       "chinese": "高原;平台",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/BotW_Great_Plateau_Tower_Pre-release.png",
+      "image": "images/zelda/plateau.png",
       "definition_en": "An area of fairly level high ground.",
       "definition_zh": "一片相当平坦的高地。",
       "example_en": "Link begins his adventure on the Great Plateau.",
       "example_zh": "林克在大高原开始他的冒险。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/plateau.jpg"
     },
     {
       "theme": "zelda",
@@ -568,12 +611,13 @@
       "word": "Princess",
       "pronunciation": "/ˈprɪnses/",
       "chinese": "公主",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/BotW_Zelda_Artwork.png",
+      "image": "images/zelda/princess.png",
       "definition_en": "The daughter of a monarch; a female member of a royal family.",
       "definition_zh": "君主的女儿;皇室的女性成员。",
       "example_en": "Princess Zelda possesses the power to seal away darkness.",
       "example_zh": "塞尔达公主拥有封印黑暗的力量。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/princess.jpg"
     },
     {
       "theme": "zelda",
@@ -581,12 +625,13 @@
       "word": "Quest",
       "pronunciation": "/kwest/",
       "chinese": "探索;任务",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/21/BotW_Link_Rider_Artwork.png",
+      "image": "images/zelda/quest.png",
       "definition_en": "A long or arduous search for something; a journey made in search of something.",
       "definition_zh": "长期或艰苦地寻找某物;为寻找某物而进行的旅程。",
       "example_en": "Link's quest is to defeat Ganon and save Princess Zelda.",
       "example_zh": "林克的任务是打败加农并拯救塞尔达公主。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/quest.jpg"
     },
     {
       "theme": "zelda",
@@ -594,12 +639,13 @@
       "word": "River",
       "pronunciation": "/ˈrɪvər/",
       "chinese": "河流;江河",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/BotW_River_of_the_Dead.png",
+      "image": "images/zelda/river.png",
       "definition_en": "A large natural stream of water flowing in a channel to the sea, a lake, or another river.",
       "definition_zh": "在河道中流向大海、湖泊或其他河流的大型天然水流。",
       "example_en": "Many rivers flow through the diverse lands of Hyrule.",
       "example_zh": "许多河流流经海拉鲁的多样化土地。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/river.jpg"
     },
     {
       "theme": "zelda",
@@ -607,12 +653,13 @@
       "word": "Riverside",
       "pronunciation": "/ˈrɪvərsaɪd/",
       "chinese": "河边;河畔",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/BotW_River_of_the_Dead.png",
+      "image": "images/zelda/riverside.png",
       "definition_en": "The ground along the edge of a river.",
       "definition_zh": "沿着河流边缘的地面。",
       "example_en": "The Riverside Stable is located near a peaceful river.",
       "example_zh": "河畔马厩坐落在一条宁静的河流附近。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/riverside.jpg"
     },
     {
       "theme": "zelda",
@@ -620,12 +667,13 @@
       "word": "Rune",
       "pronunciation": "/ruːn/",
       "chinese": "符文;古文字",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
+      "image": "images/zelda/rune.png",
       "definition_en": "A mystical symbol or letter with magical powers used in ancient writing.",
       "definition_zh": "具有魔力的神秘符号或字母，用于古代文字。",
       "example_en": "Link's Sheikah Slate has various rune abilities like bombs and magnesis.",
       "example_zh": "林克的希卡之石拥有各种符文能力，如炸弹和磁力。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/rune.jpg"
     },
     {
       "theme": "zelda",
@@ -633,12 +681,13 @@
       "word": "Rupee",
       "pronunciation": "/ruːˈpiː/",
       "chinese": "卢比;货币",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+      "image": "images/zelda/rupee.jpg",
       "definition_en": "The currency used throughout Hyrule for trading and purchasing items.",
       "definition_zh": "在海拉鲁各地用于交易和购买物品的货币。",
       "example_en": "Link collects rupees to buy equipment and supplies from merchants.",
       "example_zh": "林克收集卢比从商人那里购买装备和补给。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/rupee.jpg"
     },
     {
       "theme": "zelda",
@@ -646,12 +695,13 @@
       "word": "Sheikah",
       "pronunciation": "/ˈʃeɪkɑː/",
       "chinese": "希卡族(种族)",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
+      "image": "images/zelda/sheikah.png",
       "definition_en": "An ancient race of people known for their advanced technology and loyalty to the Royal Family.",
       "definition_zh": "以先进技术和对皇室的忠诚而闻名的古老种族。",
       "example_en": "The Sheikah created advanced technology 10,000 years ago.",
       "example_zh": "希卡族在一万年前创造了先进的技术。",
-      "category": "种族"
+      "category": "种族",
+      "thumbnail": "images/zelda/thumbnails/sheikah.jpg"
     },
     {
       "theme": "zelda",
@@ -659,12 +709,13 @@
       "word": "Shield",
       "pronunciation": "/ʃiːld/",
       "chinese": "盾;盾牌",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg",
+      "image": "images/zelda/shield.jpg",
       "definition_en": "A broad piece of armor held for protection against weapons or blows.",
       "definition_zh": "用于抵御武器或打击的宽阔盔甲片。",
       "example_en": "Link uses his shield to block enemy attacks.",
       "example_zh": "林克使用他的盾牌来阻挡敌人的攻击。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/shield.jpg"
     },
     {
       "theme": "zelda",
@@ -672,12 +723,13 @@
       "word": "Shrine",
       "pronunciation": "/ʃraɪn/",
       "chinese": "神殿;圣地",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
+      "image": "images/zelda/shrine.png",
       "definition_en": "A place regarded as holy because of its associations with a divinity or sacred person or relic.",
       "definition_zh": "因与神灵、圣人或圣物有关而被视为神圣的地方。",
       "example_en": "Link must complete trials in 120 shrines scattered across Hyrule.",
       "example_zh": "林克必须完成散布在海拉鲁各处的120个神殿的试炼。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/shrine.jpg"
     },
     {
       "theme": "zelda",

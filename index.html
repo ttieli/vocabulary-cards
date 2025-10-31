@@ -1452,11 +1452,12 @@
                         <div class="word-grid">
                             ${filteredCards.map(card => {
                                 if (currentViewMode === 'image') {
-                                    // 图片模式：显示图片，hover显示单词
+                                    // 图片模式：使用缩略图，hover显示单词
+                                    const imageSrc = card.thumbnail || card.image;
                                     return `
                                         <div class="word-card image-mode" onclick="showCard('${sceneName}', '${card.filename}')">
                                             <div class="card-image-wrapper">
-                                                <img src="${card.image}" alt="${card.word}" class="card-image" loading="lazy">
+                                                <img src="${imageSrc}" alt="${card.word}" class="card-image" loading="lazy">
                                             </div>
                                             <div class="word-english">${card.word}</div>
                                         </div>

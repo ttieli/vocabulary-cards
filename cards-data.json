@@ -38,12 +38,13 @@
         "word": "Accelerate",
         "pronunciation": "/əkˈseləreɪt/",
         "chinese": "加速",
-        "image": "https://mario.wiki.gallery/images/0/0a/MKWorld_Mario.png",
+        "image": "images/mario/accelerate.png",
         "definition_en": "To increase speed or cause something to move faster.",
         "definition_zh": "让速度变快，或使某物加快前进。",
         "example_en": "Mario accelerates off the starting grid to grab the lead.",
         "example_zh": "马里奥在起跑线上迅速加速，抢占领先位置。",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/accelerate.jpg"
       },
       {
         "theme": "mario",
@@ -51,12 +52,13 @@
         "word": "Airship",
         "pronunciation": "/ˈerʃɪp/",
         "chinese": "飞艇;飞船",
-        "image": "https://mario.wiki.gallery/images/thumb/1/1f/MKWorld_Icon_Airship_Fortress.png/120px-MKWorld_Icon_Airship_Fortress.png",
+        "image": "images/mario/airship.png",
         "definition_en": "A powered aircraft that is lighter than air; a flying vessel.",
         "definition_zh": "比空气轻的动力飞行器;飞行器。",
         "example_en": "Race through Airship Fortress high above the clouds!",
         "example_zh": "在云端之上的飞艇要塞中比赛!",
-        "category": "Characters"
+        "category": "Characters",
+        "thumbnail": "images/mario/thumbnails/airship.jpg"
       },
       {
         "theme": "mario",
@@ -64,12 +66,13 @@
         "word": "Banana",
         "pronunciation": "/bəˈnænə/",
         "chinese": "香蕉",
-        "image": "https://mario.wiki.gallery/images/7/75/MKW_Banana_Roulette.png",
+        "image": "images/mario/banana.png",
         "definition_en": "A tropical fruit; in Mario Kart, a peel used as a trap on the track.",
         "definition_zh": "一种热带水果;在马里奥赛车中,香蕉皮用作赛道上的陷阱。",
         "example_en": "Drop banana peels to make your rivals slip and spin!",
         "example_zh": "扔下香蕉皮让你的对手打滑旋转!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/banana.jpg"
       },
       {
         "theme": "mario",
@@ -77,12 +80,13 @@
         "word": "Battle",
         "pronunciation": "/ˈbætl/",
         "chinese": "战斗;对战",
-        "image": "https://mario.wiki.gallery/images/thumb/1/18/MKWorld_Balloon_Battle_icon.png/120px-MKWorld_Balloon_Battle_icon.png",
+        "image": "images/mario/battle.png",
         "definition_en": "A fight or contest between opponents; a competitive game mode.",
         "definition_zh": "对手之间的战斗或竞赛;竞技游戏模式。",
         "example_en": "Compete in Balloon Battle to pop your rivals' balloons!",
         "example_zh": "参加气球对战戳破对手的气球!",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/battle.jpg"
       },
       {
         "theme": "mario",
@@ -90,12 +94,13 @@
         "word": "Beach",
         "pronunciation": "/biːtʃ/",
         "chinese": "海滩;沙滩",
-        "image": "https://mario.wiki.gallery/images/thumb/1/1a/MKWorld_Icon_Peach_Beach.png/120px-MKWorld_Icon_Peach_Beach.png",
+        "image": "images/mario/beach.png",
         "definition_en": "A sandy or pebbly shore beside a body of water.",
         "definition_zh": "水体旁边的沙质或砾石海岸。",
         "example_en": "Race along the sunny shores of Peach Beach!",
         "example_zh": "在碧琪海滩阳光灿烂的海岸上比赛!",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/beach.jpg"
       },
       {
         "theme": "mario",
@@ -103,12 +108,13 @@
         "word": "Blooper",
         "pronunciation": "/ˈbluːpər/",
         "chinese": "乌贼;喷墨鱼",
-        "image": "https://mario.wiki.gallery/images/thumb/f/f8/MKW_Blooper_Roulette.png/93px-MKW_Blooper_Roulette.png",
+        "image": "images/mario/blooper.png",
         "definition_en": "A squid-like creature that sprays ink to block opponents' vision.",
         "definition_zh": "鱿鱼般的生物,喷射墨汁阻挡对手的视线。",
         "example_en": "The Blooper splashes ink all over your screen!",
         "example_zh": "乌贼在你的屏幕上喷洒墨汁!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/blooper.jpg"
       },
       {
         "theme": "mario",
@@ -116,12 +122,13 @@
         "word": "Bomb",
         "pronunciation": "/bɑːm/",
         "chinese": "炸弹",
-        "image": "https://mario.wiki.gallery/images/2/24/MKW_Bob-omb_Roulette.png",
+        "image": "images/mario/bomb.png",
         "definition_en": "An explosive device; in Mario Kart, a Bob-omb that creates a large explosion.",
         "definition_zh": "爆炸装置;在马里奥赛车中,炸弹怪会制造大爆炸。",
         "example_en": "Wario throws bob-ombs to blast through the competition!",
         "example_zh": "瓦里奥扔炸弹炸飞竞争对手!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/bomb.jpg"
       },
       {
         "theme": "mario",
@@ -129,12 +136,13 @@
         "word": "Boost",
         "pronunciation": "/buːst/",
         "chinese": "加速;推进",
-        "image": "https://mario.wiki.gallery/images/9/91/MKW_Golden_Mushroom_Item_Roulette.png",
+        "image": "images/mario/boost.png",
         "definition_en": "To increase or improve something; in racing, a sudden increase in speed.",
         "definition_zh": "增加或改进某物;在赛车中,速度的突然提升。",
         "example_en": "Get a boost start by timing your acceleration perfectly!",
         "example_zh": "通过完美把握加速时机获得起跑加速!",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/boost.jpg"
       },
       {
         "theme": "mario",
@@ -142,12 +150,13 @@
         "word": "Bullet",
         "pronunciation": "/ˈbʊlɪt/",
         "chinese": "子弹;炮弹",
-        "image": "https://mario.wiki.gallery/images/thumb/3/36/MKW_Bullet_Bill_Roulette.png/120px-MKW_Bullet_Bill_Roulette.png",
+        "image": "images/mario/bullet.png",
         "definition_en": "A projectile shot from a weapon; transforms racer into high-speed missile.",
         "definition_zh": "从武器射出的弹丸;将赛车手变成高速导弹。",
         "example_en": "Transform into a Bullet Bill and fly past everyone!",
         "example_zh": "变成子弹刺客飞越所有人!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/bullet.jpg"
       },
       {
         "theme": "mario",
@@ -155,12 +164,13 @@
         "word": "Castle",
         "pronunciation": "/ˈkæsəl/",
         "chinese": "城堡",
-        "image": "https://mario.wiki.gallery/images/thumb/c/cc/MKWorld_Icon_Bowsers_Castle.png/120px-MKWorld_Icon_Bowsers_Castle.png",
+        "image": "images/mario/castle.png",
         "definition_en": "A large fortified building from medieval times; a stronghold.",
         "definition_zh": "中世纪时期的大型防御建筑;堡垒。",
         "example_en": "Bowser's Castle is the most dangerous track!",
         "example_zh": "酷霸王城堡是最危险的赛道!",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/castle.jpg"
       },
       {
         "theme": "mario",
@@ -168,12 +178,13 @@
         "word": "Challenge",
         "pronunciation": "/ˈtʃælɪndʒ/",
         "chinese": "挑战;难题",
-        "image": "https://mario.wiki.gallery/images/thumb/7/78/Mario_Kart_World_Mushroom_Cup_Icon.png/120px-Mario_Kart_World_Mushroom_Cup_Icon.png",
+        "image": "images/mario/challenge.png",
         "definition_en": "A difficult task or problem that tests one's abilities.",
         "definition_zh": "考验能力的困难任务或问题。",
         "example_en": "Every cup presents a new challenge to overcome!",
         "example_zh": "每个杯赛都呈现需要克服的新挑战!",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/challenge.jpg"
       },
       {
         "theme": "mario",
@@ -181,12 +192,13 @@
         "word": "Champion",
         "pronunciation": "/ˈtʃæmpiən/",
         "chinese": "冠军;优胜者",
-        "image": "https://mario.wiki.gallery/images/0/0a/MKWorld_Mario.png",
+        "image": "images/mario/champion.png",
         "definition_en": "A person who has defeated all opponents in a competition.",
         "definition_zh": "在比赛中击败所有对手的人。",
         "example_en": "Mario becomes the racing champion once again!",
         "example_zh": "马里奥再次成为赛车冠军!",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/champion.jpg"
       },
       {
         "theme": "mario",
@@ -194,12 +206,13 @@
         "word": "Character",
         "pronunciation": "/ˈkærəktər/",
         "chinese": "角色;人物",
-        "image": "https://mario.wiki.gallery/images/thumb/3/3d/MKWorld_Yoshi.png/120px-MKWorld_Yoshi.png",
+        "image": "images/mario/character.png",
         "definition_en": "A person in a game, story, or play; a playable figure.",
         "definition_zh": "游戏、故事或戏剧中的人物;可操作的角色。",
         "example_en": "Choose your favorite character to race with!",
         "example_zh": "选择你最喜欢的角色来比赛!",
-        "category": "Characters"
+        "category": "Characters",
+        "thumbnail": "images/mario/thumbnails/character.jpg"
       },
       {
         "theme": "mario",
@@ -207,12 +220,13 @@
         "word": "Circuit",
         "pronunciation": "/ˈsɜːrkɪt/",
         "chinese": "赛道;环形赛道",
-        "image": "https://mario.wiki.gallery/images/thumb/3/31/MKWorld_Icon_Mario_Circuit.png/120px-MKWorld_Icon_Mario_Circuit.png",
+        "image": "images/mario/circuit.png",
         "definition_en": "A closed track or path for racing; a circular route.",
         "definition_zh": "用于比赛的封闭赛道或路径;环形路线。",
         "example_en": "Mario Circuit is a classic racing track loved by fans.",
         "example_zh": "马里奥赛道是深受粉丝喜爱的经典赛道。",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/circuit.jpg"
       },
       {
         "theme": "mario",
@@ -220,12 +234,13 @@
         "word": "Coin",
         "pronunciation": "/kɔɪn/",
         "chinese": "硬币;金币",
-        "image": "https://mario.wiki.gallery/images/1/10/MKW_Coin_Roulette.png",
+        "image": "images/mario/coin.png",
         "definition_en": "A flat, round piece of metal used as money; in Mario Kart, increases top speed.",
         "definition_zh": "用作货币的扁平圆形金属片;在马里奥赛车中,提升最高速度。",
         "example_en": "Collect coins to increase your kart's maximum speed.",
         "example_zh": "收集金币提升你的卡丁车最高速度。",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/coin.jpg"
       },
       {
         "theme": "mario",
@@ -233,12 +248,13 @@
         "word": "Desert",
         "pronunciation": "/ˈdezərt/",
         "chinese": "沙漠",
-        "image": "https://mario.wiki.gallery/images/thumb/3/34/MKWorld_Icon_Desert_Hills.png/120px-MKWorld_Icon_Desert_Hills.png",
+        "image": "images/mario/desert.png",
         "definition_en": "A dry, sandy region with little rainfall and sparse vegetation.",
         "definition_zh": "降雨稀少、植被稀疏的干燥沙质地区。",
         "example_en": "Navigate through Desert Hills' challenging sand dunes.",
         "example_zh": "穿越沙漠丘陵充满挑战的沙丘。",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/desert.jpg"
       },
       {
         "theme": "mario",
@@ -246,12 +262,13 @@
         "word": "Drift",
         "pronunciation": "/drɪft/",
         "chinese": "漂移;甩尾",
-        "image": "https://mario.wiki.gallery/images/a/ae/MKWorld_Mario_Drift.png",
+        "image": "images/mario/drift.png",
         "definition_en": "To slide sideways in a controlled manner, especially while cornering at high speed.",
         "definition_zh": "以受控的方式侧滑,尤其是在高速转弯时。",
         "example_en": "Mario performs a perfect drift around the tight corner.",
         "example_zh": "马里奥在急转弯处完美地漂移过弯。",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/drift.jpg"
       },
       {
         "theme": "mario",
@@ -259,12 +276,13 @@
         "word": "Feather",
         "pronunciation": "/ˈfeðər/",
         "chinese": "羽毛",
-        "image": "https://mario.wiki.gallery/images/thumb/9/9e/MKW_Feather_Roulette.png/120px-MKW_Feather_Roulette.png",
+        "image": "images/mario/feather.png",
         "definition_en": "A light covering that forms the outer covering of a bird; allows jumping.",
         "definition_zh": "鸟类外层的轻质覆盖物;允许跳跃。",
         "example_en": "Use the feather to jump over obstacles on the track!",
         "example_zh": "使用羽毛跳过赛道上的障碍物!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/feather.jpg"
       },
       {
         "theme": "mario",
@@ -272,12 +290,13 @@
         "word": "Finish",
         "pronunciation": "/ˈfɪnɪʃ/",
         "chinese": "完成;终点",
-        "image": "https://mario.wiki.gallery/images/thumb/7/78/Mario_Kart_World_Mushroom_Cup_Icon.png/120px-Mario_Kart_World_Mushroom_Cup_Icon.png",
+        "image": "images/mario/finish.png",
         "definition_en": "To bring to an end; to complete; the final point of a race.",
         "definition_zh": "使结束;完成;比赛的终点。",
         "example_en": "Cross the finish line to complete the race!",
         "example_zh": "冲过终点线完成比赛!",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/finish.jpg"
       },
       {
         "theme": "mario",
@@ -285,12 +304,13 @@
         "word": "Flower",
         "pronunciation": "/ˈflaʊər/",
         "chinese": "花;花朵",
-        "image": "https://mario.wiki.gallery/images/thumb/7/77/MKW_Fire_Flower_Roulette.png/115px-MKW_Fire_Flower_Roulette.png",
+        "image": "images/mario/flower.png",
         "definition_en": "A colorful plant bloom; in Mario Kart, a special power-up item.",
         "definition_zh": "色彩艳丽的植物花朵;在马里奥赛车中,一种特殊的道具。",
         "example_en": "Grab the Fire Flower to shoot fireballs at opponents!",
         "example_zh": "获得火焰花向对手发射火球!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/flower.jpg"
       },
       {
         "theme": "mario",
@@ -298,12 +318,13 @@
         "word": "Goomba",
         "pronunciation": "/ˈɡuːmbə/",
         "chinese": "栗宝宝",
-        "image": "https://mario.wiki.gallery/images/thumb/f/f5/Goomba_Mario_Kart_World.png/120px-Goomba_Mario_Kart_World.png",
+        "image": "images/mario/goomba.png",
         "definition_en": "A mushroom-like enemy creature from the Mario universe.",
         "definition_zh": "来自马里奥宇宙的蘑菇状敌人生物。",
         "example_en": "Avoid the Goombas walking on the race course!",
         "example_zh": "避开在赛道上行走的栗宝宝!",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/goomba.jpg"
       },
       {
         "theme": "mario",
@@ -311,12 +332,13 @@
         "word": "Hammer",
         "pronunciation": "/ˈhæmər/",
         "chinese": "锤子;铁锤",
-        "image": "https://mario.wiki.gallery/images/thumb/6/6c/MKW_Hammer_Roulette.png/110px-MKW_Hammer_Roulette.png",
+        "image": "images/mario/hammer.png",
         "definition_en": "A tool with a heavy head for pounding; an offensive item in racing.",
         "definition_zh": "带有沉重头部的敲击工具;赛车中的进攻性道具。",
         "example_en": "Throw hammers to knock out racers ahead of you!",
         "example_zh": "投掷锤子击倒你前面的赛车手!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/hammer.jpg"
       },
       {
         "theme": "mario",
@@ -324,12 +346,13 @@
         "word": "Horn",
         "pronunciation": "/hɔːrn/",
         "chinese": "喇叭;号角",
-        "image": "https://mario.wiki.gallery/images/thumb/9/9d/MKW_Super_Horn_Roulette.png/120px-MKW_Super_Horn_Roulette.png",
+        "image": "images/mario/horn.png",
         "definition_en": "A device that makes a loud sound; protects from incoming shells.",
         "definition_zh": "发出响亮声音的装置;保护免受来袭的龟壳攻击。",
         "example_en": "Blast the Super Horn to deflect the Spiny Shell!",
         "example_zh": "使用超级喇叭偏转刺甲龟壳!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/horn.jpg"
       },
       {
         "theme": "mario",
@@ -337,12 +360,13 @@
         "word": "Jump",
         "pronunciation": "/dʒʌmp/",
         "chinese": "跳跃;跳",
-        "image": "https://mario.wiki.gallery/images/thumb/9/98/MKWorldBabyMario.png/120px-MKWorldBabyMario.png",
+        "image": "images/mario/jump.png",
         "definition_en": "To push oneself off the ground or another surface; to leap.",
         "definition_zh": "将自己从地面或其他表面推起;跳跃。",
         "example_en": "Perform a jump boost over ramps for extra speed!",
         "example_zh": "在斜坡上进行跳跃加速获得额外速度!",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/jump.jpg"
       },
       {
         "theme": "mario",
@@ -350,12 +374,13 @@
         "word": "Leader",
         "pronunciation": "/ˈliːdər/",
         "chinese": "领先者;领导者",
-        "image": "https://mario.wiki.gallery/images/thumb/6/6a/MKWorld_Luigi.png/120px-MKWorld_Luigi.png",
+        "image": "images/mario/leader.png",
         "definition_en": "The person who is ahead of others; one who guides or directs.",
         "definition_zh": "领先于他人的人;指引或指导的人。",
         "example_en": "Luigi takes the lead in the final lap!",
         "example_zh": "路易吉在最后一圈取得领先!",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/leader.jpg"
       },
       {
         "theme": "mario",
@@ -363,12 +388,13 @@
         "word": "Lightning",
         "pronunciation": "/ˈlaɪtnɪŋ/",
         "chinese": "闪电",
-        "image": "https://mario.wiki.gallery/images/1/17/MKW_Lightning_Roulette.png",
+        "image": "images/mario/lightning.png",
         "definition_en": "A flash of bright light in the sky during a storm; in Mario Kart, strikes all opponents.",
         "definition_zh": "暴风雨中天空的闪光;在马里奥赛车中,攻击所有对手。",
         "example_en": "Lightning shrinks all other racers temporarily!",
         "example_zh": "闪电暂时缩小所有其他赛车手!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/lightning.jpg"
       },
       {
         "theme": "mario",
@@ -376,12 +402,13 @@
         "word": "Mountain",
         "pronunciation": "/ˈmaʊntən/",
         "chinese": "山;山脉",
-        "image": "https://mario.wiki.gallery/images/thumb/1/16/MKWorld_Icon_Choco_Mountain.png/120px-MKWorld_Icon_Choco_Mountain.png",
+        "image": "images/mario/mountain.png",
         "definition_en": "A large natural elevation of land rising high above its surroundings.",
         "definition_zh": "高出周围环境的大型天然陆地隆起。",
         "example_en": "Choco Mountain features steep climbs and sharp turns.",
         "example_zh": "巧克力山拥有陡峭的爬坡和急转弯。",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/mountain.jpg"
       },
       {
         "theme": "mario",
@@ -389,12 +416,13 @@
         "word": "Mushroom",
         "pronunciation": "/ˈmʌʃruːm/",
         "chinese": "蘑菇",
-        "image": "https://mario.wiki.gallery/images/0/03/MKW_Mushroom_Roulette.png",
+        "image": "images/mario/mushroom.png",
         "definition_en": "A type of fungus; in Mario Kart, an item that provides a speed boost.",
         "definition_zh": "一种真菌;在马里奥赛车中,提供加速提升的道具。",
         "example_en": "Use a mushroom to boost past your opponents!",
         "example_zh": "使用蘑菇加速超越你的对手!",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/mushroom.jpg"
       },
       {
         "theme": "mario",
@@ -402,12 +430,13 @@
         "word": "Overtake",
         "pronunciation": "/ˌoʊvərˈteɪk/",
         "chinese": "超越",
-        "image": "https://mario.wiki.gallery/images/e/ef/MKWorld_Bowser.png",
+        "image": "images/mario/overtake.png",
         "definition_en": "To move ahead of another competitor, especially on a racetrack.",
         "definition_zh": "在赛道上超过其他对手，占据领先位置。",
         "example_en": "Bowser overtakes Wario with a perfectly timed Red Shell.",
         "example_zh": "库巴用精准的红龟壳成功超越瓦里奥。",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/overtake.jpg"
       },
       {
         "theme": "mario",
@@ -415,12 +444,13 @@
         "word": "Penguin",
         "pronunciation": "/ˈpeŋɡwɪn/",
         "chinese": "企鹅",
-        "image": "https://mario.wiki.gallery/images/thumb/5/5a/MKWorld_Penguin_artwork.png/120px-MKWorld_Penguin_artwork.png",
+        "image": "images/mario/penguin.png",
         "definition_en": "A flightless seabird; appears as an obstacle or character in icy tracks.",
         "definition_zh": "不会飞的海鸟;在冰雪赛道上作为障碍或角色出现。",
         "example_en": "Watch out for penguins sliding across the frozen track!",
         "example_zh": "小心企鹅在冰冻赛道上滑行!",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/penguin.jpg"
       },
       {
         "theme": "mario",
@@ -428,12 +458,13 @@
         "word": "Princess",
         "pronunciation": "/ˈprɪnsɪs/",
         "chinese": "公主",
-        "image": "https://mario.wiki.gallery/images/thumb/2/27/MKWorld_Peach.png/78px-MKWorld_Peach.png",
+        "image": "images/mario/princess.png",
         "definition_en": "A daughter of a monarch; a female member of a royal family.",
         "definition_zh": "君主的女儿;皇室的女性成员。",
         "example_en": "Princess Peach is an elegant and skilled racer.",
         "example_zh": "碧琪公主是一位优雅而技术娴熟的赛车手。",
-        "category": "Characters"
+        "category": "Characters",
+        "thumbnail": "images/mario/thumbnails/princess.jpg"
       },
       {
         "theme": "mario",
@@ -441,12 +472,13 @@
         "word": "Race",
         "pronunciation": "/reɪs/",
         "chinese": "比赛;竞速",
-        "image": "https://mario.wiki.gallery/images/8/86/MKWorld_VS_icon.png",
+        "image": "images/mario/race.png",
         "definition_en": "A competition of speed; to compete against others to finish first.",
         "definition_zh": "速度竞赛;与他人竞争以最先完成。",
         "example_en": "Luigi enters the VS race to prove his racing skills.",
         "example_zh": "路易吉参加对战比赛证明他的赛车技术。",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/race.jpg"
       },
       {
         "theme": "mario",
@@ -454,12 +486,13 @@
         "word": "Rainbow",
         "pronunciation": "/ˈreɪnboʊ/",
         "chinese": "彩虹",
-        "image": "https://mario.wiki.gallery/images/thumb/2/25/MKWorld_Icon_Rainbow_Road.png/120px-MKWorld_Icon_Rainbow_Road.png",
+        "image": "images/mario/rainbow.png",
         "definition_en": "A multicolored arc in the sky caused by light refraction in water droplets.",
         "definition_zh": "天空中因光线在水滴中折射而形成的多色弧形。",
         "example_en": "Rainbow Road is the ultimate challenge for racers!",
         "example_zh": "彩虹之路是赛车手的终极挑战!",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/rainbow.jpg"
       },
       {
         "theme": "mario",
@@ -467,12 +500,13 @@
         "word": "Rival",
         "pronunciation": "/ˈraɪvəl/",
         "chinese": "对手;竞争者",
-        "image": "https://mario.wiki.gallery/images/thumb/e/ef/MKWorld_Bowser.png/105px-MKWorld_Bowser.png",
+        "image": "images/mario/rival.png",
         "definition_en": "A person competing with another for the same objective or superiority.",
         "definition_zh": "为了同一目标或优势与他人竞争的人。",
         "example_en": "Bowser is Mario's biggest rival on the race track.",
         "example_zh": "酷霸王是马里奥在赛道上最大的对手。",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/rival.jpg"
       },
       {
         "theme": "mario",
@@ -480,12 +514,13 @@
         "word": "Road",
         "pronunciation": "/roʊd/",
         "chinese": "道路;公路",
-        "image": "https://mario.wiki.gallery/images/thumb/6/6c/MKW_Map_with_Roads_Artwork.png/120px-MKW_Map_with_Roads_Artwork.png",
+        "image": "images/mario/road.png",
         "definition_en": "A paved way for vehicles and pedestrians to travel.",
         "definition_zh": "供车辆和行人通行的铺设路面。",
         "example_en": "Roads connect all the courses in Mario Kart World.",
         "example_zh": "道路连接着马里奥赛车世界的所有赛道。",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/road.jpg"
       },
       {
         "theme": "mario",
@@ -493,12 +528,13 @@
         "word": "Shell",
         "pronunciation": "/ʃel/",
         "chinese": "龟壳;贝壳",
-        "image": "https://mario.wiki.gallery/images/b/b8/MKW_Red_Shell_Roulette.png",
+        "image": "images/mario/shell.png",
         "definition_en": "A hard protective outer covering, especially in Mario Kart, a weapon item.",
         "definition_zh": "坚硬的保护性外壳,在马里奥赛车中是一种武器道具。",
         "example_en": "Bowser throws a red shell to hit the racer ahead.",
         "example_zh": "酷霸王扔出红色龟壳攻击前方的赛车手。",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/shell.jpg"
       },
       {
         "theme": "mario",
@@ -506,12 +542,13 @@
         "word": "Speed",
         "pronunciation": "/spiːd/",
         "chinese": "速度;迅速",
-        "image": "https://mario.wiki.gallery/images/thumb/0/03/MKW_Mushroom_Roulette.png/120px-MKW_Mushroom_Roulette.png",
+        "image": "images/mario/speed.png",
         "definition_en": "The rate at which something moves or operates; rapidity of motion.",
         "definition_zh": "某物移动或运作的速率;运动的快速程度。",
         "example_en": "Increase your speed with a mushroom power-up!",
         "example_zh": "用蘑菇道具提升你的速度!",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/speed.jpg"
       },
       {
         "theme": "mario",
@@ -519,12 +556,13 @@
         "word": "Stadium",
         "pronunciation": "/ˈsteɪdiəm/",
         "chinese": "体育场;竞技场",
-        "image": "https://mario.wiki.gallery/images/thumb/f/fd/MKWorld_Icon_Peach_Stadium.png/120px-MKWorld_Icon_Peach_Stadium.png",
+        "image": "images/mario/stadium.png",
         "definition_en": "A large venue for sporting events with spectator seating.",
         "definition_zh": "举办体育赛事的大型场馆,设有观众席位。",
         "example_en": "Peach Stadium hosts exciting kart races.",
         "example_zh": "碧琪体育场举办激动人心的卡丁车比赛。",
-        "category": "Tracks"
+        "category": "Tracks",
+        "thumbnail": "images/mario/thumbnails/stadium.jpg"
       },
       {
         "theme": "mario",
@@ -532,12 +570,13 @@
         "word": "Star",
         "pronunciation": "/stɑːr/",
         "chinese": "星星;无敌星",
-        "image": "https://mario.wiki.gallery/images/f/f9/MKW_Super_Star_Roulette.png",
+        "image": "images/mario/star.png",
         "definition_en": "A celestial body; in Mario Kart, a power-up that grants invincibility.",
         "definition_zh": "天体;在马里奥赛车中,一种赋予无敌状态的强化道具。",
         "example_en": "Rosalina grabs a super star and becomes invincible.",
         "example_zh": "罗莎琳娜获得无敌星,进入无敌状态。",
-        "category": "Items"
+        "category": "Items",
+        "thumbnail": "images/mario/thumbnails/star.jpg"
       },
       {
         "theme": "mario",
@@ -545,12 +584,13 @@
         "word": "Trial",
         "pronunciation": "/ˈtraɪəl/",
         "chinese": "试验;计时赛",
-        "image": "https://mario.wiki.gallery/images/thumb/4/41/MKWorld_Time_Trial_icon.png/120px-MKWorld_Time_Trial_icon.png",
+        "image": "images/mario/trial.png",
         "definition_en": "A test of ability or endurance; racing alone to beat the best time.",
         "definition_zh": "能力或耐力的测试;单独比赛以打破最佳时间。",
         "example_en": "Race in Time Trial mode to set a new record!",
         "example_zh": "在计时赛模式中创造新纪录!",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/trial.jpg"
       },
       {
         "theme": "mario",
@@ -558,12 +598,13 @@
         "word": "Trophy",
         "pronunciation": "/ˈtroʊfi/",
         "chinese": "奖杯;战利品",
-        "image": "https://mario.wiki.gallery/images/b/bb/Grand_Prix_Golden_Trophy.png",
+        "image": "images/mario/trophy.png",
         "definition_en": "A prize or memento awarded to a winner, typically a decorative object.",
         "definition_zh": "颁发给获胜者的奖品或纪念品,通常是装饰性物品。",
         "example_en": "Win the Grand Prix to earn the golden trophy!",
         "example_zh": "赢得大奖赛获得金色奖杯!",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/trophy.jpg"
       },
       {
         "theme": "mario",
@@ -571,12 +612,13 @@
         "word": "Turbo Boost",
         "pronunciation": "/ˈtɜːrboʊ buːst/",
         "chinese": "涡轮冲刺",
-        "image": "https://mario.wiki.gallery/images/3/3d/MKWorld_Yoshi.png",
+        "image": "images/mario/turbo_boost.png",
         "definition_en": "A sudden burst of extra speed triggered by items or track features.",
         "definition_zh": "由道具或赛道装置触发的瞬间速度爆发。",
         "example_en": "A Dash Panel gives Yoshi a turbo boost down the neon straightaway.",
         "example_zh": "冲刺板让耀西在霓虹直道上获得涡轮冲刺。",
-        "category": "Racing"
+        "category": "Racing",
+        "thumbnail": "images/mario/thumbnails/turbo_boost.jpg"
       },
       {
         "theme": "mario",
@@ -584,12 +626,13 @@
         "word": "Victory",
         "pronunciation": "/ˈvɪktəri/",
         "chinese": "胜利;成功",
-        "image": "https://mario.wiki.gallery/images/thumb/f/f5/Mario_Kart_World_Star_Cup_Icon.png/120px-Mario_Kart_World_Star_Cup_Icon.png",
+        "image": "images/mario/victory.png",
         "definition_en": "Success in a contest or battle; the act of defeating an opponent.",
         "definition_zh": "在竞赛或战斗中的成功;击败对手的行为。",
         "example_en": "Celebrate your victory with the Star Cup trophy!",
         "example_zh": "用星星杯奖杯庆祝你的胜利!",
-        "category": "Rewards"
+        "category": "Rewards",
+        "thumbnail": "images/mario/thumbnails/victory.jpg"
       }
     ],
     "zelda": [
@@ -599,12 +642,13 @@
         "word": "Adventure",
         "pronunciation": "/ədˈventʃər/",
         "chinese": "冒险",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg",
+        "image": "images/zelda/adventure.jpg",
         "definition_en": "An unusual, exciting, and possibly dangerous activity or experience.",
         "definition_zh": "一种不寻常的、令人兴奋的、可能有危险的活动或经历。",
         "example_en": "Link embarks on an epic adventure across Hyrule.",
         "example_zh": "林克在海拉鲁大陆上展开了一场史诗般的冒险。",
-        "category": "概念"
+        "category": "概念",
+        "thumbnail": "images/zelda/thumbnails/adventure.jpg"
       },
       {
         "theme": "zelda",
@@ -612,12 +656,13 @@
         "word": "Ancient",
         "pronunciation": "/ˈeɪnʃənt/",
         "chinese": "古代的;远古的",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/3/33/BotW_Ancient_Shrine_Rising.png",
+        "image": "images/zelda/ancient.png",
         "definition_en": "Belonging to the very distant past; very old or aged.",
         "definition_zh": "属于非常遥远的过去;非常古老或年代久远的。",
         "example_en": "Ancient shrines hold the secrets of the past.",
         "example_zh": "古代神殿蕴藏着过去的秘密。",
-        "category": "概念"
+        "category": "概念",
+        "thumbnail": "images/zelda/thumbnails/ancient.jpg"
       },
       {
         "theme": "zelda",
@@ -625,12 +670,13 @@
         "word": "Archer",
         "pronunciation": "/ˈɑːrtʃər/",
         "chinese": "弓箭手",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/02/BotW_Link_Shooting_Artwork.png",
+        "image": "images/zelda/archer.png",
         "definition_en": "A person who shoots with a bow and arrows, especially at a target for sport.",
         "definition_zh": "使用弓箭射击的人,尤其是作为运动瞄准目标射击的人。",
         "example_en": "Link is a skilled archer with perfect aim.",
         "example_zh": "林克是一位技艺高超、百发百中的弓箭手。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/archer.jpg"
       },
       {
         "theme": "zelda",
@@ -638,12 +684,13 @@
         "word": "Arrow",
         "pronunciation": "/ˈæroʊ/",
         "chinese": "箭;箭矢",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Link_Fired_Bow.png",
+        "image": "images/zelda/arrow.png",
         "definition_en": "A projectile with a pointed tip, designed to be shot from a bow.",
         "definition_zh": "带有尖头的抛射物,设计用于从弓上射出。",
         "example_en": "Link fires arrows with precision at distant targets.",
         "example_zh": "林克精准地向远处目标射箭。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/arrow.jpg"
       },
       {
         "theme": "zelda",
@@ -651,12 +698,13 @@
         "word": "Battle",
         "pronunciation": "/ˈbætl/",
         "chinese": "战斗;战役",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png",
+        "image": "images/zelda/battle.png",
         "definition_en": "A sustained fight between armed forces; a prolonged struggle or conflict.",
         "definition_zh": "武装力量之间的持续战斗;长期的斗争或冲突。",
         "example_en": "Link engages in battles against dangerous monsters.",
         "example_zh": "林克与危险的怪物进行战斗。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/battle.jpg"
       },
       {
         "theme": "zelda",
@@ -664,12 +712,13 @@
         "word": "Bird",
         "pronunciation": "/bɜːrd/",
         "chinese": "鸟;飞禽",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg",
+        "image": "images/zelda/bird.jpg",
         "definition_en": "A warm-blooded animal with feathers, wings, and a beak that typically can fly.",
         "definition_zh": "有羽毛、翅膀和喙的温血动物,通常能够飞翔。",
         "example_en": "A flock of birds flies across the vast sky of Hyrule.",
         "example_zh": "一群鸟儿飞越海拉鲁辽阔的天空。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/bird.jpg"
       },
       {
         "theme": "zelda",
@@ -677,12 +726,13 @@
         "word": "Bokoblin",
         "pronunciation": "/ˈboʊkoʊblɪn/",
         "chinese": "波克布林(怪物)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png",
+        "image": "images/zelda/bokoblin.png",
         "definition_en": "A common goblin-like monster found throughout Hyrule.",
         "definition_zh": "在海拉鲁各地常见的类似哥布林的怪物。",
         "example_en": "Bokoblins are one of the most common enemies Link encounters.",
         "example_zh": "波克布林是林克遇到的最常见的敌人之一。",
-        "category": "敌人"
+        "category": "敌人",
+        "thumbnail": "images/zelda/thumbnails/bokoblin.jpg"
       },
       {
         "theme": "zelda",
@@ -690,12 +740,13 @@
         "word": "Breath",
         "pronunciation": "/breθ/",
         "chinese": "呼吸;气息",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg",
+        "image": "images/zelda/breath.jpg",
         "definition_en": "The air taken into or expelled from the lungs; a slight movement of air.",
         "definition_zh": "吸入或呼出肺部的空气;轻微的空气流动。",
         "example_en": "The Breath of the Wild represents freedom and life in nature.",
         "example_zh": "旷野之息代表着自由和大自然中的生命。",
-        "category": "概念"
+        "category": "概念",
+        "thumbnail": "images/zelda/thumbnails/breath.jpg"
       },
       {
         "theme": "zelda",
@@ -703,12 +754,13 @@
         "word": "Bridge",
         "pronunciation": "/brɪdʒ/",
         "chinese": "桥;桥梁",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1b/BotW_Unknown_Bridge.png",
+        "image": "images/zelda/bridge.png",
         "definition_en": "A structure carrying a road or path over a river, road, or other obstacle.",
         "definition_zh": "承载道路或小径跨越河流、道路或其他障碍物的结构。",
         "example_en": "The Bridge of Hylia spans across a vast canyon.",
         "example_zh": "海利亚大桥横跨广阔的峡谷。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/bridge.jpg"
       },
       {
         "theme": "zelda",
@@ -716,12 +768,13 @@
         "word": "Calamity",
         "pronunciation": "/kəˈlæməti/",
         "chinese": "灾难;浩劫",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png",
+        "image": "images/zelda/calamity.png",
         "definition_en": "An event causing great and often sudden damage or distress; a disaster.",
         "definition_zh": "造成巨大且经常是突然的破坏或痛苦的事件;灾难。",
         "example_en": "Calamity Ganon brought destruction to the kingdom of Hyrule.",
         "example_zh": "灾厄加农为海拉鲁王国带来了毁灭。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/calamity.jpg"
       },
       {
         "theme": "zelda",
@@ -729,12 +782,13 @@
         "word": "Canyon",
         "pronunciation": "/ˈkænjən/",
         "chinese": "峡谷",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png",
+        "image": "images/zelda/canyon.png",
         "definition_en": "A deep, narrow valley with steep sides, often carved by a river.",
         "definition_zh": "有陡峭两侧的深窄山谷，通常由河流侵蚀而成。",
         "example_en": "The Gerudo Canyon leads to the desert region.",
         "example_zh": "格鲁德峡谷通往沙漠地区。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/canyon.jpg"
       },
       {
         "theme": "zelda",
@@ -742,12 +796,13 @@
         "word": "Castle",
         "pronunciation": "/ˈkæsl/",
         "chinese": "城堡",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Hyrule_Castle.png",
+        "image": "images/zelda/castle.png",
         "definition_en": "A large fortified building or group of buildings with thick walls, typically from the medieval period.",
         "definition_zh": "带有厚墙的大型防御建筑或建筑群,通常来自中世纪时期。",
         "example_en": "Hyrule Castle is the heart of the kingdom.",
         "example_zh": "海拉鲁城堡是王国的中心。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/castle.jpg"
       },
       {
         "theme": "zelda",
@@ -755,12 +810,13 @@
         "word": "Champion",
         "pronunciation": "/ˈtʃæmpiən/",
         "chinese": "英雄;冠军",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/17/BotW_Champions_Artwork.png",
+        "image": "images/zelda/champion.png",
         "definition_en": "A person who fights or speaks publicly in support of a cause; a warrior of exceptional skill.",
         "definition_zh": "为某项事业公开战斗或发声的人;技艺高超的战士。",
         "example_en": "The four Champions were chosen to pilot the Divine Beasts.",
         "example_zh": "四位英雄被选中来操控神兽。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/champion.jpg"
       },
       {
         "theme": "zelda",
@@ -768,12 +824,13 @@
         "word": "Cliff",
         "pronunciation": "/klɪf/",
         "chinese": "悬崖;峭壁",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png",
+        "image": "images/zelda/cliff.png",
         "definition_en": "A steep rock face, especially at the edge of the sea or a mountain.",
         "definition_zh": "陡峭的岩石表面,尤其是在海边或山边。",
         "example_en": "Link climbs steep cliffs to reach new areas.",
         "example_zh": "林克攀爬陡峭的悬崖到达新区域。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/cliff.jpg"
       },
       {
         "theme": "zelda",
@@ -781,12 +838,13 @@
         "word": "Climb",
         "pronunciation": "/klaɪm/",
         "chinese": "攀爬;攀登",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/e/e0/BotW_Link_Climbing.png",
+        "image": "images/zelda/climb.png",
         "definition_en": "To go up or ascend, especially by using the hands and feet.",
         "definition_zh": "向上移动或攀升,尤其是使用手和脚。",
         "example_en": "Link can climb almost any surface in Hyrule.",
         "example_zh": "林克几乎能攀爬海拉鲁的任何表面。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/climb.jpg"
       },
       {
         "theme": "zelda",
@@ -794,12 +852,13 @@
         "word": "Cloud",
         "pronunciation": "/klaʊd/",
         "chinese": "云;云朵",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/BotW_Hyrule_Sunset_Artwork.jpg",
+        "image": "images/zelda/cloud.jpg",
         "definition_en": "A visible mass of water droplets or ice crystals suspended in the atmosphere.",
         "definition_zh": "悬浮在大气中的可见水滴或冰晶团。",
         "example_en": "Clouds drift across the sky above Hyrule.",
         "example_zh": "云朵在海拉鲁的天空中飘过。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/cloud.jpg"
       },
       {
         "theme": "zelda",
@@ -807,12 +866,13 @@
         "word": "Companion",
         "pronunciation": "/kəmˈpænjən/",
         "chinese": "同伴;伙伴",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png",
+        "image": "images/zelda/companion.png",
         "definition_en": "A person or animal with whom one spends time or travels; a partner or friend.",
         "definition_zh": "与某人共度时光或一起旅行的人或动物;伙伴或朋友。",
         "example_en": "A loyal horse is Link's faithful companion.",
         "example_zh": "一匹忠诚的马是林克忠实的伙伴。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/companion.jpg"
       },
       {
         "theme": "zelda",
@@ -820,12 +880,13 @@
         "word": "Cooking",
         "pronunciation": "/ˈkʊkɪŋ/",
         "chinese": "烹饪;烹调",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg",
+        "image": "images/zelda/cooking.jpg",
         "definition_en": "The practice or skill of preparing food by combining, mixing, and heating ingredients.",
         "definition_zh": "通过混合、搅拌和加热食材来准备食物的技能或做法。",
         "example_en": "Link improves his cooking skills to create powerful dishes.",
         "example_zh": "林克提高烹饪技能来制作强大的料理。",
-        "category": "活动"
+        "category": "活动",
+        "thumbnail": "images/zelda/thumbnails/cooking.jpg"
       },
       {
         "theme": "zelda",
@@ -833,12 +894,13 @@
         "word": "Courage",
         "pronunciation": "/ˈkɜːrɪdʒ/",
         "chinese": "勇气;胆量",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/BotW_Link_Artwork.png",
+        "image": "images/zelda/courage.png",
         "definition_en": "The ability to do something that frightens one; strength in the face of pain.",
         "definition_zh": "做让人害怕的事情的能力;面对痛苦时的力量。",
         "example_en": "Link embodies the spirit of courage.",
         "example_zh": "林克体现了勇气的精神。",
-        "category": "概念"
+        "category": "概念",
+        "thumbnail": "images/zelda/thumbnails/courage.jpg"
       },
       {
         "theme": "zelda",
@@ -846,12 +908,13 @@
         "word": "Desert",
         "pronunciation": "/ˈdezərt/",
         "chinese": "沙漠",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png",
+        "image": "images/zelda/desert.png",
         "definition_en": "A barren area of land with little precipitation and extreme temperatures.",
         "definition_zh": "降水稀少、温度极端的贫瘠地区。",
         "example_en": "The Gerudo Desert is harsh and unforgiving.",
         "example_zh": "格鲁德沙漠严酷而无情。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/desert.jpg"
       },
       {
         "theme": "zelda",
@@ -859,12 +922,13 @@
         "word": "Elixir",
         "pronunciation": "/ɪˈlɪksər/",
         "chinese": "药剂;灵药",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png",
+        "image": "images/zelda/elixir.png",
         "definition_en": "A magical or medicinal potion that heals or grants special abilities.",
         "definition_zh": "具有治疗或赋予特殊能力的魔法或药用药水。",
         "example_en": "Link brews elixirs to restore health and gain temporary powers.",
         "example_zh": "林克调制灵药来恢复生命值并获得临时能力。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/elixir.jpg"
       },
       {
         "theme": "zelda",
@@ -872,12 +936,13 @@
         "word": "Fairy",
         "pronunciation": "/ˈfɛri/",
         "chinese": "妖精;仙女",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png",
+        "image": "images/zelda/fairy.png",
         "definition_en": "A small magical being with wings that can restore health.",
         "definition_zh": "有翅膀的小型魔法生物，可以恢复生命值。",
         "example_en": "Fairies can revive Link if he falls in battle.",
         "example_zh": "如果林克在战斗中倒下，妖精可以复活他。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/fairy.jpg"
       },
       {
         "theme": "zelda",
@@ -885,12 +950,13 @@
         "word": "Field",
         "pronunciation": "/fiːld/",
         "chinese": "田野;原野",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/77/BotW_Hyrule_Field.png",
+        "image": "images/zelda/field.png",
         "definition_en": "An open area of land, especially one planted with crops or used for grazing.",
         "definition_zh": "开阔的土地区域,尤其是种植作物或用于放牧的地方。",
         "example_en": "Hyrule Field is a vast open area to explore.",
         "example_zh": "海拉鲁平原是一片广阔的开放区域供探索。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/field.jpg"
       },
       {
         "theme": "zelda",
@@ -898,12 +964,13 @@
         "word": "Flower",
         "pronunciation": "/ˈflaʊər/",
         "chinese": "花;花朵",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/46/BotW_Flower.png",
+        "image": "images/zelda/flower.png",
         "definition_en": "The seed-bearing part of a plant, often brightly colored and with a sweet scent.",
         "definition_zh": "植物的开花部分,通常色彩鲜艳并带有芬芳的香气。",
         "example_en": "The Silent Princess is a rare and beautiful flower.",
         "example_zh": "寂静公主是一种稀有而美丽的花。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/flower.jpg"
       },
       {
         "theme": "zelda",
@@ -911,12 +978,13 @@
         "word": "Forest",
         "pronunciation": "/ˈfɔːrɪst/",
         "chinese": "森林",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/8/84/BotW_Forest_Landscape.png",
+        "image": "images/zelda/forest.png",
         "definition_en": "A large area covered with trees and plants; a woodland.",
         "definition_zh": "被树木和植物覆盖的大片区域;林地。",
         "example_en": "Dense forests cover much of Hyrule's landscape.",
         "example_zh": "茂密的森林覆盖了海拉鲁的大部分地貌。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/forest.jpg"
       },
       {
         "theme": "zelda",
@@ -924,12 +992,13 @@
         "word": "Gerudo",
         "pronunciation": "/ɡəˈruːdoʊ/",
         "chinese": "格鲁德(种族)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/af/BotW_Gerudo_Desert.png",
+        "image": "images/zelda/gerudo.png",
         "definition_en": "A race of warrior women living in the desert region of Hyrule.",
         "definition_zh": "生活在海拉鲁沙漠地区的女战士种族。",
         "example_en": "The Gerudo people have their own language and customs.",
         "example_zh": "格鲁德人有自己的语言和习俗。",
-        "category": "种族"
+        "category": "种族",
+        "thumbnail": "images/zelda/thumbnails/gerudo.jpg"
       },
       {
         "theme": "zelda",
@@ -937,12 +1006,13 @@
         "word": "Goron",
         "pronunciation": "/ˈɡɔːrɒn/",
         "chinese": "格龙(种族)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png",
+        "image": "images/zelda/goron.png",
         "definition_en": "A race of large, rock-eating people who live in volcanic regions.",
         "definition_zh": "居住在火山地区的巨大的、以岩石为食的种族。",
         "example_en": "The Gorons are known for their strength and mining skills.",
         "example_zh": "格龙族以其力量和采矿技能而闻名。",
-        "category": "种族"
+        "category": "种族",
+        "thumbnail": "images/zelda/thumbnails/goron.jpg"
       },
       {
         "theme": "zelda",
@@ -950,12 +1020,13 @@
         "word": "Guardian",
         "pronunciation": "/ˈɡɑːrdiən/",
         "chinese": "守护者",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png",
+        "image": "images/zelda/guardian.png",
         "definition_en": "A defender, protector, or keeper; something that watches over or protects.",
         "definition_zh": "保卫者、保护者或看守者;监视或保护某物的东西。",
         "example_en": "Ancient Guardians patrol the ruins of Hyrule Castle.",
         "example_zh": "远古守护者在海拉鲁城堡的废墟中巡逻。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/guardian.jpg"
       },
       {
         "theme": "zelda",
@@ -963,12 +1034,13 @@
         "word": "Hero",
         "pronunciation": "/ˈhɪroʊ/",
         "chinese": "英雄;勇士",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/BotW_Link_Gazing_at_Hyrule_Artwork.jpg",
+        "image": "images/zelda/hero.jpg",
         "definition_en": "A person admired for courage, noble qualities, and outstanding achievements.",
         "definition_zh": "因勇气、高尚品质和杰出成就而受人钦佩的人。",
         "example_en": "Link is the hero destined to save Hyrule.",
         "example_zh": "林克是命中注定拯救海拉鲁的英雄。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/hero.jpg"
       },
       {
         "theme": "zelda",
@@ -976,12 +1048,13 @@
         "word": "Hinox",
         "pronunciation": "/ˈhaɪnɒks/",
         "chinese": "希诺克斯(巨人)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/9b/BotW_Guardian_Artwork.png",
+        "image": "images/zelda/hinox.png",
         "definition_en": "A giant cyclops-like monster that sleeps during the day.",
         "definition_zh": "像独眼巨人一样的大型怪物，白天会睡觉。",
         "example_en": "The Hinox wears weapons around its neck like a necklace.",
         "example_zh": "希诺克斯把武器像项链一样戴在脖子上。",
-        "category": "敌人"
+        "category": "敌人",
+        "thumbnail": "images/zelda/thumbnails/hinox.jpg"
       },
       {
         "theme": "zelda",
@@ -989,12 +1062,13 @@
         "word": "Horse",
         "pronunciation": "/hɔːrs/",
         "chinese": "马",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d6/BotW_Link_and_Horse_Artwork.png",
+        "image": "images/zelda/horse.png",
         "definition_en": "A large four-legged animal used for riding and carrying loads.",
         "definition_zh": "用于骑乘和运载的大型四足动物。",
         "example_en": "Link tames wild horses in the open fields.",
         "example_zh": "林克在开阔的田野上驯服野马。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/horse.jpg"
       },
       {
         "theme": "zelda",
@@ -1002,12 +1076,13 @@
         "word": "House",
         "pronunciation": "/haʊs/",
         "chinese": "房屋;住宅",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+        "image": "images/zelda/house.jpg",
         "definition_en": "A building for people to live in, typically for one family.",
         "definition_zh": "供人们居住的建筑物,通常供一个家庭使用。",
         "example_en": "Traditional houses in Kakariko Village have unique architecture.",
         "example_zh": "卡卡利科村的传统房屋有独特的建筑风格。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/house.jpg"
       },
       {
         "theme": "zelda",
@@ -1015,12 +1090,13 @@
         "word": "Journey",
         "pronunciation": "/ˈdʒɜːrni/",
         "chinese": "旅程;旅行",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/BotW_Link_Riding_Master_Cycle_Zero_Artwork.png",
+        "image": "images/zelda/journey.png",
         "definition_en": "An act of traveling from one place to another; an adventure or experience.",
         "definition_zh": "从一个地方到另一个地方的旅行行为;冒险或经历。",
         "example_en": "Link's journey across Hyrule is full of discoveries.",
         "example_zh": "林克穿越海拉鲁的旅程充满了发现。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/journey.jpg"
       },
       {
         "theme": "zelda",
@@ -1028,12 +1104,13 @@
         "word": "Jump",
         "pronunciation": "/dʒʌmp/",
         "chinese": "跳跃;跳",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png",
+        "image": "images/zelda/jump.png",
         "definition_en": "To push oneself off the ground using the legs and feet.",
         "definition_zh": "用腿和脚将自己推离地面。",
         "example_en": "Enemies can jump to attack from above.",
         "example_zh": "敌人可以跳跃从上方进行攻击。",
-        "category": "行动"
+        "category": "行动",
+        "thumbnail": "images/zelda/thumbnails/jump.jpg"
       },
       {
         "theme": "zelda",
@@ -1041,12 +1118,13 @@
         "word": "Korok",
         "pronunciation": "/ˈkɔːrɒk/",
         "chinese": "克洛格;树精",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/BotW_Forest_of_Spirits_Daytime.png",
+        "image": "images/zelda/korok.png",
         "definition_en": "A small forest spirit in the shape of a wooden creature with leaves.",
         "definition_zh": "形状像木制生物并长着叶子的小型森林精灵。",
         "example_en": "Finding all the Koroks hidden across Hyrule is a great challenge.",
         "example_zh": "找到隐藏在海拉鲁各处的所有克洛格是一个巨大的挑战。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/korok.jpg"
       },
       {
         "theme": "zelda",
@@ -1054,12 +1132,13 @@
         "word": "Legend",
         "pronunciation": "/ˈledʒənd/",
         "chinese": "传说;传奇",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/5f/BotW_Wallpaper_2.png",
+        "image": "images/zelda/legend.png",
         "definition_en": "A traditional story sometimes popularly regarded as historical but not authenticated.",
         "definition_zh": "一个传统故事,有时被普遍认为是历史性的但未经证实。",
         "example_en": "The Legend of Zelda has been passed down through generations.",
         "example_zh": "塞尔达传说世代相传。",
-        "category": "概念"
+        "category": "概念",
+        "thumbnail": "images/zelda/thumbnails/legend.jpg"
       },
       {
         "theme": "zelda",
@@ -1067,12 +1146,13 @@
         "word": "Lizalfos",
         "pronunciation": "/lɪˈzælfɒs/",
         "chinese": "蜥蜴战士(怪物)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/53/BotW_Bokoblin_Artwork.png",
+        "image": "images/zelda/lizalfos.png",
         "definition_en": "A reptilian monster that is agile and attacks with weapons.",
         "definition_zh": "敏捷的爬行类怪物，会使用武器攻击。",
         "example_en": "Lizalfos can camouflage themselves in certain environments.",
         "example_zh": "蜥蜴战士可以在某些环境中伪装自己。",
-        "category": "敌人"
+        "category": "敌人",
+        "thumbnail": "images/zelda/thumbnails/lizalfos.jpg"
       },
       {
         "theme": "zelda",
@@ -1080,12 +1160,13 @@
         "word": "Lynel",
         "pronunciation": "/ˈlaɪnəl/",
         "chinese": "人马(怪物)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_Calamity_Ganon_Artwork.png",
+        "image": "images/zelda/lynel.png",
         "definition_en": "A powerful centaur-like creature that is one of the most dangerous enemies in Hyrule.",
         "definition_zh": "强大的半人马生物，是海拉鲁最危险的敌人之一。",
         "example_en": "Lynels are incredibly tough and require skill to defeat.",
         "example_zh": "人马非常强大，需要技巧才能战胜。",
-        "category": "敌人"
+        "category": "敌人",
+        "thumbnail": "images/zelda/thumbnails/lynel.jpg"
       },
       {
         "theme": "zelda",
@@ -1093,12 +1174,13 @@
         "word": "Moblin",
         "pronunciation": "/ˈmɒblɪn/",
         "chinese": "魔布林(怪物)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/BotW_Bokoblin_Jump_Attack.png",
+        "image": "images/zelda/moblin.png",
         "definition_en": "A large pig-like monster that is stronger than Bokoblins.",
         "definition_zh": "像猪一样的大型怪物，比波克布林更强大。",
         "example_en": "Moblins wield heavy weapons and deal massive damage.",
         "example_zh": "魔布林使用重型武器，造成巨大伤害。",
-        "category": "敌人"
+        "category": "敌人",
+        "thumbnail": "images/zelda/thumbnails/moblin.jpg"
       },
       {
         "theme": "zelda",
@@ -1106,12 +1188,13 @@
         "word": "Mountain",
         "pronunciation": "/ˈmaʊntən/",
         "chinese": "山;山脉",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/BotW_Link_and_Birds_Artwork.jpg",
+        "image": "images/zelda/mountain.jpg",
         "definition_en": "A large natural elevation of the earth's surface rising to a summit.",
         "definition_zh": "地球表面隆起至顶峰的巨大自然高地。",
         "example_en": "Link climbs high mountains to explore new regions.",
         "example_zh": "林克攀登高山探索新的地区。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/mountain.jpg"
       },
       {
         "theme": "zelda",
@@ -1119,12 +1202,13 @@
         "word": "Ore",
         "pronunciation": "/ɔːr/",
         "chinese": "矿石;矿砂",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+        "image": "images/zelda/ore.jpg",
         "definition_en": "A naturally occurring solid material from which a metal or valuable mineral can be extracted.",
         "definition_zh": "可以从中提取金属或贵重矿物的天然固体材料。",
         "example_en": "Link mines ore deposits to collect valuable materials for crafting.",
         "example_zh": "林克开采矿石以收集用于制作的宝贵材料。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/ore.jpg"
       },
       {
         "theme": "zelda",
@@ -1132,12 +1216,13 @@
         "word": "Paraglider",
         "pronunciation": "/ˈpærəɡlaɪdər/",
         "chinese": "滑翔伞",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png",
+        "image": "images/zelda/paraglider.png",
         "definition_en": "A lightweight, free-flying, foot-launched aircraft with no rigid structure.",
         "definition_zh": "一种轻便的、自由飞行的、用脚起飞的无刚性结构飞行器。",
         "example_en": "The paraglider allows Link to glide safely from high places.",
         "example_zh": "滑翔伞让林克能够从高处安全滑翔。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/paraglider.jpg"
       },
       {
         "theme": "zelda",
@@ -1145,12 +1230,13 @@
         "word": "Plateau",
         "pronunciation": "/plæˈtoʊ/",
         "chinese": "高原;平台",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/BotW_Great_Plateau_Tower_Pre-release.png",
+        "image": "images/zelda/plateau.png",
         "definition_en": "An area of fairly level high ground.",
         "definition_zh": "一片相当平坦的高地。",
         "example_en": "Link begins his adventure on the Great Plateau.",
         "example_zh": "林克在大高原开始他的冒险。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/plateau.jpg"
       },
       {
         "theme": "zelda",
@@ -1158,12 +1244,13 @@
         "word": "Princess",
         "pronunciation": "/ˈprɪnses/",
         "chinese": "公主",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/BotW_Zelda_Artwork.png",
+        "image": "images/zelda/princess.png",
         "definition_en": "The daughter of a monarch; a female member of a royal family.",
         "definition_zh": "君主的女儿;皇室的女性成员。",
         "example_en": "Princess Zelda possesses the power to seal away darkness.",
         "example_zh": "塞尔达公主拥有封印黑暗的力量。",
-        "category": "角色"
+        "category": "角色",
+        "thumbnail": "images/zelda/thumbnails/princess.jpg"
       },
       {
         "theme": "zelda",
@@ -1171,12 +1258,13 @@
         "word": "Quest",
         "pronunciation": "/kwest/",
         "chinese": "探索;任务",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/2/21/BotW_Link_Rider_Artwork.png",
+        "image": "images/zelda/quest.png",
         "definition_en": "A long or arduous search for something; a journey made in search of something.",
         "definition_zh": "长期或艰苦地寻找某物;为寻找某物而进行的旅程。",
         "example_en": "Link's quest is to defeat Ganon and save Princess Zelda.",
         "example_zh": "林克的任务是打败加农并拯救塞尔达公主。",
-        "category": "概念"
+        "category": "概念",
+        "thumbnail": "images/zelda/thumbnails/quest.jpg"
       },
       {
         "theme": "zelda",
@@ -1184,12 +1272,13 @@
         "word": "River",
         "pronunciation": "/ˈrɪvər/",
         "chinese": "河流;江河",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/BotW_River_of_the_Dead.png",
+        "image": "images/zelda/river.png",
         "definition_en": "A large natural stream of water flowing in a channel to the sea, a lake, or another river.",
         "definition_zh": "在河道中流向大海、湖泊或其他河流的大型天然水流。",
         "example_en": "Many rivers flow through the diverse lands of Hyrule.",
         "example_zh": "许多河流流经海拉鲁的多样化土地。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/river.jpg"
       },
       {
         "theme": "zelda",
@@ -1197,12 +1286,13 @@
         "word": "Riverside",
         "pronunciation": "/ˈrɪvərsaɪd/",
         "chinese": "河边;河畔",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/bb/BotW_River_of_the_Dead.png",
+        "image": "images/zelda/riverside.png",
         "definition_en": "The ground along the edge of a river.",
         "definition_zh": "沿着河流边缘的地面。",
         "example_en": "The Riverside Stable is located near a peaceful river.",
         "example_zh": "河畔马厩坐落在一条宁静的河流附近。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/riverside.jpg"
       },
       {
         "theme": "zelda",
@@ -1210,12 +1300,13 @@
         "word": "Rune",
         "pronunciation": "/ruːn/",
         "chinese": "符文;古文字",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
+        "image": "images/zelda/rune.png",
         "definition_en": "A mystical symbol or letter with magical powers used in ancient writing.",
         "definition_zh": "具有魔力的神秘符号或字母，用于古代文字。",
         "example_en": "Link's Sheikah Slate has various rune abilities like bombs and magnesis.",
         "example_zh": "林克的希卡之石拥有各种符文能力，如炸弹和磁力。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/rune.jpg"
       },
       {
         "theme": "zelda",
@@ -1223,12 +1314,13 @@
         "word": "Rupee",
         "pronunciation": "/ruːˈpiː/",
         "chinese": "卢比;货币",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+        "image": "images/zelda/rupee.jpg",
         "definition_en": "The currency used throughout Hyrule for trading and purchasing items.",
         "definition_zh": "在海拉鲁各地用于交易和购买物品的货币。",
         "example_en": "Link collects rupees to buy equipment and supplies from merchants.",
         "example_zh": "林克收集卢比从商人那里购买装备和补给。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/rupee.jpg"
       },
       {
         "theme": "zelda",
@@ -1236,12 +1328,13 @@
         "word": "Sheikah",
         "pronunciation": "/ˈʃeɪkɑː/",
         "chinese": "希卡族(种族)",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
+        "image": "images/zelda/sheikah.png",
         "definition_en": "An ancient race of people known for their advanced technology and loyalty to the Royal Family.",
         "definition_zh": "以先进技术和对皇室的忠诚而闻名的古老种族。",
         "example_en": "The Sheikah created advanced technology 10,000 years ago.",
         "example_zh": "希卡族在一万年前创造了先进的技术。",
-        "category": "种族"
+        "category": "种族",
+        "thumbnail": "images/zelda/thumbnails/sheikah.jpg"
       },
       {
         "theme": "zelda",
@@ -1249,12 +1342,13 @@
         "word": "Shield",
         "pronunciation": "/ʃiːld/",
         "chinese": "盾;盾牌",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/fc/BotW_Link_Climbing_Artwork.jpg",
+        "image": "images/zelda/shield.jpg",
         "definition_en": "A broad piece of armor held for protection against weapons or blows.",
         "definition_zh": "用于抵御武器或打击的宽阔盔甲片。",
         "example_en": "Link uses his shield to block enemy attacks.",
         "example_zh": "林克使用他的盾牌来阻挡敌人的攻击。",
-        "category": "物品"
+        "category": "物品",
+        "thumbnail": "images/zelda/thumbnails/shield.jpg"
       },
       {
         "theme": "zelda",
@@ -1262,12 +1356,13 @@
         "word": "Shrine",
         "pronunciation": "/ʃraɪn/",
         "chinese": "神殿;圣地",
-        "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7d/BotW_Sheikah_Slate_Artwork.png",
+        "image": "images/zelda/shrine.png",
         "definition_en": "A place regarded as holy because of its associations with a divinity or sacred person or relic.",
         "definition_zh": "因与神灵、圣人或圣物有关而被视为神圣的地方。",
         "example_en": "Link must complete trials in 120 shrines scattered across Hyrule.",
         "example_zh": "林克必须完成散布在海拉鲁各处的120个神殿的试炼。",
-        "category": "地点"
+        "category": "地点",
+        "thumbnail": "images/zelda/thumbnails/shrine.jpg"
       },
       {
         "theme": "zelda",
@@ -1517,7 +1612,8 @@
         "example_zh": "在你的田地里种植小麦,2分钟后收获。",
         "image": "images/hayday/wheat.png",
         "theme": "hayday",
-        "filename": "wheat.html"
+        "filename": "wheat.html",
+        "thumbnail": "images/hayday/thumbnails/wheat.jpg"
       },
       {
         "word": "Corn",
@@ -1531,7 +1627,8 @@
         "example_zh": "玉米需要5分钟生长,用于许多配方中。",
         "image": "images/hayday/corn.png",
         "theme": "hayday",
-        "filename": "corn.html"
+        "filename": "corn.html",
+        "thumbnail": "images/hayday/thumbnails/corn.jpg"
       },
       {
         "word": "Soybean",
@@ -1545,7 +1642,8 @@
         "example_zh": "大豆非常适合制作营养丰富的动物饲料。",
         "image": "images/hayday/soybean.png",
         "theme": "hayday",
-        "filename": "soybean.html"
+        "filename": "soybean.html",
+        "thumbnail": "images/hayday/thumbnails/soybean.jpg"
       },
       {
         "word": "Sugarcane",
@@ -1559,7 +1657,8 @@
         "example_zh": "收获甘蔗来为你的产品制作甜美的红糖。",
         "image": "images/hayday/sugarcane.png",
         "theme": "hayday",
-        "filename": "sugarcane.html"
+        "filename": "sugarcane.html",
+        "thumbnail": "images/hayday/thumbnails/sugarcane.jpg"
       },
       {
         "word": "Carrot",
@@ -1573,7 +1672,8 @@
         "example_zh": "种植胡萝卜为你的顾客制作美味的胡萝卜派。",
         "image": "images/hayday/carrot.png",
         "theme": "hayday",
-        "filename": "carrot.html"
+        "filename": "carrot.html",
+        "thumbnail": "images/hayday/thumbnails/carrot.jpg"
       },
       {
         "word": "Indigo",
@@ -1587,7 +1687,8 @@
         "definition_zh": "靛蓝是一种用于提取天然蓝色染料的植物,在历史上被广泛用于纺织品染色。在游戏中,靛蓝在13级解锁,生长时间为45分钟,用于制作蓝色染料。",
         "definition_en": "A plant used to extract natural blue dye, historically used for coloring textiles. Takes 45 minutes to grow and is used to make blue dye.",
         "example_en": "Grow indigo plants to produce beautiful blue dyes for your products.",
-        "example_zh": "种植靛蓝植物来为你的产品制作美丽的蓝色染料。"
+        "example_zh": "种植靛蓝植物来为你的产品制作美丽的蓝色染料。",
+        "thumbnail": "images/hayday/thumbnails/indigo.jpg"
       },
       {
         "word": "Pumpkin",
@@ -1601,7 +1702,8 @@
         "example_zh": "在秋天种植南瓜来制作节日南瓜派。",
         "image": "images/hayday/pumpkin.png",
         "theme": "hayday",
-        "filename": "pumpkin.html"
+        "filename": "pumpkin.html",
+        "thumbnail": "images/hayday/thumbnails/pumpkin.jpg"
       },
       {
         "word": "Apple",
@@ -1613,7 +1715,8 @@
         "definition_en": "A sweet fruit rich in fiber and vitamins. Apple trees can be harvested multiple times.",
         "image": "images/hayday/apple.png",
         "theme": "hayday",
-        "filename": "apple.html"
+        "filename": "apple.html",
+        "thumbnail": "images/hayday/thumbnails/apple.jpg"
       },
       {
         "word": "Cotton",
@@ -1627,7 +1730,8 @@
         "example_zh": "收获棉花来编织布料制作衬衫和毛衣。",
         "image": "images/hayday/cotton.png",
         "theme": "hayday",
-        "filename": "cotton.html"
+        "filename": "cotton.html",
+        "thumbnail": "images/hayday/thumbnails/cotton.jpg"
       },
       {
         "word": "Raspberry",
@@ -1639,7 +1743,8 @@
         "definition_en": "A small red berry that is sweet-tart and rich in antioxidants.",
         "image": "images/hayday/raspberry.png",
         "theme": "hayday",
-        "filename": "raspberry.html"
+        "filename": "raspberry.html",
+        "thumbnail": "images/hayday/thumbnails/raspberry.jpg"
       },
       {
         "word": "Cherry",
@@ -1651,7 +1756,8 @@
         "definition_en": "A small, round red fruit that is sweet and commonly used in jams and desserts.",
         "image": "images/hayday/cherry.png",
         "theme": "hayday",
-        "filename": "cherry.html"
+        "filename": "cherry.html",
+        "thumbnail": "images/hayday/thumbnails/cherry.jpg"
       },
       {
         "word": "Chili Pepper",
@@ -1665,7 +1771,8 @@
         "definition_zh": "辣椒是一种辛辣的蔬菜,富含维生素C和辣椒素,可以为食物增添辣味。在游戏中,辣椒在25级解锁,生长时间为2小时,用于制作辣味食品。",
         "definition_en": "A spicy vegetable rich in vitamin C and capsaicin that adds heat to dishes. Takes 2 hours to grow and is used for spicy recipes.",
         "example_en": "Harvest chili peppers to make spicy salsa and hot sauces.",
-        "example_zh": "收获辣椒来制作辣味沙拉酱和辣酱。"
+        "example_zh": "收获辣椒来制作辣味沙拉酱和辣酱。",
+        "thumbnail": "images/hayday/thumbnails/chili_pepper.jpg"
       },
       {
         "word": "Blackberry",
@@ -1677,7 +1784,8 @@
         "definition_en": "A dark purple berry rich in vitamins and minerals with a sweet-tart flavor.",
         "image": "images/hayday/blackberry.png",
         "theme": "hayday",
-        "filename": "blackberry.html"
+        "filename": "blackberry.html",
+        "thumbnail": "images/hayday/thumbnails/blackberry.jpg"
       },
       {
         "word": "Tomato",
@@ -1691,7 +1799,8 @@
         "example_zh": "新鲜番茄非常适合制作健康的番茄汁。",
         "image": "images/hayday/tomato.png",
         "theme": "hayday",
-        "filename": "tomato.html"
+        "filename": "tomato.html",
+        "thumbnail": "images/hayday/thumbnails/tomato.jpg"
       },
       {
         "word": "Blueberries",
@@ -1705,7 +1814,8 @@
         "definition_zh": "蓝莓是一种小型的蓝紫色浆果,富含抗氧化剂,被誉为超级食物。在游戏中,蓝莓在30级解锁,用于制作蓝莓派和果汁。",
         "definition_en": "Small blue-purple berries rich in antioxidants, considered a superfood. Used to make blueberry pie and juices.",
         "example_en": "Pick fresh blueberries to bake delicious blueberry muffins.",
-        "example_zh": "采摘新鲜蓝莓来烘焙美味的蓝莓松饼。"
+        "example_zh": "采摘新鲜蓝莓来烘焙美味的蓝莓松饼。",
+        "thumbnail": "images/hayday/thumbnails/blueberries.jpg"
       },
       {
         "word": "Strawberry",
@@ -1717,7 +1827,8 @@
         "definition_en": "A red, heart-shaped berry that is sweet and beloved, rich in vitamin C.",
         "image": "images/hayday/strawberry.png",
         "theme": "hayday",
-        "filename": "strawberry.html"
+        "filename": "strawberry.html",
+        "thumbnail": "images/hayday/thumbnails/strawberry.jpg"
       },
       {
         "word": "Potato",
@@ -1731,7 +1842,8 @@
         "definition_zh": "土豆是一种重要的根茎类作物,富含淀粉和营养,可以用多种方式烹饪。在游戏中,土豆在35级解锁,用于制作薯条、土豆泥等食品。",
         "definition_en": "An important root vegetable rich in starch and nutrients that can be cooked in many ways. Used to make fries and mashed potatoes.",
         "example_en": "Grow potatoes to make crispy french fries for your customers.",
-        "example_zh": "种植土豆来为你的顾客制作酥脆的炸薯条。"
+        "example_zh": "种植土豆来为你的顾客制作酥脆的炸薯条。",
+        "thumbnail": "images/hayday/thumbnails/potato.jpg"
       },
       {
         "word": "Cacao",
@@ -1745,7 +1857,8 @@
         "definition_zh": "可可是巧克力的原料,来自可可树的种子。在游戏中,可可在36级解锁,生长时间较长,用于制作巧克力和可可粉。",
         "definition_en": "The source of chocolate, made from cacao tree seeds. Unlocked at level 36 and used to make chocolate and cocoa powder.",
         "example_en": "Harvest cacao pods to produce rich chocolate products.",
-        "example_zh": "收获可可豆荚来生产浓郁的巧克力产品。"
+        "example_zh": "收获可可豆荚来生产浓郁的巧克力产品。",
+        "thumbnail": "images/hayday/thumbnails/cacao.jpg"
       },
       {
         "word": "Coffee Bean",
@@ -1759,7 +1872,8 @@
         "definition_zh": "咖啡豆是咖啡饮料的原料,经过烘焙后具有独特的香气和风味。在游戏中,咖啡豆在42级解锁,用于制作各种咖啡饮品。",
         "definition_en": "The raw material for coffee beverages, with unique aroma and flavor after roasting. Used to make various coffee drinks.",
         "example_en": "Grow coffee beans to brew fresh espresso for your café.",
-        "example_zh": "种植咖啡豆来为你的咖啡馆冲泡新鲜浓缩咖啡。"
+        "example_zh": "种植咖啡豆来为你的咖啡馆冲泡新鲜浓缩咖啡。",
+        "thumbnail": "images/hayday/thumbnails/coffee_bean.jpg"
       },
       {
         "word": "Chamomile",
@@ -1773,7 +1887,8 @@
         "definition_zh": "洋甘菊是一种具有药用价值的草本植物,常用于制作舒缓镇静的花草茶。在游戏中,洋甘菊在45级解锁,用于制作洋甘菊茶。",
         "definition_en": "A medicinal herb commonly used to make soothing and calming herbal tea. Unlocked at level 45 for making chamomile tea.",
         "example_en": "Harvest chamomile flowers to brew relaxing herbal tea.",
-        "example_zh": "收获洋甘菊花朵来冲泡放松的花草茶。"
+        "example_zh": "收获洋甘菊花朵来冲泡放松的花草茶。",
+        "thumbnail": "images/hayday/thumbnails/chamomile.jpg"
       },
       {
         "word": "Chicken",
@@ -1789,7 +1904,8 @@
         "example_zh": "定期喂养你的鸡以每天收集新鲜鸡蛋。",
         "image": "images/hayday/chicken.png",
         "theme": "hayday",
-        "filename": "chicken.html"
+        "filename": "chicken.html",
+        "thumbnail": "images/hayday/thumbnails/chicken.jpg"
       },
       {
         "word": "Cow",
@@ -1805,7 +1921,8 @@
         "example_zh": "你的奶牛生产新鲜牛奶,可以制成美味的乳制品。",
         "image": "images/hayday/cow.png",
         "theme": "hayday",
-        "filename": "cow.html"
+        "filename": "cow.html",
+        "thumbnail": "images/hayday/thumbnails/cow.jpg"
       },
       {
         "word": "Pig",
@@ -1821,7 +1938,8 @@
         "example_zh": "在农场饲养猪来收获培根烹饪美味佳肴。",
         "image": "images/hayday/pig.png",
         "theme": "hayday",
-        "filename": "pig.html"
+        "filename": "pig.html",
+        "thumbnail": "images/hayday/thumbnails/pig.jpg"
       },
       {
         "word": "Sheep",
@@ -1837,7 +1955,8 @@
         "example_zh": "定期剪你的羊毛来收集柔软的羊毛编织保暖衣物。",
         "image": "images/hayday/sheep.png",
         "theme": "hayday",
-        "filename": "sheep.html"
+        "filename": "sheep.html",
+        "thumbnail": "images/hayday/thumbnails/sheep.jpg"
       },
       {
         "word": "Goat",
@@ -1853,7 +1972,8 @@
         "example_zh": "羊奶制作出顾客喜爱的优质奶酪,用于披萨配方。",
         "image": "images/hayday/goat.png",
         "theme": "hayday",
-        "filename": "goat.html"
+        "filename": "goat.html",
+        "thumbnail": "images/hayday/thumbnails/goat.jpg"
       },
       {
         "word": "Honey Bee",
@@ -1869,7 +1989,8 @@
         "example_zh": "你的蜜蜂勤劳工作生产甜美的蜂蜜制作美味佳肴。",
         "image": "images/hayday/honey_bee.png",
         "theme": "hayday",
-        "filename": "honey-bee.html"
+        "filename": "honey-bee.html",
+        "thumbnail": "images/hayday/thumbnails/honey_bee.jpg"
       },
       {
         "word": "Duck",
@@ -1885,7 +2006,8 @@
         "example_zh": "收集鸭毛为顾客制作柔软舒适的枕头。",
         "image": "images/hayday/duck.png",
         "theme": "hayday",
-        "filename": "duck.html"
+        "filename": "duck.html",
+        "thumbnail": "images/hayday/thumbnails/duck.jpg"
       },
       {
         "word": "Squirrel",
@@ -1901,7 +2023,8 @@
         "example_zh": "看你的松鼠收集花生来制作美味的花生酱。",
         "image": "images/hayday/squirrel.png",
         "theme": "hayday",
-        "filename": "squirrel.html"
+        "filename": "squirrel.html",
+        "thumbnail": "images/hayday/thumbnails/squirrel.jpg"
       },
       {
         "word": "Elephant",
@@ -1912,7 +2035,8 @@
         "definition_en": "The largest land animal with a long trunk and big ears. Both adults and calves can be raised in the sanctuary.",
         "image": "images/hayday/elephant.png",
         "theme": "hayday",
-        "filename": "elephant.html"
+        "filename": "elephant.html",
+        "thumbnail": "images/hayday/thumbnails/elephant.jpg"
       },
       {
         "word": "Giraffe",
@@ -1923,7 +2047,8 @@
         "definition_en": "Has the world's longest neck to reach high leaves. Each giraffe's spot pattern is unique.",
         "image": "images/hayday/giraffe.png",
         "theme": "hayday",
-        "filename": "giraffe.html"
+        "filename": "giraffe.html",
+        "thumbnail": "images/hayday/thumbnails/giraffe.jpg"
       },
       {
         "word": "Hippopotamus",
@@ -1934,7 +2059,8 @@
         "definition_en": "A large semi-aquatic mammal that spends most of its time in water but cannot actually swim.",
         "image": "images/hayday/hippopotamus.png",
         "theme": "hayday",
-        "filename": "hippopotamus.html"
+        "filename": "hippopotamus.html",
+        "thumbnail": "images/hayday/thumbnails/hippopotamus.jpg"
       },
       {
         "word": "Zebra",
@@ -1945,7 +2071,8 @@
         "definition_en": "Famous for its unique black and white stripes. Each zebra's stripe pattern is one of a kind.",
         "image": "images/hayday/zebra.png",
         "theme": "hayday",
-        "filename": "zebra.html"
+        "filename": "zebra.html",
+        "thumbnail": "images/hayday/thumbnails/zebra.jpg"
       },
       {
         "word": "Gorilla",
@@ -1956,7 +2083,8 @@
         "definition_en": "The largest primate, highly intelligent with 98% DNA similarity to humans.",
         "image": "images/hayday/gorilla.png",
         "theme": "hayday",
-        "filename": "gorilla.html"
+        "filename": "gorilla.html",
+        "thumbnail": "images/hayday/thumbnails/gorilla.jpg"
       },
       {
         "word": "Reindeer",
@@ -1967,7 +2095,8 @@
         "definition_en": "Lives in cold regions and is a member of Santa's sleigh team. They have magnificent antlers.",
         "image": "images/hayday/reindeer.png",
         "theme": "hayday",
-        "filename": "reindeer.html"
+        "filename": "reindeer.html",
+        "thumbnail": "images/hayday/thumbnails/reindeer.jpg"
       },
       {
         "word": "Fox",
@@ -1978,7 +2107,8 @@
         "definition_en": "Arctic foxes live in polar regions with thick fur to withstand extreme cold.",
         "image": "images/hayday/fox.png",
         "theme": "hayday",
-        "filename": "fox.html"
+        "filename": "fox.html",
+        "thumbnail": "images/hayday/thumbnails/fox.jpg"
       },
       {
         "word": "Cheetah",
@@ -1989,7 +2119,8 @@
         "definition_en": "The fastest land animal, capable of speeds up to 120 km/h. They have distinctive black spots.",
         "image": "images/hayday/cheetah.png",
         "theme": "hayday",
-        "filename": "cheetah.html"
+        "filename": "cheetah.html",
+        "thumbnail": "images/hayday/thumbnails/cheetah.jpg"
       },
       {
         "word": "Walrus",
@@ -2000,7 +2131,8 @@
         "definition_en": "Lives in Arctic regions with long tusks used for moving on ice and defense.",
         "image": "images/hayday/walrus.png",
         "theme": "hayday",
-        "filename": "walrus.html"
+        "filename": "walrus.html",
+        "thumbnail": "images/hayday/thumbnails/walrus.jpg"
       },
       {
         "word": "Meerkat",
@@ -2011,7 +2143,8 @@
         "definition_en": "Small social animals that often stand upright to watch their surroundings, very alert and adorable.",
         "image": "images/hayday/meerkat.png",
         "theme": "hayday",
-        "filename": "meerkat.html"
+        "filename": "meerkat.html",
+        "thumbnail": "images/hayday/thumbnails/meerkat.jpg"
       },
       {
         "word": "Fish",
@@ -2027,7 +2160,8 @@
         "example_zh": "从湖中捕捉新鲜的鱼并切成鱼片做美味的海鲜菜肴。",
         "image": "images/hayday/fish.png",
         "theme": "hayday",
-        "filename": "fish.html"
+        "filename": "fish.html",
+        "thumbnail": "images/hayday/thumbnails/fish.jpg"
       },
       {
         "word": "Lobster",
@@ -2043,7 +2177,8 @@
         "example_zh": "龙虾尾是一种美味佳肴,在路边小店可以卖高价。",
         "image": "images/hayday/lobster.png",
         "theme": "hayday",
-        "filename": "lobster.html"
+        "filename": "lobster.html",
+        "thumbnail": "images/hayday/thumbnails/lobster.jpg"
       },
       {
         "word": "Dog",
@@ -2055,7 +2190,8 @@
         "definition_en": "Man's best friend. Dogs are pets that roam freely on the farm and provide experience and rewards when fed.",
         "image": "images/hayday/dog.png",
         "theme": "hayday",
-        "filename": "dog.html"
+        "filename": "dog.html",
+        "thumbnail": "images/hayday/thumbnails/dog.jpg"
       },
       {
         "word": "Cat",
@@ -2067,7 +2203,8 @@
         "definition_en": "Cute pets that love to explore the farm. Feeding cats provides various rewards.",
         "image": "images/hayday/cat.png",
         "theme": "hayday",
-        "filename": "cat.html"
+        "filename": "cat.html",
+        "thumbnail": "images/hayday/thumbnails/cat.jpg"
       },
       {
         "word": "Egg",
@@ -2083,7 +2220,8 @@
         "example_zh": "从鸡舍收集新鲜鸡蛋来制作美味的早餐。",
         "image": "images/hayday/egg.png",
         "theme": "hayday",
-        "filename": "egg.html"
+        "filename": "egg.html",
+        "thumbnail": "images/hayday/thumbnails/egg.jpg"
       },
       {
         "word": "Milk",
@@ -2097,7 +2235,8 @@
         "definition_en": "Milk is produced by cows and serves as the base ingredient for many dairy products.",
         "image": "images/hayday/milk.png",
         "theme": "hayday",
-        "filename": "milk.html"
+        "filename": "milk.html",
+        "thumbnail": "images/hayday/thumbnails/milk.jpg"
       },
       {
         "word": "Bacon",
@@ -2111,7 +2250,8 @@
         "definition_en": "Bacon is a cured and smoked pork product with a savory, salty flavor.",
         "image": "images/hayday/bacon.png",
         "theme": "hayday",
-        "filename": "bacon.html"
+        "filename": "bacon.html",
+        "thumbnail": "images/hayday/thumbnails/bacon.jpg"
       },
       {
         "word": "Wool",
@@ -2125,7 +2265,8 @@
         "definition_en": "Wool is a natural fiber sheared from sheep, soft and warm, used for making textiles and clothing.",
         "image": "images/hayday/wool.png",
         "theme": "hayday",
-        "filename": "wool.html"
+        "filename": "wool.html",
+        "thumbnail": "images/hayday/thumbnails/wool.jpg"
       },
       {
         "word": "Honey",
@@ -2139,7 +2280,8 @@
         "definition_en": "Honey is a natural sweetener produced by bees from flower nectar, rich in nutrients with a unique sweet flavor.",
         "image": "images/hayday/honey.png",
         "theme": "hayday",
-        "filename": "honey.html"
+        "filename": "honey.html",
+        "thumbnail": "images/hayday/thumbnails/honey.jpg"
       },
       {
         "word": "Bread",
@@ -2153,7 +2295,8 @@
         "definition_en": "Bread is a staple food baked from wheat flour, one of humanity's oldest foods.",
         "image": "images/hayday/bread.png",
         "theme": "hayday",
-        "filename": "bread.html"
+        "filename": "bread.html",
+        "thumbnail": "images/hayday/thumbnails/bread.jpg"
       },
       {
         "word": "Butter",
@@ -2167,7 +2310,8 @@
         "definition_en": "Butter is a solid dairy product made by churning cream, rich in fat and vitamins.",
         "image": "images/hayday/butter.png",
         "theme": "hayday",
-        "filename": "butter.html"
+        "filename": "butter.html",
+        "thumbnail": "images/hayday/thumbnails/butter.jpg"
       },
       {
         "word": "Cheese",
@@ -2181,7 +2325,8 @@
         "definition_en": "Cheese is a dairy product made by curdling milk proteins, with unique flavors and textures.",
         "image": "images/hayday/cheese.png",
         "theme": "hayday",
-        "filename": "cheese.html"
+        "filename": "cheese.html",
+        "thumbnail": "images/hayday/thumbnails/cheese.jpg"
       }
     ]
   }
