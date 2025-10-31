@@ -796,7 +796,8 @@
       "example_en": "Make golden corn bread combining fresh corn and eggs from your farm.",
       "example_zh": "用你农场的新鲜玉米和鸡蛋制作金黄的玉米面包。",
       "ingredients": "2 Corn + 2 Egg",
-      "ingredients_zh": "2个玉米 + 2个鸡蛋"
+      "ingredients_zh": "2个玉米 + 2个鸡蛋",
+      "thumbnail": "images/hayday/thumbnails/corn_bread.jpg"
     },
     {
       "word": "Cookie",
@@ -813,7 +814,8 @@
       "example_en": "Bake crispy cookies with brown sugar, eggs, and wheat flour for tea time.",
       "example_zh": "用红糖、鸡蛋和小麦粉烘焙酥脆的饼干来喝下午茶。",
       "ingredients": "1 Brown Sugar + 2 Egg + 2 Wheat",
-      "ingredients_zh": "1个红糖 + 2个鸡蛋 + 2个小麦"
+      "ingredients_zh": "1个红糖 + 2个鸡蛋 + 2个小麦",
+      "thumbnail": "images/hayday/thumbnails/cookie.jpg"
     },
     {
       "word": "Pizza",
@@ -830,7 +832,8 @@
       "example_en": "Bake delicious pizza with cheese, tomatoes, and wheat dough for your customers.",
       "example_zh": "用奶酪、番茄和小麦面团为你的顾客烘焙美味的披萨。",
       "ingredients": "1 Cheese + 1 Tomato + 2 Wheat",
-      "ingredients_zh": "1份奶酪 + 1个番茄 + 2个小麦"
+      "ingredients_zh": "1份奶酪 + 1个番茄 + 2个小麦",
+      "thumbnail": "images/hayday/thumbnails/pizza.jpg"
     },
     {
       "word": "Raspberry Muffin",
@@ -847,7 +850,8 @@
       "example_en": "Bake fluffy raspberry muffins using fresh berries from your bushes.",
       "example_zh": "用你灌木丛中的新鲜浆果烘焙蓬松的覆盆子松饼。",
       "ingredients": "1 Egg + 2 Raspberry + 2 Wheat",
-      "ingredients_zh": "1个鸡蛋 + 2个覆盆子 + 2个小麦"
+      "ingredients_zh": "1个鸡蛋 + 2个覆盆子 + 2个小麦",
+      "thumbnail": "images/hayday/thumbnails/raspberry_muffin.jpg"
     },
     {
       "word": "Cream",
@@ -864,7 +868,8 @@
       "example_en": "Process fresh milk into rich cream for your ice cream and cakes.",
       "example_zh": "将新鲜牛奶加工成浓郁的奶油用于冰淇淋和蛋糕。",
       "ingredients": "1 Milk",
-      "ingredients_zh": "1份牛奶"
+      "ingredients_zh": "1份牛奶",
+      "thumbnail": "images/hayday/thumbnails/cream.jpg"
     },
     {
       "word": "Goat Cheese",
@@ -881,7 +886,8 @@
       "example_en": "Make tangy goat cheese from fresh goat milk for gourmet recipes.",
       "example_zh": "用新鲜羊奶制作浓郁的山羊奶酪用于美食配方。",
       "ingredients": "2 Goat Milk",
-      "ingredients_zh": "2份羊奶"
+      "ingredients_zh": "2份羊奶",
+      "thumbnail": "images/hayday/thumbnails/goat_cheese.jpg"
     },
     {
       "word": "Brown Sugar",
@@ -898,7 +904,8 @@
       "example_en": "Process sugarcane into sweet brown sugar for baking cookies and cakes.",
       "example_zh": "将甘蔗加工成甜美的红糖用于烘焙饼干和蛋糕。",
       "ingredients": "1 Sugarcane",
-      "ingredients_zh": "1根甘蔗"
+      "ingredients_zh": "1根甘蔗",
+      "thumbnail": "images/hayday/thumbnails/brown_sugar.jpg"
     },
     {
       "word": "White Sugar",
@@ -915,7 +922,8 @@
       "example_en": "Refine sugarcane into pure white sugar for ice cream and various desserts.",
       "example_zh": "将甘蔗精炼成纯净的白糖用于冰淇淋和各种甜点。",
       "ingredients": "2 Sugarcane",
-      "ingredients_zh": "2根甘蔗"
+      "ingredients_zh": "2根甘蔗",
+      "thumbnail": "images/hayday/thumbnails/white_sugar.jpg"
     },
     {
       "word": "Syrup",
@@ -932,7 +940,8 @@
       "example_en": "Make rich syrup from sugarcane for pancakes and apple pie.",
       "example_zh": "用甘蔗制作浓郁的糖浆用于煎饼和苹果派。",
       "ingredients": "4 Sugarcane",
-      "ingredients_zh": "4根甘蔗"
+      "ingredients_zh": "4根甘蔗",
+      "thumbnail": "images/hayday/thumbnails/syrup.jpg"
     },
     {
       "word": "Bacon & Eggs",
@@ -943,9 +952,10 @@
       "subcategory": "products",
       "definition_zh": "培根鸡蛋是经典的早餐菜肴,将酥脆的培根和煎蛋结合在一起。需要1小时在烧烤架上烹饪。",
       "definition_en": "A classic breakfast dish combining crispy bacon with fried eggs. Takes 1 hour to cook on the BBQ grill.",
-      "image": "images/hayday/bacon___eggs.png",
+      "image": "images/hayday/bacon_and_eggs.png",
       "theme": "hayday",
       "filename": "bacon-and-eggs.html",
+      "thumbnail": "images/hayday/thumbnails/bacon_and_eggs.jpg",
       "example_en": "Cook delicious bacon and eggs for a hearty breakfast on your BBQ grill.",
       "example_zh": "在烧烤架上烹饪美味的培根鸡蛋作为丰盛的早餐。",
       "ingredients": "2 Bacon + 4 Egg",
@@ -966,7 +976,8 @@
       "example_en": "Grill tasty hamburgers with bacon and bread for your roadside shop.",
       "example_zh": "用培根和面包烤制美味的汉堡包在路边小店出售。",
       "ingredients": "2 Bacon + 2 Bread",
-      "ingredients_zh": "2份培根 + 2个面包"
+      "ingredients_zh": "2份培根 + 2个面包",
+      "thumbnail": "images/hayday/thumbnails/hamburger.jpg"
     },
     {
       "word": "Baked Potato",
@@ -983,7 +994,8 @@
       "example_en": "Make delicious loaded baked potatoes with all the toppings.",
       "example_zh": "制作配料丰富的美味烤土豆。",
       "ingredients": "2 Potato + 1 Cheese + 1 Cream + 1 Chili Pepper",
-      "ingredients_zh": "2个土豆 + 1份奶酪 + 1份奶油 + 1个辣椒"
+      "ingredients_zh": "2个土豆 + 1份奶酪 + 1份奶油 + 1个辣椒",
+      "thumbnail": "images/hayday/thumbnails/baked_potato.jpg"
     },
     {
       "word": "Carrot Cake",
@@ -1000,7 +1012,8 @@
       "example_en": "Bake a delicious carrot cake using fresh carrots from your farm.",
       "example_zh": "用你农场的新鲜胡萝卜烘焙美味的胡萝卜蛋糕。",
       "ingredients": "2 Carrot + 1 Brown Sugar + 1 Butter",
-      "ingredients_zh": "2个胡萝卜 + 1个红糖 + 1份黄油"
+      "ingredients_zh": "2个胡萝卜 + 1个红糖 + 1份黄油",
+      "thumbnail": "images/hayday/thumbnails/carrot_cake.jpg"
     },
     {
       "word": "Cheesecake",
@@ -1017,7 +1030,8 @@
       "example_en": "Create a creamy cheesecake with cheese and cookie base.",
       "example_zh": "用奶酪和饼干底创作奶油芝士蛋糕。",
       "ingredients": "1 Cheese + 1 Cookie",
-      "ingredients_zh": "1份奶酪 + 1块饼干"
+      "ingredients_zh": "1份奶酪 + 1块饼干",
+      "thumbnail": "images/hayday/thumbnails/cheesecake.jpg"
     },
     {
       "word": "Chocolate Cake",
@@ -1034,7 +1048,8 @@
       "example_en": "Bake a decadent chocolate cake using cacao from your trees.",
       "example_zh": "用你果树的可可烘焙颓废的巧克力蛋糕。",
       "ingredients": "2 Cacao + 1 Brown Sugar + 1 Butter",
-      "ingredients_zh": "2个可可 + 1个红糖 + 1份黄油"
+      "ingredients_zh": "2个可可 + 1个红糖 + 1份黄油",
+      "thumbnail": "images/hayday/thumbnails/chocolate_cake.jpg"
     },
     {
       "word": "Vanilla Ice Cream",
@@ -1051,7 +1066,8 @@
       "example_en": "Make smooth vanilla ice cream for your ice cream shop.",
       "example_zh": "为你的冰淇淋店制作顺滑的香草冰淇淋。",
       "ingredients": "1 Cream + 1 Milk + 1 White Sugar",
-      "ingredients_zh": "1份奶油 + 1份牛奶 + 1份白糖"
+      "ingredients_zh": "1份奶油 + 1份牛奶 + 1份白糖",
+      "thumbnail": "images/hayday/thumbnails/vanilla_ice_cream.jpg"
     },
     {
       "word": "Strawberry Ice Cream",
@@ -1068,7 +1084,8 @@
       "example_en": "Create refreshing strawberry ice cream with fresh strawberries from your fields.",
       "example_zh": "用你田地的新鲜草莓创作清爽的草莓冰淇淋。",
       "ingredients": "1 Cream + 1 Milk + 3 Strawberry + 1 White Sugar",
-      "ingredients_zh": "1份奶油 + 1份牛奶 + 3个草莓 + 1份白糖"
+      "ingredients_zh": "1份奶油 + 1份牛奶 + 3个草莓 + 1份白糖",
+      "thumbnail": "images/hayday/thumbnails/strawberry_ice_cream.jpg"
     },
     {
       "word": "Chocolate Ice Cream",
@@ -1085,7 +1102,8 @@
       "example_en": "Make decadent chocolate ice cream with cacao from your farm.",
       "example_zh": "用你农场的可可制作颓废的巧克力冰淇淋。",
       "ingredients": "1 Cream + 2 Cacao + 1 Milk + 1 White Sugar",
-      "ingredients_zh": "1份奶油 + 2个可可 + 1份牛奶 + 1份白糖"
+      "ingredients_zh": "1份奶油 + 2个可可 + 1份牛奶 + 1份白糖",
+      "thumbnail": "images/hayday/thumbnails/chocolate_ice_cream.jpg"
     },
     {
       "word": "Bakery",
@@ -1102,7 +1120,8 @@
       "example_en": "Build a bakery to start making bread and other baked goods for your customers.",
       "example_zh": "建造面包房开始为顾客制作面包和其他烘焙食品。",
       "products": "Bread, Corn Bread, Cookie, Pizza, Muffins",
-      "products_zh": "面包、玉米面包、饼干、披萨、松饼"
+      "products_zh": "面包、玉米面包、饼干、披萨、松饼",
+      "thumbnail": "images/hayday/thumbnails/bakery.jpg"
     },
     {
       "word": "Feed Mill",
@@ -1119,7 +1138,8 @@
       "example_en": "Use the feed mill to make animal feed from your crops.",
       "example_zh": "使用饲料厂将你的作物制作成动物饲料。",
       "products": "Chicken Feed, Cow Feed, Pig Feed, Sheep Feed, Goat Feed",
-      "products_zh": "鸡饲料、牛饲料、猪饲料、羊饲料、山羊饲料"
+      "products_zh": "鸡饲料、牛饲料、猪饲料、羊饲料、山羊饲料",
+      "thumbnail": "images/hayday/thumbnails/feed_mill.jpg"
     },
     {
       "word": "Dairy",
@@ -1136,7 +1156,8 @@
       "example_en": "Process milk into dairy products like cream and cheese in the dairy.",
       "example_zh": "在乳品厂将牛奶加工成奶油和奶酪等乳制品。",
       "products": "Cream, Butter, Cheese, Goat Cheese",
-      "products_zh": "奶油、黄油、奶酪、山羊奶酪"
+      "products_zh": "奶油、黄油、奶酪、山羊奶酪",
+      "thumbnail": "images/hayday/thumbnails/dairy.jpg"
     },
     {
       "word": "Sugar Mill",
@@ -1153,7 +1174,8 @@
       "example_en": "Refine sugarcane into brown sugar, white sugar, and syrup in the sugar mill.",
       "example_zh": "在糖厂将甘蔗精炼成红糖、白糖和糖浆。",
       "products": "Brown Sugar, White Sugar, Syrup",
-      "products_zh": "红糖、白糖、糖浆"
+      "products_zh": "红糖、白糖、糖浆",
+      "thumbnail": "images/hayday/thumbnails/sugar_mill.jpg"
     },
     {
       "word": "BBQ Grill",
@@ -1170,7 +1192,8 @@
       "example_en": "Cook delicious grilled foods on the BBQ grill for your farm stand.",
       "example_zh": "在烧烤架上烹饪美味的烧烤食品在农场摊位出售。",
       "products": "Bacon & Eggs, Hamburger, Baked Potato, Roasted Tomatoes",
-      "products_zh": "培根鸡蛋、汉堡包、烤土豆、烤番茄"
+      "products_zh": "培根鸡蛋、汉堡包、烤土豆、烤番茄",
+      "thumbnail": "images/hayday/thumbnails/bbq_grill.jpg"
     },
     {
       "word": "Pie Oven",
@@ -1187,7 +1210,8 @@
       "example_en": "Bake delicious pies and casseroles in the pie oven.",
       "example_zh": "在派烤箱烘焙美味的派和砂锅菜。",
       "products": "Carrot Pie, Pumpkin Pie, Apple Pie, Fish Pie, Casserole",
-      "products_zh": "胡萝卜派、南瓜派、苹果派、鱼派、砂锅菜"
+      "products_zh": "胡萝卜派、南瓜派、苹果派、鱼派、砂锅菜",
+      "thumbnail": "images/hayday/thumbnails/pie_oven.jpg"
     },
     {
       "word": "Loom",
@@ -1204,7 +1228,8 @@
       "example_en": "Weave wool into sweaters and fabric on the loom.",
       "example_zh": "在织布机上将羊毛编织成毛衣和布料。",
       "products": "Sweater, Cotton Fabric, Blue Woolly Hat, Blue Sweater",
-      "products_zh": "毛衣、棉布、蓝色羊毛帽、蓝色毛衣"
+      "products_zh": "毛衣、棉布、蓝色羊毛帽、蓝色毛衣",
+      "thumbnail": "images/hayday/thumbnails/loom.jpg"
     },
     {
       "word": "Sewing Machine",
@@ -1221,7 +1246,8 @@
       "example_en": "Sew stylish clothes like cotton shirts and dresses on the sewing machine.",
       "example_zh": "在缝纫机上缝制时尚的服装如棉布衬衫和连衣裙。",
       "products": "Cotton Shirt, Wooly Chaps, Violet Dress",
-      "products_zh": "棉布衬衫、羊毛裤、紫色连衣裙"
+      "products_zh": "棉布衬衫、羊毛裤、紫色连衣裙",
+      "thumbnail": "images/hayday/thumbnails/sewing_machine.jpg"
     },
     {
       "word": "Cake Oven",
@@ -1238,7 +1264,8 @@
       "example_en": "Bake beautiful cakes like chocolate cake and cheesecake in the cake oven.",
       "example_zh": "在蛋糕烤箱烘焙巧克力蛋糕和芝士蛋糕等精美蛋糕。",
       "products": "Carrot Cake, Cream Cake, Cheesecake, Chocolate Cake, Strawberry Cake",
-      "products_zh": "胡萝卜蛋糕、奶油蛋糕、芝士蛋糕、巧克力蛋糕、草莓蛋糕"
+      "products_zh": "胡萝卜蛋糕、奶油蛋糕、芝士蛋糕、巧克力蛋糕、草莓蛋糕",
+      "thumbnail": "images/hayday/thumbnails/cake_oven.jpg"
     },
     {
       "word": "Juice Press",
@@ -1255,7 +1282,8 @@
       "example_en": "Press fresh fruits into healthy juices with the juice press.",
       "example_zh": "用榨汁机将新鲜水果压榨成健康果汁。",
       "products": "Carrot Juice, Apple Juice, Cherry Juice, Tomato Juice, Berry Juice",
-      "products_zh": "胡萝卜汁、苹果汁、樱桃汁、番茄汁、浆果汁"
+      "products_zh": "胡萝卜汁、苹果汁、樱桃汁、番茄汁、浆果汁",
+      "thumbnail": "images/hayday/thumbnails/juice_press.jpg"
     },
     {
       "word": "Ice Cream Maker",
@@ -1272,7 +1300,8 @@
       "example_en": "Make refreshing ice cream and popsicles in the ice cream maker.",
       "example_zh": "在冰淇淋机制作清爽的冰淇淋和冰棍。",
       "products": "Vanilla Ice Cream, Strawberry Ice Cream, Cherry Popsicle, Chocolate Ice Cream",
-      "products_zh": "香草冰淇淋、草莓冰淇淋、樱桃冰棍、巧克力冰淇淋"
+      "products_zh": "香草冰淇淋、草莓冰淇淋、樱桃冰棍、巧克力冰淇淋",
+      "thumbnail": "images/hayday/thumbnails/ice_cream_maker.jpg"
     },
     {
       "word": "Jam Maker",
@@ -1289,7 +1318,8 @@
       "example_en": "Preserve your fruits into delicious jams with the jam maker.",
       "example_zh": "用果酱机将你的水果保存成美味的果酱。",
       "products": "Apple Jam, Raspberry Jam, Blackberry Jam, Cherry Jam",
-      "products_zh": "苹果果酱、覆盆子果酱、黑莓果酱、樱桃果酱"
+      "products_zh": "苹果果酱、覆盆子果酱、黑莓果酱、樱桃果酱",
+      "thumbnail": "images/hayday/thumbnails/jam_maker.jpg"
     }
   ]
 }
