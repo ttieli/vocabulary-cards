@@ -429,6 +429,70 @@
             color: #33691E;
         }
 
+        /* Subcategory Filter Styles */
+        .subcategory-filter {
+            padding: 15px 30px 20px 30px;
+            background: rgba(0, 0, 0, 0.02);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .subcategory-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .subcategory-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border-radius: 50px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #666;
+            user-select: none;
+        }
+
+        .subcategory-pill:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .subcategory-pill.active {
+            border-color: currentColor;
+            color: inherit;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
+        }
+
+        .subcategory-pill .subcategory-icon {
+            font-size: 1.1em;
+        }
+
+        /* Theme-specific subcategory pill colors */
+        .scene-card.hayday .subcategory-pill.active {
+            border-color: #8BC34A;
+            color: #33691E;
+            box-shadow: 0 4px 12px rgba(139, 195, 74, 0.3);
+        }
+
+        .scene-card.mario .subcategory-pill.active {
+            border-color: #e60012;
+            color: #e60012;
+            box-shadow: 0 4px 12px rgba(230, 0, 18, 0.3);
+        }
+
+        .scene-card.zelda .subcategory-pill.active {
+            border-color: #00a870;
+            color: #00a870;
+            box-shadow: 0 4px 12px rgba(0, 168, 112, 0.3);
+        }
+
         footer {
             text-align: center;
             padding: 30px;
@@ -596,6 +660,15 @@
 
             .word-grid-container {
                 padding: 0 18px;
+            }
+
+            .subcategory-filter {
+                padding: 12px 18px 15px 18px;
+            }
+
+            .subcategory-pill {
+                padding: 6px 12px;
+                font-size: 0.85em;
             }
         }
 
@@ -799,6 +872,9 @@
 
         // View mode: 'word' or 'image' (default to 'image')
         let currentViewMode = localStorage.getItem('viewMode') || 'image';
+
+        // Track selected subcategory per theme (null = show all)
+        let selectedSubcategories = {};
 
         // Load data from JSON (supports both modular and legacy formats)
         async function loadData() {
@@ -1427,8 +1503,8 @@
             for (const [sceneName, cards] of Object.entries(dataToUse)) {
                 const info = infoToUse[sceneName];
 
-                // Filter cards - support both English and Chinese
-                const filteredCards = filterText ?
+                // Filter by search text (English and Chinese)
+                let filteredCards = filterText ?
                     cards.filter(card => {
                         const searchTerm = filterText.toLowerCase();
                         const englishMatch = card.word.toLowerCase().includes(searchTerm);
@@ -1436,11 +1512,43 @@
                         return englishMatch || chineseMatch;
                     }) : cards;
 
+                // Filter by subcategory if selected
+                const selectedSubcategory = selectedSubcategories[sceneName];
+                if (selectedSubcategory && selectedSubcategory !== 'all') {
+                    filteredCards = filteredCards.filter(card => card.subcategory === selectedSubcategory);
+                }
+
                 if (filteredCards.length === 0 && filterText) continue;
 
                 const sceneCard = document.createElement('div');
                 sceneCard.className = `scene-card ${sceneName}`;
                 sceneCard.dataset.scene = sceneName;
+
+                // Generate subcategory filter HTML if available
+                let subcategoryFilterHTML = '';
+                if (info.subcategories) {
+                    const subcategories = info.subcategories;
+                    const currentSelection = selectedSubcategories[sceneName] || 'all';
+
+                    subcategoryFilterHTML = `
+                        <div class="subcategory-filter">
+                            <div class="subcategory-pills">
+                                <div class="subcategory-pill ${currentSelection === 'all' ? 'active' : ''}"
+                                     onclick="filterBySubcategory('${sceneName}', 'all', event)">
+                                    <span class="subcategory-icon">🌟</span>
+                                    <span>All</span>
+                                </div>
+                                ${Object.entries(subcategories).map(([key, sub]) => `
+                                    <div class="subcategory-pill ${currentSelection === key ? 'active' : ''}"
+                                         onclick="filterBySubcategory('${sceneName}', '${key}', event)">
+                                        <span class="subcategory-icon">${sub.icon}</span>
+                                        <span>${sub.name}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
 
                 sceneCard.innerHTML = `
                     <div class="scene-header" onclick="toggleScene('${sceneName}')">
@@ -1451,6 +1559,7 @@
                         </div>
                         <div class="toggle-icon">▼</div>
                     </div>
+                    ${subcategoryFilterHTML}
                     <div class="word-grid-container">
                         <div class="word-grid">
                             ${filteredCards.map(card => {
@@ -1486,6 +1595,32 @@
         function toggleScene(sceneName) {
             const sceneCard = document.querySelector(`.scene-card[data-scene="${sceneName}"]`);
             sceneCard.classList.toggle('expanded');
+        }
+
+        // Filter by subcategory
+        function filterBySubcategory(themeName, subcategory, event) {
+            // Prevent toggle scene from firing
+            event.stopPropagation();
+
+            // Update selected subcategory
+            selectedSubcategories[themeName] = subcategory;
+
+            // Re-render scenes with filter
+            const searchValue = document.getElementById('search-input').value;
+            renderScenes(searchValue);
+
+            // Keep the theme expanded
+            const sceneCard = document.querySelector(`.scene-card[data-scene="${themeName}"]`);
+            if (sceneCard) {
+                sceneCard.classList.add('expanded');
+            }
+
+            // Keep other expanded states if searching
+            if (searchValue) {
+                document.querySelectorAll('.scene-card').forEach(card => {
+                    card.classList.add('expanded');
+                });
+            }
         }
 
         // Switch view mode

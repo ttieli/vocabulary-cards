@@ -25,7 +25,24 @@
       "theme_color": "#8BC34A",
       "layout": "horizontal",
       "badge_text": "FARM LIFE",
-      "show_header": true
+      "show_header": true,
+      "subcategories": {
+        "crops": { "name": "Crops", "icon": "🌾" },
+        "animals": { "name": "Animals", "icon": "🐄" },
+        "products": { "name": "Products", "icon": "🧀" },
+        "experience": { "name": "Experience", "icon": "⭐" },
+        "reputation": { "name": "Reputation", "icon": "🏆" },
+        "production": { "name": "Production", "icon": "🏭" },
+        "storage": { "name": "Storage", "icon": "📦" },
+        "service": { "name": "Service", "icon": "🛎️" },
+        "supplies": { "name": "Supplies", "icon": "🛠️" },
+        "expansion": { "name": "Expansion", "icon": "🗺️" },
+        "friends": { "name": "Friends", "icon": "👥" },
+        "trade": { "name": "Trade", "icon": "💰" },
+        "events": { "name": "Events", "icon": "🎉" },
+        "neighborhood": { "name": "Neighborhood", "icon": "🏘️" },
+        "derby": { "name": "Derby", "icon": "🏇" }
+      }
     }
   }
 }

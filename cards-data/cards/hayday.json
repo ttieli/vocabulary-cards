@@ -16,7 +16,8 @@
       "image": "images/hayday/wheat.png",
       "theme": "hayday",
       "filename": "wheat.html",
-      "thumbnail": "images/hayday/thumbnails/wheat.jpg"
+      "thumbnail": "images/hayday/thumbnails/wheat.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Corn",
@@ -31,7 +32,8 @@
       "image": "images/hayday/corn.png",
       "theme": "hayday",
       "filename": "corn.html",
-      "thumbnail": "images/hayday/thumbnails/corn.jpg"
+      "thumbnail": "images/hayday/thumbnails/corn.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Soybean",
@@ -46,7 +48,8 @@
       "image": "images/hayday/soybean.png",
       "theme": "hayday",
       "filename": "soybean.html",
-      "thumbnail": "images/hayday/thumbnails/soybean.jpg"
+      "thumbnail": "images/hayday/thumbnails/soybean.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Sugarcane",
@@ -61,7 +64,8 @@
       "image": "images/hayday/sugarcane.png",
       "theme": "hayday",
       "filename": "sugarcane.html",
-      "thumbnail": "images/hayday/thumbnails/sugarcane.jpg"
+      "thumbnail": "images/hayday/thumbnails/sugarcane.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Carrot",
@@ -76,7 +80,8 @@
       "image": "images/hayday/carrot.png",
       "theme": "hayday",
       "filename": "carrot.html",
-      "thumbnail": "images/hayday/thumbnails/carrot.jpg"
+      "thumbnail": "images/hayday/thumbnails/carrot.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Indigo",
@@ -91,7 +96,8 @@
       "definition_en": "A plant used to extract natural blue dye, historically used for coloring textiles. Takes 45 minutes to grow and is used to make blue dye.",
       "example_en": "Grow indigo plants to produce beautiful blue dyes for your products.",
       "example_zh": "种植靛蓝植物来为你的产品制作美丽的蓝色染料。",
-      "thumbnail": "images/hayday/thumbnails/indigo.jpg"
+      "thumbnail": "images/hayday/thumbnails/indigo.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Pumpkin",
@@ -106,7 +112,8 @@
       "image": "images/hayday/pumpkin.png",
       "theme": "hayday",
       "filename": "pumpkin.html",
-      "thumbnail": "images/hayday/thumbnails/pumpkin.jpg"
+      "thumbnail": "images/hayday/thumbnails/pumpkin.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Apple",
@@ -119,7 +126,8 @@
       "image": "images/hayday/apple.png",
       "theme": "hayday",
       "filename": "apple.html",
-      "thumbnail": "images/hayday/thumbnails/apple.jpg"
+      "thumbnail": "images/hayday/thumbnails/apple.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Cotton",
@@ -134,7 +142,8 @@
       "image": "images/hayday/cotton.png",
       "theme": "hayday",
       "filename": "cotton.html",
-      "thumbnail": "images/hayday/thumbnails/cotton.jpg"
+      "thumbnail": "images/hayday/thumbnails/cotton.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Raspberry",
@@ -147,7 +156,8 @@
       "image": "images/hayday/raspberry.png",
       "theme": "hayday",
       "filename": "raspberry.html",
-      "thumbnail": "images/hayday/thumbnails/raspberry.jpg"
+      "thumbnail": "images/hayday/thumbnails/raspberry.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Cherry",
@@ -160,7 +170,8 @@
       "image": "images/hayday/cherry.png",
       "theme": "hayday",
       "filename": "cherry.html",
-      "thumbnail": "images/hayday/thumbnails/cherry.jpg"
+      "thumbnail": "images/hayday/thumbnails/cherry.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Chili Pepper",
@@ -175,7 +186,8 @@
       "definition_en": "A spicy vegetable rich in vitamin C and capsaicin that adds heat to dishes. Takes 2 hours to grow and is used for spicy recipes.",
       "example_en": "Harvest chili peppers to make spicy salsa and hot sauces.",
       "example_zh": "收获辣椒来制作辣味沙拉酱和辣酱。",
-      "thumbnail": "images/hayday/thumbnails/chili_pepper.jpg"
+      "thumbnail": "images/hayday/thumbnails/chili_pepper.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Blackberry",
@@ -188,7 +200,8 @@
       "image": "images/hayday/blackberry.png",
       "theme": "hayday",
       "filename": "blackberry.html",
-      "thumbnail": "images/hayday/thumbnails/blackberry.jpg"
+      "thumbnail": "images/hayday/thumbnails/blackberry.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Tomato",
@@ -203,7 +216,8 @@
       "image": "images/hayday/tomato.png",
       "theme": "hayday",
       "filename": "tomato.html",
-      "thumbnail": "images/hayday/thumbnails/tomato.jpg"
+      "thumbnail": "images/hayday/thumbnails/tomato.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Blueberries",
@@ -218,7 +232,8 @@
       "definition_en": "Small blue-purple berries rich in antioxidants, considered a superfood. Used to make blueberry pie and juices.",
       "example_en": "Pick fresh blueberries to bake delicious blueberry muffins.",
       "example_zh": "采摘新鲜蓝莓来烘焙美味的蓝莓松饼。",
-      "thumbnail": "images/hayday/thumbnails/blueberries.jpg"
+      "thumbnail": "images/hayday/thumbnails/blueberries.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Strawberry",
@@ -231,7 +246,8 @@
       "image": "images/hayday/strawberry.png",
       "theme": "hayday",
       "filename": "strawberry.html",
-      "thumbnail": "images/hayday/thumbnails/strawberry.jpg"
+      "thumbnail": "images/hayday/thumbnails/strawberry.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Potato",
@@ -246,7 +262,8 @@
       "definition_en": "An important root vegetable rich in starch and nutrients that can be cooked in many ways. Used to make fries and mashed potatoes.",
       "example_en": "Grow potatoes to make crispy french fries for your customers.",
       "example_zh": "种植土豆来为你的顾客制作酥脆的炸薯条。",
-      "thumbnail": "images/hayday/thumbnails/potato.jpg"
+      "thumbnail": "images/hayday/thumbnails/potato.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Cacao",
@@ -261,7 +278,8 @@
       "definition_en": "The source of chocolate, made from cacao tree seeds. Unlocked at level 36 and used to make chocolate and cocoa powder.",
       "example_en": "Harvest cacao pods to produce rich chocolate products.",
       "example_zh": "收获可可豆荚来生产浓郁的巧克力产品。",
-      "thumbnail": "images/hayday/thumbnails/cacao.jpg"
+      "thumbnail": "images/hayday/thumbnails/cacao.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Coffee Bean",
@@ -276,7 +294,8 @@
       "definition_en": "The raw material for coffee beverages, with unique aroma and flavor after roasting. Used to make various coffee drinks.",
       "example_en": "Grow coffee beans to brew fresh espresso for your café.",
       "example_zh": "种植咖啡豆来为你的咖啡馆冲泡新鲜浓缩咖啡。",
-      "thumbnail": "images/hayday/thumbnails/coffee_bean.jpg"
+      "thumbnail": "images/hayday/thumbnails/coffee_bean.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Chamomile",
@@ -291,7 +310,8 @@
       "definition_en": "A medicinal herb commonly used to make soothing and calming herbal tea. Unlocked at level 45 for making chamomile tea.",
       "example_en": "Harvest chamomile flowers to brew relaxing herbal tea.",
       "example_zh": "收获洋甘菊花朵来冲泡放松的花草茶。",
-      "thumbnail": "images/hayday/thumbnails/chamomile.jpg"
+      "thumbnail": "images/hayday/thumbnails/chamomile.jpg",
+      "subcategory": "crops"
     },
     {
       "word": "Chicken",
@@ -308,7 +328,8 @@
       "image": "images/hayday/chicken.png",
       "theme": "hayday",
       "filename": "chicken.html",
-      "thumbnail": "images/hayday/thumbnails/chicken.jpg"
+      "thumbnail": "images/hayday/thumbnails/chicken.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Cow",
@@ -325,7 +346,8 @@
       "image": "images/hayday/cow.png",
       "theme": "hayday",
       "filename": "cow.html",
-      "thumbnail": "images/hayday/thumbnails/cow.jpg"
+      "thumbnail": "images/hayday/thumbnails/cow.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Pig",
@@ -342,7 +364,8 @@
       "image": "images/hayday/pig.png",
       "theme": "hayday",
       "filename": "pig.html",
-      "thumbnail": "images/hayday/thumbnails/pig.jpg"
+      "thumbnail": "images/hayday/thumbnails/pig.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Sheep",
@@ -359,7 +382,8 @@
       "image": "images/hayday/sheep.png",
       "theme": "hayday",
       "filename": "sheep.html",
-      "thumbnail": "images/hayday/thumbnails/sheep.jpg"
+      "thumbnail": "images/hayday/thumbnails/sheep.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Goat",
@@ -376,7 +400,8 @@
       "image": "images/hayday/goat.png",
       "theme": "hayday",
       "filename": "goat.html",
-      "thumbnail": "images/hayday/thumbnails/goat.jpg"
+      "thumbnail": "images/hayday/thumbnails/goat.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Honey Bee",
@@ -393,7 +418,8 @@
       "image": "images/hayday/honey_bee.png",
       "theme": "hayday",
       "filename": "honey-bee.html",
-      "thumbnail": "images/hayday/thumbnails/honey_bee.jpg"
+      "thumbnail": "images/hayday/thumbnails/honey_bee.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Duck",
@@ -410,7 +436,8 @@
       "image": "images/hayday/duck.png",
       "theme": "hayday",
       "filename": "duck.html",
-      "thumbnail": "images/hayday/thumbnails/duck.jpg"
+      "thumbnail": "images/hayday/thumbnails/duck.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Squirrel",
@@ -427,7 +454,8 @@
       "image": "images/hayday/squirrel.png",
       "theme": "hayday",
       "filename": "squirrel.html",
-      "thumbnail": "images/hayday/thumbnails/squirrel.jpg"
+      "thumbnail": "images/hayday/thumbnails/squirrel.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Elephant",
@@ -439,7 +467,8 @@
       "image": "images/hayday/elephant.png",
       "theme": "hayday",
       "filename": "elephant.html",
-      "thumbnail": "images/hayday/thumbnails/elephant.jpg"
+      "thumbnail": "images/hayday/thumbnails/elephant.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Giraffe",
@@ -451,7 +480,8 @@
       "image": "images/hayday/giraffe.png",
       "theme": "hayday",
       "filename": "giraffe.html",
-      "thumbnail": "images/hayday/thumbnails/giraffe.jpg"
+      "thumbnail": "images/hayday/thumbnails/giraffe.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Hippopotamus",
@@ -463,7 +493,8 @@
       "image": "images/hayday/hippopotamus.png",
       "theme": "hayday",
       "filename": "hippopotamus.html",
-      "thumbnail": "images/hayday/thumbnails/hippopotamus.jpg"
+      "thumbnail": "images/hayday/thumbnails/hippopotamus.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Zebra",
@@ -475,7 +506,8 @@
       "image": "images/hayday/zebra.png",
       "theme": "hayday",
       "filename": "zebra.html",
-      "thumbnail": "images/hayday/thumbnails/zebra.jpg"
+      "thumbnail": "images/hayday/thumbnails/zebra.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Gorilla",
@@ -487,7 +519,8 @@
       "image": "images/hayday/gorilla.png",
       "theme": "hayday",
       "filename": "gorilla.html",
-      "thumbnail": "images/hayday/thumbnails/gorilla.jpg"
+      "thumbnail": "images/hayday/thumbnails/gorilla.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Reindeer",
@@ -499,7 +532,8 @@
       "image": "images/hayday/reindeer.png",
       "theme": "hayday",
       "filename": "reindeer.html",
-      "thumbnail": "images/hayday/thumbnails/reindeer.jpg"
+      "thumbnail": "images/hayday/thumbnails/reindeer.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Fox",
@@ -511,7 +545,8 @@
       "image": "images/hayday/fox.png",
       "theme": "hayday",
       "filename": "fox.html",
-      "thumbnail": "images/hayday/thumbnails/fox.jpg"
+      "thumbnail": "images/hayday/thumbnails/fox.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Cheetah",
@@ -523,7 +558,8 @@
       "image": "images/hayday/cheetah.png",
       "theme": "hayday",
       "filename": "cheetah.html",
-      "thumbnail": "images/hayday/thumbnails/cheetah.jpg"
+      "thumbnail": "images/hayday/thumbnails/cheetah.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Walrus",
@@ -535,7 +571,8 @@
       "image": "images/hayday/walrus.png",
       "theme": "hayday",
       "filename": "walrus.html",
-      "thumbnail": "images/hayday/thumbnails/walrus.jpg"
+      "thumbnail": "images/hayday/thumbnails/walrus.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Meerkat",
@@ -547,7 +584,8 @@
       "image": "images/hayday/meerkat.png",
       "theme": "hayday",
       "filename": "meerkat.html",
-      "thumbnail": "images/hayday/thumbnails/meerkat.jpg"
+      "thumbnail": "images/hayday/thumbnails/meerkat.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Fish",
@@ -564,7 +602,8 @@
       "image": "images/hayday/fish.png",
       "theme": "hayday",
       "filename": "fish.html",
-      "thumbnail": "images/hayday/thumbnails/fish.jpg"
+      "thumbnail": "images/hayday/thumbnails/fish.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Lobster",
@@ -581,7 +620,8 @@
       "image": "images/hayday/lobster.png",
       "theme": "hayday",
       "filename": "lobster.html",
-      "thumbnail": "images/hayday/thumbnails/lobster.jpg"
+      "thumbnail": "images/hayday/thumbnails/lobster.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Dog",
@@ -594,7 +634,8 @@
       "image": "images/hayday/dog.png",
       "theme": "hayday",
       "filename": "dog.html",
-      "thumbnail": "images/hayday/thumbnails/dog.jpg"
+      "thumbnail": "images/hayday/thumbnails/dog.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Cat",
@@ -607,7 +648,8 @@
       "image": "images/hayday/cat.png",
       "theme": "hayday",
       "filename": "cat.html",
-      "thumbnail": "images/hayday/thumbnails/cat.jpg"
+      "thumbnail": "images/hayday/thumbnails/cat.jpg",
+      "subcategory": "animals"
     },
     {
       "word": "Egg",
@@ -624,7 +666,8 @@
       "image": "images/hayday/egg.png",
       "theme": "hayday",
       "filename": "egg.html",
-      "thumbnail": "images/hayday/thumbnails/egg.jpg"
+      "thumbnail": "images/hayday/thumbnails/egg.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Milk",
@@ -639,7 +682,8 @@
       "image": "images/hayday/milk.png",
       "theme": "hayday",
       "filename": "milk.html",
-      "thumbnail": "images/hayday/thumbnails/milk.jpg"
+      "thumbnail": "images/hayday/thumbnails/milk.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Bacon",
@@ -654,7 +698,8 @@
       "image": "images/hayday/bacon.png",
       "theme": "hayday",
       "filename": "bacon.html",
-      "thumbnail": "images/hayday/thumbnails/bacon.jpg"
+      "thumbnail": "images/hayday/thumbnails/bacon.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Wool",
@@ -669,7 +714,8 @@
       "image": "images/hayday/wool.png",
       "theme": "hayday",
       "filename": "wool.html",
-      "thumbnail": "images/hayday/thumbnails/wool.jpg"
+      "thumbnail": "images/hayday/thumbnails/wool.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Honey",
@@ -684,7 +730,8 @@
       "image": "images/hayday/honey.png",
       "theme": "hayday",
       "filename": "honey.html",
-      "thumbnail": "images/hayday/thumbnails/honey.jpg"
+      "thumbnail": "images/hayday/thumbnails/honey.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Bread",
@@ -699,7 +746,8 @@
       "image": "images/hayday/bread.png",
       "theme": "hayday",
       "filename": "bread.html",
-      "thumbnail": "images/hayday/thumbnails/bread.jpg"
+      "thumbnail": "images/hayday/thumbnails/bread.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Butter",
@@ -714,7 +762,8 @@
       "image": "images/hayday/butter.png",
       "theme": "hayday",
       "filename": "butter.html",
-      "thumbnail": "images/hayday/thumbnails/butter.jpg"
+      "thumbnail": "images/hayday/thumbnails/butter.jpg",
+      "subcategory": "products"
     },
     {
       "word": "Cheese",
@@ -729,7 +778,8 @@
       "image": "images/hayday/cheese.png",
       "theme": "hayday",
       "filename": "cheese.html",
-      "thumbnail": "images/hayday/thumbnails/cheese.jpg"
+      "thumbnail": "images/hayday/thumbnails/cheese.jpg",
+      "subcategory": "products"
     }
   ]
 }
