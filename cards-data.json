@@ -7,7 +7,7 @@
       "title": "Mario Kart World",
       "subtitle": "Racing Adventure Vocabulary",
       "theme_color": "#e60012",
-      "layout": "horizontal",
+      "layout": "vertical",
       "badge_text": "RACING",
       "show_header": true
     },
@@ -25,7 +25,7 @@
       "title": "Hay Day Farm",
       "subtitle": "Farm Life & Agriculture Vocabulary",
       "theme_color": "#8BC34A",
-      "layout": "horizontal",
+      "layout": "vertical",
       "badge_text": "FARM LIFE",
       "show_header": true
     }
