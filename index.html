@@ -744,11 +744,11 @@
 
                 <!-- 显示模式切换开关 -->
                 <div class="view-mode-toggle">
-                    <button class="mode-btn active" data-mode="word" onclick="switchViewMode('word')">
+                    <button class="mode-btn" data-mode="word" onclick="switchViewMode('word')">
                         <span class="mode-icon">📝</span>
                         <span class="mode-label">文字模式</span>
                     </button>
-                    <button class="mode-btn" data-mode="image" onclick="switchViewMode('image')">
+                    <button class="mode-btn active" data-mode="image" onclick="switchViewMode('image')">
                         <span class="mode-icon">🖼️</span>
                         <span class="mode-label">图片模式</span>
                     </button>
@@ -797,8 +797,8 @@
         let cardsData = null;
         let themesInfo = null;
 
-        // View mode: 'word' or 'image'
-        let currentViewMode = localStorage.getItem('viewMode') || 'word';
+        // View mode: 'word' or 'image' (default to 'image')
+        let currentViewMode = localStorage.getItem('viewMode') || 'image';
 
         // Load data from JSON (supports both modular and legacy formats)
         async function loadData() {
