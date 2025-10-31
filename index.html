@@ -1602,6 +1602,13 @@
             // Prevent toggle scene from firing
             event.stopPropagation();
 
+            // Save current expanded states before re-rendering
+            const expandedStates = {};
+            document.querySelectorAll('.scene-card').forEach(card => {
+                const sceneName = card.dataset.scene;
+                expandedStates[sceneName] = card.classList.contains('expanded');
+            });
+
             // Update selected subcategory
             selectedSubcategories[themeName] = subcategory;
 
@@ -1609,17 +1616,18 @@
             const searchValue = document.getElementById('search-input').value;
             renderScenes(searchValue);
 
-            // Keep the theme expanded
+            // Restore expanded states
+            document.querySelectorAll('.scene-card').forEach(card => {
+                const sceneName = card.dataset.scene;
+                if (expandedStates[sceneName]) {
+                    card.classList.add('expanded');
+                }
+            });
+
+            // Ensure the current theme is expanded
             const sceneCard = document.querySelector(`.scene-card[data-scene="${themeName}"]`);
             if (sceneCard) {
                 sceneCard.classList.add('expanded');
-            }
-
-            // Keep other expanded states if searching
-            if (searchValue) {
-                document.querySelectorAll('.scene-card').forEach(card => {
-                    card.classList.add('expanded');
-                });
             }
         }
 
