@@ -756,7 +756,7 @@
 
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="search-input" placeholder="Search vocabulary...">
+                    <input type="text" id="search-input" placeholder="Search vocabulary (English/中文)...">
                 </div>
             </header>
 
@@ -1427,11 +1427,14 @@
             for (const [sceneName, cards] of Object.entries(dataToUse)) {
                 const info = infoToUse[sceneName];
 
-                // Filter cards
+                // Filter cards - support both English and Chinese
                 const filteredCards = filterText ?
-                    cards.filter(card =>
-                        card.word.toLowerCase().includes(filterText.toLowerCase())
-                    ) : cards;
+                    cards.filter(card => {
+                        const searchTerm = filterText.toLowerCase();
+                        const englishMatch = card.word.toLowerCase().includes(searchTerm);
+                        const chineseMatch = card.chinese && card.chinese.includes(filterText);
+                        return englishMatch || chineseMatch;
+                    }) : cards;
 
                 if (filteredCards.length === 0 && filterText) continue;
 
