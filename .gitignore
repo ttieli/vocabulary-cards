@@ -43,3 +43,10 @@ pids
 
 # Personal planning documents (not for Git)
 Hay Day主题和单词新增方案.md
+
+# Temporary files and scripts
+temp/
+*.backup
+*_backup.*
+test_*
+*.tmp

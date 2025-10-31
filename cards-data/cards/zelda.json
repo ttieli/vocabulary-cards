@@ -737,12 +737,13 @@
       "word": "Sky",
       "pronunciation": "/skaɪ/",
       "chinese": "天空",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/BotW_Hyrule_Day_Artwork.jpg",
+      "image": "images/zelda/sky.jpg",
       "definition_en": "The region of the atmosphere seen from the earth; the upper air.",
       "definition_zh": "从地球上看到的大气层区域;高空。",
       "example_en": "The sky over Hyrule changes from dawn to dusk.",
       "example_zh": "海拉鲁的天空从黎明变化到黄昏。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/sky.jpg"
     },
     {
       "theme": "zelda",
@@ -750,12 +751,13 @@
       "word": "Snow",
       "pronunciation": "/snoʊ/",
       "chinese": "雪;下雪",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/b/b4/BotW_Snowy_Landscape.png",
+      "image": "images/zelda/snow.png",
       "definition_en": "Frozen water vapor that falls from clouds as white flakes.",
       "definition_zh": "从云中落下的冻结水蒸气,呈白色片状。",
       "example_en": "Link travels through snowy mountains in his quest.",
       "example_zh": "林克在探索中穿越雪山。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/snow.jpg"
     },
     {
       "theme": "zelda",
@@ -763,12 +765,13 @@
       "word": "Spirit",
       "pronunciation": "/ˈspɪrɪt/",
       "chinese": "精神;灵魂",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/a/a1/BotW_Forest_of_Spirits_Daytime.png",
+      "image": "images/zelda/spirit.png",
       "definition_en": "The non-physical part of a person; the essence of life and consciousness.",
       "definition_zh": "人的非物质部分;生命和意识的本质。",
       "example_en": "The Forest of Spirits is a mystical place.",
       "example_zh": "灵魂之森是一个神秘的地方。",
-      "category": "概念"
+      "category": "概念",
+      "thumbnail": "images/zelda/thumbnails/spirit.jpg"
     },
     {
       "theme": "zelda",
@@ -776,12 +779,13 @@
       "word": "Stable",
       "pronunciation": "/ˈsteɪbl/",
       "chinese": "马厩;马棚",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/91/BotW_Building_Concept_Artwork.jpg",
+      "image": "images/zelda/stable.jpg",
       "definition_en": "A building where horses are kept and cared for.",
       "definition_zh": "饲养和照料马匹的建筑。",
       "example_en": "Link can register his horses at any stable across Hyrule.",
       "example_zh": "林克可以在海拉鲁的任何马厩登记他的马匹。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/stable.jpg"
     },
     {
       "theme": "zelda",
@@ -789,12 +793,13 @@
       "word": "Stand",
       "pronunciation": "/stænd/",
       "chinese": "站立;站着",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f1/BotW_Link_before_Master_Sword.png",
+      "image": "images/zelda/stand.png",
       "definition_en": "To be in an upright position on the feet; to be situated or located.",
       "definition_zh": "用脚保持直立姿势;位于或坐落。",
       "example_en": "Link stands before the legendary Master Sword.",
       "example_zh": "林克站在传说中的大师之剑前。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/stand.jpg"
     },
     {
       "theme": "zelda",
@@ -802,12 +807,13 @@
       "word": "Storm",
       "pronunciation": "/stɔːrm/",
       "chinese": "暴风雨;风暴",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/6/68/BotW_Temple_of_Time_Storm.png",
+      "image": "images/zelda/storm.png",
       "definition_en": "A violent disturbance of the atmosphere with strong winds and rain, thunder, or lightning.",
       "definition_zh": "大气的剧烈扰动,伴随强风和雨、雷或闪电。",
       "example_en": "Storms can be dangerous during mountain climbing.",
       "example_zh": "爬山时遇到暴风雨可能很危险。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/storm.jpg"
     },
     {
       "theme": "zelda",
@@ -815,12 +821,13 @@
       "word": "Sunset",
       "pronunciation": "/ˈsʌnset/",
       "chinese": "日落;黄昏",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7e/BotW_Hyrule_Sunset_Artwork.jpg",
+      "image": "images/zelda/sunset.jpg",
       "definition_en": "The time when the sun disappears below the horizon in the evening.",
       "definition_zh": "太阳在傍晚消失在地平线下的时刻。",
       "example_en": "The sunset over Hyrule creates a breathtaking view.",
       "example_zh": "海拉鲁的日落创造出令人惊叹的景色。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/sunset.jpg"
     },
     {
       "theme": "zelda",
@@ -828,12 +835,13 @@
       "word": "Swim",
       "pronunciation": "/swɪm/",
       "chinese": "游泳",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/5/56/BotW_Lake_Floria.png",
+      "image": "images/zelda/swim.png",
       "definition_en": "To move through water by moving the body or parts of the body.",
       "definition_zh": "通过移动身体或身体部位在水中移动。",
       "example_en": "Link swims across rivers and lakes on his journey.",
       "example_zh": "林克在旅程中游过河流和湖泊。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/swim.jpg"
     },
     {
       "theme": "zelda",
@@ -841,12 +849,13 @@
       "word": "Sword",
       "pronunciation": "/sɔːrd/",
       "chinese": "剑",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/4/4d/BotW_1st_Anniversary_Master_Sword_Artwork.jpg",
+      "image": "images/zelda/sword.jpg",
       "definition_en": "A weapon with a long metal blade and a hilt with a handguard, used for thrusting or striking.",
       "definition_zh": "一种带有长金属刀刃和带护手柄的武器,用于刺击或劈砍。",
       "example_en": "The Master Sword is the legendary blade of evil's bane.",
       "example_zh": "大师剑是传说中驱除邪恶的利刃。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/sword.jpg"
     },
     {
       "theme": "zelda",
@@ -854,12 +863,13 @@
       "word": "Temple",
       "pronunciation": "/ˈtempl/",
       "chinese": "寺庙;神殿",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/09/BotW_Temple_of_Time_Concept_Artwork.png",
+      "image": "images/zelda/temple.png",
       "definition_en": "A building devoted to the worship of a god or gods; a sacred place.",
       "definition_zh": "供奉神灵的建筑;神圣的地方。",
       "example_en": "The Temple of Time stands as an ancient monument.",
       "example_zh": "时之神殿屹立为一座古老的纪念碑。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/temple.jpg"
     },
     {
       "theme": "zelda",
@@ -867,12 +877,13 @@
       "word": "Tower",
       "pronunciation": "/ˈtaʊər/",
       "chinese": "塔;高塔",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d8/BotW_Great_Plateau_Tower_Pre-release.png",
+      "image": "images/zelda/tower.png",
       "definition_en": "A tall, narrow building or structure that rises high into the air.",
       "definition_zh": "高耸入云的高大狭窄建筑或结构。",
       "example_en": "Climbing towers reveals the map of each region.",
       "example_zh": "攀爬高塔可以揭示每个地区的地图。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/tower.jpg"
     },
     {
       "theme": "zelda",
@@ -880,12 +891,13 @@
       "word": "Tree",
       "pronunciation": "/triː/",
       "chinese": "树;树木",
-      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/8/86/TP_Tree_Model.png",
+      "image": "images/zelda/tree.png",
       "definition_en": "A woody perennial plant with a trunk and branches, typically growing to a considerable height.",
       "definition_zh": "有树干和枝条的木本多年生植物,通常生长到相当高度。",
       "example_en": "Link chops trees to gather wood for crafting.",
       "example_zh": "林克砍树收集木材用于制作。",
-      "category": "物品"
+      "category": "物品",
+      "thumbnail": "images/zelda/thumbnails/tree.jpg"
     },
     {
       "theme": "zelda",
@@ -893,12 +905,13 @@
       "word": "Trial",
       "pronunciation": "/ˈtraɪəl/",
       "chinese": "试炼;考验",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/0/0f/BotW_The_Master_Trials_Artwork.png",
+      "image": "images/zelda/trial.png",
       "definition_en": "A test of abilities, endurance, or patience; a difficult experience.",
       "definition_zh": "对能力、耐力或耐心的考验;艰难的经历。",
       "example_en": "The Master Trials test Link's combat skills.",
       "example_zh": "大师试炼考验林克的战斗技能。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/trial.jpg"
     },
     {
       "theme": "zelda",
@@ -906,12 +919,13 @@
       "word": "Village",
       "pronunciation": "/ˈvɪlɪdʒ/",
       "chinese": "村庄;村落",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/BotW_Hateno_Village_2.png",
+      "image": "images/zelda/village.png",
       "definition_en": "A small community or group of houses in a rural area, smaller than a town.",
       "definition_zh": "乡村地区的小型社区或房屋群,比城镇小。",
       "example_en": "Hateno Village is a peaceful settlement in Hyrule.",
       "example_zh": "哈特诺村是海拉鲁的一个宁静定居点。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/village.jpg"
     },
     {
       "theme": "zelda",
@@ -919,12 +933,13 @@
       "word": "Warrior",
       "pronunciation": "/ˈwɔːriər/",
       "chinese": "战士;武士",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/f/f3/BotW_Daruk_Artwork.png",
+      "image": "images/zelda/warrior.png",
       "definition_en": "A brave or experienced soldier or fighter; a person engaged in warfare.",
       "definition_zh": "勇敢或经验丰富的士兵或战士;参与战斗的人。",
       "example_en": "Daruk is a mighty Goron warrior.",
       "example_zh": "达尔克是一位强大的戈隆族战士。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/warrior.jpg"
     },
     {
       "theme": "zelda",
@@ -932,12 +947,13 @@
       "word": "Wilderness",
       "pronunciation": "/ˈwɪldərnəs/",
       "chinese": "荒野;旷野",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/BotW_Link_Gazing_at_Hyrule_Artwork.jpg",
+      "image": "images/zelda/wilderness.jpg",
       "definition_en": "An uncultivated, uninhabited, and inhospitable region; wild and natural land.",
       "definition_zh": "未开垦、无人居住且不宜居的地区;荒凉的自然土地。",
       "example_en": "Explore the vast wilderness of Hyrule and discover its secrets.",
       "example_zh": "探索海拉鲁广阔的荒野,发现它的秘密。",
-      "category": "地点"
+      "category": "地点",
+      "thumbnail": "images/zelda/thumbnails/wilderness.jpg"
     },
     {
       "theme": "zelda",
@@ -945,12 +961,13 @@
       "word": "Wisdom",
       "pronunciation": "/ˈwɪzdəm/",
       "chinese": "智慧;睿智",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/9/99/BotW_Expansion_Pass_Artwork.png",
+      "image": "images/zelda/wisdom.png",
       "definition_en": "The quality of having experience, knowledge, and good judgment.",
       "definition_zh": "拥有经验、知识和良好判断力的品质。",
       "example_en": "Princess Zelda possesses great wisdom and knowledge.",
       "example_zh": "塞尔达公主拥有伟大的智慧和知识。",
-      "category": "角色"
+      "category": "角色",
+      "thumbnail": "images/zelda/thumbnails/wisdom.jpg"
     },
     {
       "theme": "zelda",
@@ -958,12 +975,13 @@
       "word": "Wolf",
       "pronunciation": "/wʊlf/",
       "chinese": "狼",
-      "image": "https://cdn.wikimg.net/en/zeldawiki/images/d/d9/BotW_Link_with_Wolf_Link.png",
+      "image": "images/zelda/wolf.png",
       "definition_en": "A wild carnivorous mammal that lives and hunts in packs.",
       "definition_zh": "成群生活和狩猎的野生食肉哺乳动物。",
       "example_en": "Wolf Link accompanies Link on his adventure.",
       "example_zh": "狼林克陪伴林克进行冒险。",
-      "category": "行动"
+      "category": "行动",
+      "thumbnail": "images/zelda/thumbnails/wolf.jpg"
     }
   ]
 }
